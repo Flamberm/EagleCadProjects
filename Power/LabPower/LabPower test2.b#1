@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3979,17 +3979,6 @@ design rules under a new name.</description>
 <wire x1="58.298775" y1="99.22049375" x2="54.9117375" y2="99.220490625" width="0.4064" layer="16"/>
 <wire x1="58.910790625" y1="99.966853125" x2="58.783146875" y2="99.839209375" width="0.3048" layer="16"/>
 <wire x1="58.783146875" y1="99.839209375" x2="58.78314375" y2="99.839209375" width="0.3048" layer="16"/>
-</signal>
-<signal name="VCC">
-<contactref element="U$2" pad="3"/>
-<contactref element="C12" pad="1"/>
-<contactref element="D1" pad="A"/>
-<wire x1="48.56545" y1="101.1615" x2="50.7680875" y2="103.364140625" width="0.4064" layer="16"/>
-<wire x1="53.844003125" y1="104.77835" x2="52.115125" y2="104.711178125" width="0.4064" layer="16"/>
-<wire x1="52.115125" y1="104.711178125" x2="50.7680875" y2="103.364140625" width="0.4064" layer="16"/>
-<wire x1="52.012596875" y1="102.11963125" x2="50.7680875" y2="103.364140625" width="0.4064" layer="16"/>
-<wire x1="53.97165" y1="104.90599375" x2="53.84400625" y2="104.77835" width="0.3048" layer="16"/>
-<wire x1="53.84400625" y1="104.77835" x2="53.844003125" y2="104.77835" width="0.3048" layer="16"/>
 <contactref element="IC2" pad="8"/>
 <contactref element="IC2" pad="11"/>
 <contactref element="R18" pad="1"/>
@@ -4009,7 +3998,18 @@ design rules under a new name.</description>
 <wire x1="41.69210625" y1="88.9" x2="39.37" y2="88.9" width="0.4064" layer="16"/>
 <wire x1="39.37" y1="88.9" x2="35.56" y2="85.09" width="0.4064" layer="16"/>
 <wire x1="35.56" y1="85.09" x2="21.4884" y2="85.09" width="0.4064" layer="16"/>
-<wire x1="44.888496875" y1="92.096390625" x2="48.56545" y2="101.1615" width="0" layer="19" extent="16-16"/>
+<wire x1="44.888496875" y1="92.096390625" x2="52.157553125" y2="97.569396875" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="VCC">
+<contactref element="U$2" pad="3"/>
+<contactref element="C12" pad="1"/>
+<contactref element="D1" pad="A"/>
+<wire x1="48.56545" y1="101.1615" x2="50.7680875" y2="103.364140625" width="0.4064" layer="16"/>
+<wire x1="53.844003125" y1="104.77835" x2="52.115125" y2="104.711178125" width="0.4064" layer="16"/>
+<wire x1="52.115125" y1="104.711178125" x2="50.7680875" y2="103.364140625" width="0.4064" layer="16"/>
+<wire x1="52.012596875" y1="102.11963125" x2="50.7680875" y2="103.364140625" width="0.4064" layer="16"/>
+<wire x1="53.97165" y1="104.90599375" x2="53.84400625" y2="104.77835" width="0.3048" layer="16"/>
+<wire x1="53.84400625" y1="104.77835" x2="53.844003125" y2="104.77835" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$32">
 <contactref element="C13" pad="2"/>

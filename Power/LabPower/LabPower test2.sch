@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19328,14 +19328,24 @@ Secondary:
 <wire x1="177.8" y1="43.18" x2="177.8" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="30.48" x2="185.42" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="185.42" y1="30.48" x2="177.8" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="25.4" x2="185.42" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="25.4" x2="185.42" y2="30.48" width="0.1524" layer="91"/>
 <junction x="185.42" y="30.48"/>
-<wire x1="175.26" y1="43.18" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
-<junction x="175.26" y="43.18"/>
+<wire x1="185.42" y1="25.4" x2="185.42" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="182.88" y1="25.4" x2="185.42" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
+<wire x1="170.18" y1="22.86" x2="172.72" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="22.86" x2="172.72" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="25.4" x2="175.26" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<junction x="177.8" y="25.4"/>
 <pinref part="IC2" gate="G$1" pin="C1"/>
+<wire x1="175.26" y1="25.4" x2="177.8" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="43.18" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="C2"/>
@@ -19352,17 +19362,8 @@ Secondary:
 <wire x1="101.6" y1="63.5" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="58.42" x2="137.16" y2="58.42" width="0.1524" layer="91"/>
 <junction x="137.16" y="58.42"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
-<wire x1="170.18" y1="22.86" x2="172.72" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="22.86" x2="172.72" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="25.4" x2="177.8" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<junction x="177.8" y="25.4"/>
+<wire x1="175.26" y1="25.4" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
+<junction x="175.26" y="25.4"/>
 </segment>
 </net>
 <net name="300V" class="0">
