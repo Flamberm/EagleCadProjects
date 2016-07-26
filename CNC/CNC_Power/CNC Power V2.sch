@@ -17114,10 +17114,6 @@ manufacturer Siemens</description>
 <wire x1="76.2" y1="-119.38" x2="76.2" y2="-104.14" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VSS"/>
 <wire x1="76.2" y1="-104.14" x2="78.74" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="SD"/>
-<wire x1="78.74" y1="-88.9" x2="76.2" y2="-88.9" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-88.9" x2="76.2" y2="-104.14" width="0.1524" layer="91"/>
-<junction x="76.2" y="-104.14"/>
 <pinref part="U1" gate="A" pin="GND"/>
 <wire x1="15.24" y1="-109.22" x2="10.16" y2="-109.22" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="SHDN"/>
