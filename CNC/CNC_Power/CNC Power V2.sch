@@ -182,10 +182,10 @@ General Instrument, Semikron, Diotec, Fagor&lt;p&gt;
 <wire x1="-2.2606" y1="-2.54" x2="-1.6002" y2="-2.54" width="0.1524" layer="51" curve="180"/>
 <wire x1="1.524" y1="2.54" x2="2.1844" y2="2.54" width="0.1524" layer="51" curve="-180"/>
 <wire x1="2.1844" y1="2.54" x2="2.8448" y2="2.54" width="0.1524" layer="51" curve="180"/>
-<pad name="+" x="-2.54" y="2.54" drill="0.8" diameter="2.1844"/>
-<pad name="AC1" x="2.54" y="2.54" drill="0.8" diameter="2.1844" shape="octagon"/>
-<pad name="-" x="2.54" y="-2.54" drill="0.8" diameter="2.1844" shape="square"/>
-<pad name="AC2" x="-2.54" y="-2.54" drill="0.8" diameter="2.1844" shape="octagon"/>
+<pad name="+" x="-2.54" y="2.54" drill="0.9" diameter="2.1844"/>
+<pad name="AC1" x="2.54" y="2.54" drill="0.9" diameter="2.1844" shape="octagon"/>
+<pad name="-" x="2.54" y="-2.54" drill="0.9" diameter="2.1844" shape="square"/>
+<pad name="AC2" x="-2.54" y="-2.54" drill="0.9" diameter="2.1844" shape="octagon"/>
 <text x="-4.6736" y="-2.5146" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.3782" y="-0.6604" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-4.445" y1="-4.445" x2="4.445" y2="4.445" layer="43"/>
@@ -285,88 +285,6 @@ General Instrument, Semikron, Diotec, Fagor&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="ptc-ntc">
-<description>&lt;b&gt;PTC and NTC Resistors&lt;/b&gt;&lt;p&gt;
-Siemens, Philips, Valvo&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="B57164">
-<description>&lt;b&gt;SIEMENS NTC&lt;/b&gt;</description>
-<wire x1="1.27" y1="-2.54" x2="-1.524" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="0.254" x2="-2.54" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="1.27" x2="-1.27" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.27" x2="1.27" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="1.524" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="-0.254" x2="2.54" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="0" y1="2.54" x2="1.905" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="0.635" x2="2.54" y2="0" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-1.905" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-0.635" x2="0" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1" diameter="1.6764" shape="octagon" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1" diameter="1.6764" shape="octagon" rot="R90"/>
-<text x="-3.175" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="1.905" y="1.27" size="1.27" layer="21" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="NTC">
-<wire x1="3.175" y1="6.35" x2="3.175" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="3.81" x2="3.556" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="3.556" y1="5.08" x2="2.794" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="2.794" y1="5.08" x2="3.175" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="3.81" x2="1.905" y2="6.35" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="6.35" x2="2.286" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="5.08" x2="1.524" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="5.08" x2="1.905" y2="6.35" width="0.1524" layer="94"/>
-<wire x1="2.413" y1="0.381" x2="3.937" y2="0.381" width="0.1524" layer="94" curve="180"/>
-<wire x1="1.905" y1="0.635" x2="2.413" y2="0.635" width="0.1524" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.413" y1="0.381" x2="2.413" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="3.937" y1="0.381" x2="3.937" y2="1.651" width="0.1524" layer="94"/>
-<wire x1="3.429" y1="1.143" x2="3.937" y2="1.651" width="0.1524" layer="94" curve="-270"/>
-<wire x1="4.191" y1="1.143" x2="4.3047" y2="0.9591" width="0.1524" layer="94" curve="-116.545417" cap="flat"/>
-<wire x1="3.429" y1="1.143" x2="4.191" y2="1.143" width="0.1524" layer="94"/>
-<wire x1="0.889" y1="-2.54" x2="0.889" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-0.889" y1="2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.889" y1="2.54" x2="-0.889" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0.889" y1="-2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.524" y1="1.524" x2="-1.778" y2="-1.778" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="-1.778" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.921" y1="-3.048" x2="-1.651" y2="-3.048" width="0.1524" layer="94"/>
-<text x="2.032" y="-2.8194" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.032" y="-5.207" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="B57164" prefix="R" uservalue="yes">
-<description>&lt;b&gt;SIEMENS NTC&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="NTC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="B57164">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="B57164K474K52" constant="no"/>
-<attribute name="OC_FARNELL" value="9753451" constant="no"/>
-<attribute name="OC_NEWARK" value="29M3118" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="fuse">
 <description>&lt;b&gt;Fuses and Fuse Holders&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -416,8 +334,8 @@ Siemens, Philips, Valvo&lt;p&gt;
 <wire x1="-12.573" y1="3.937" x2="-12.573" y2="1.651" width="0.1524" layer="21"/>
 <wire x1="-12.573" y1="-1.651" x2="-12.573" y2="1.651" width="0.1524" layer="51"/>
 <wire x1="-12.573" y1="-1.651" x2="-12.573" y2="-3.937" width="0.1524" layer="21"/>
-<pad name="1" x="-11.2522" y="0" drill="1" diameter="2.54" shape="long" rot="R90"/>
-<pad name="2" x="11.2522" y="0" drill="1" diameter="2.54" shape="long" rot="R90"/>
+<pad name="1" x="-11.2522" y="0" drill="1.1" diameter="2.54" shape="long" rot="R90"/>
+<pad name="2" x="11.2522" y="0" drill="1.1" diameter="2.54" shape="long" rot="R90"/>
 <text x="-12.7" y="-6.096" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="1.143" y="-6.096" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-10.541" y1="-2.032" x2="-10.16" y2="2.032" layer="51"/>
@@ -2950,8 +2868,8 @@ grid 2.54 mm, diameter 7 mm</description>
 <wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
-<pad name="-" x="1.27" y="0" drill="0.8" diameter="1.6764" shape="square"/>
-<pad name="+" x="-1.27" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="-" x="1.27" y="0" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="+" x="-1.27" y="0" drill="0.9" diameter="1.6764" shape="octagon"/>
 <text x="3.048" y="2.032" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.048" y="-3.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
@@ -4176,8 +4094,8 @@ grid 5.08 mm, diameter 13 mm</description>
 <wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
 <wire x1="-1.651" y1="0" x2="-1.143" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="6.985" width="0.1524" layer="21"/>
-<pad name="+" x="-2.54" y="0" drill="0.5" diameter="2.54"/>
-<pad name="-" x="2.54" y="0" drill="0.5" diameter="2.54" shape="square"/>
+<pad name="+" x="-2.54" y="0" drill="0.9" diameter="2.54"/>
+<pad name="-" x="2.54" y="0" drill="0.9" diameter="2.54" shape="square"/>
 <text x="6.3754" y="4.1148" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.572" y="-3.937" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.889" y2="1.27" layer="21"/>
@@ -4596,8 +4514,8 @@ grid 7.62 mm, diameter 18 mm</description>
 <wire x1="-7.493" y1="0" x2="-5.969" y2="0" width="0.1524" layer="21"/>
 <wire x1="-6.731" y1="-0.762" x2="-6.731" y2="0.762" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="8.89" width="0.1524" layer="21"/>
-<pad name="-" x="3.81" y="0" drill="1" diameter="3.1496" shape="octagon"/>
-<pad name="+" x="-3.81" y="0" drill="1" diameter="3.1496"/>
+<pad name="-" x="3.81" y="0" drill="1.1" diameter="3.1496" shape="octagon"/>
+<pad name="+" x="-3.81" y="0" drill="1.1" diameter="3.1496"/>
 <text x="8.001" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-4.2926" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.905" x2="0.889" y2="1.905" layer="21"/>
@@ -7105,8 +7023,8 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <wire x1="3.429" y1="-1.27" x2="3.683" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="-1.016" x2="-3.429" y2="-1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="1.016" x2="-3.429" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-2.54" y="0" drill="0.8" diameter="1.778" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.8" diameter="1.778" shape="octagon"/>
+<pad name="1" x="-2.54" y="0" drill="1.1" diameter="1.778" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="1.1" diameter="1.778" shape="octagon"/>
 <text x="-3.429" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.429" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -7558,8 +7476,8 @@ grid 22.5 mm, outline 7.4 x 26.8 mm</description>
 <wire x1="-13.335" y1="3.048" x2="-12.827" y2="3.556" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-9.652" y1="0" x2="-7.62" y2="0" width="0.1524" layer="21"/>
 <wire x1="-6.731" y1="0" x2="9.652" y2="0" width="0.1524" layer="21"/>
-<pad name="1" x="-11.303" y="0" drill="1" diameter="1.778" shape="octagon"/>
-<pad name="2" x="11.303" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="1" x="-11.303" y="0" drill="1.1" diameter="2.1844" shape="octagon"/>
+<pad name="2" x="11.303" y="0" drill="1.1" diameter="2.1844" shape="octagon"/>
 <text x="-12.827" y="3.937" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -8676,8 +8594,8 @@ type 0207, grid 10 mm</description>
 <wire x1="2.921" y1="1.143" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
 <wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="21"/>
-<pad name="1" x="-5.08" y="0" drill="0.8" diameter="1.9304" shape="octagon"/>
-<pad name="2" x="5.08" y="0" drill="0.8" diameter="1.9304" shape="octagon"/>
+<pad name="1" x="-5.08" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
+<pad name="2" x="5.08" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
 <text x="-3.048" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.2606" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
@@ -8822,8 +8740,8 @@ type 0309, grid 10mm</description>
 <wire x1="4.064" y1="-1.524" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
 <wire x1="4.318" y1="-1.27" x2="4.318" y2="1.27" width="0.1524" layer="51"/>
 <wire x1="5.08" y1="0" x2="4.699" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-5.08" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="2" x="5.08" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="1" x="-5.08" y="0" drill="0.9" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="5.08" y="0" drill="0.9" diameter="1.6764" shape="octagon"/>
 <text x="-4.191" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-0.6858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-4.6228" y1="-0.3048" x2="-4.318" y2="0.3048" layer="51"/>
@@ -8850,8 +8768,8 @@ type 0309, grid 12.5 mm</description>
 <wire x1="4.064" y1="1.524" x2="3.429" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="4.064" y1="-1.524" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
 <wire x1="4.318" y1="-1.27" x2="4.318" y2="1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-6.35" y="0" drill="0.5" diameter="1.6764" shape="octagon"/>
-<pad name="2" x="6.35" y="0" drill="0.5" diameter="1.6764" shape="octagon"/>
+<pad name="1" x="-6.35" y="0" drill="0.9" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="6.35" y="0" drill="0.9" diameter="1.6764" shape="octagon"/>
 <text x="-4.191" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-0.6858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="4.318" y1="-0.3048" x2="5.1816" y2="0.3048" layer="21"/>
@@ -9007,8 +8925,8 @@ type 0617, grid 17.5 mm</description>
 <wire x1="7.874" y1="3.048" x2="8.255" y2="2.667" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-8.255" y1="-2.667" x2="-7.874" y2="-3.048" width="0.1524" layer="21" curve="90"/>
 <wire x1="7.874" y1="-3.048" x2="8.255" y2="-2.667" width="0.1524" layer="21" curve="90"/>
-<pad name="1" x="-8.89" y="0" drill="1" diameter="1.778" shape="octagon"/>
-<pad name="2" x="8.89" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="1" x="-8.89" y="0" drill="1.1" diameter="1.778" shape="octagon"/>
+<pad name="2" x="8.89" y="0" drill="1.1" diameter="1.778" shape="octagon"/>
 <text x="-8.128" y="3.4544" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.096" y="-0.7112" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-8.5344" y1="-0.4064" x2="-8.2296" y2="0.4064" layer="51"/>
@@ -9646,8 +9564,8 @@ body 13.6 x 4 mm, grid 10.16 mm</description>
 <wire x1="-6.731" y1="2.032" x2="-6.731" y2="-2.032" width="0.1524" layer="21"/>
 <wire x1="-6.731" y1="-2.032" x2="6.731" y2="-2.032" width="0.1524" layer="21"/>
 <wire x1="6.731" y1="-2.032" x2="6.731" y2="2.032" width="0.1524" layer="21"/>
-<pad name="1" x="-5.08" y="0" drill="1" diameter="1.778" shape="octagon"/>
-<pad name="2" x="5.08" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="1" x="-5.08" y="0" drill="1.1" diameter="1.778" shape="octagon"/>
+<pad name="2" x="5.08" y="0" drill="1.1" diameter="1.778" shape="octagon"/>
 <text x="-6.731" y="2.3876" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.397" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -13485,8 +13403,8 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
 <wire x1="0.254" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<pad name="C" x="-5.08" y="0" drill="1" diameter="1.6764"/>
-<pad name="A" x="5.08" y="0" drill="1" diameter="1.6764"/>
+<pad name="C" x="-5.08" y="0" drill="1.1" diameter="1.778"/>
+<pad name="A" x="5.08" y="0" drill="1.1" diameter="1.778"/>
 <text x="-1.905" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.905" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
@@ -13997,8 +13915,8 @@ diameter 4 mm, horizontal, grid 10 mm</description>
 <wire x1="-0.508" y1="0" x2="0.508" y2="0.508" width="0.1524" layer="21"/>
 <wire x1="-0.508" y1="0.508" x2="-0.508" y2="0" width="0.1524" layer="21"/>
 <wire x1="-0.508" y1="0" x2="-0.508" y2="-0.508" width="0.1524" layer="21"/>
-<pad name="C" x="-5.08" y="0" drill="1.1176" shape="long"/>
-<pad name="A" x="5.08" y="0" drill="1.1176" shape="long"/>
+<pad name="C" x="-5.08" y="0" drill="1.1" diameter="1.6764" shape="long"/>
+<pad name="A" x="5.08" y="0" drill="1.1" diameter="1.6764" shape="long"/>
 <text x="-2.54" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.556" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.048" y1="-0.4064" x2="3.6068" y2="0.4064" layer="21"/>
@@ -14718,8 +14636,8 @@ diameter 3 mm, horizontal, grid 10.16 mm</description>
 <wire x1="-4.953" y1="-4.064" x2="-4.699" y2="-4.318" width="0.1524" layer="21"/>
 <wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
 <circle x="-4.4958" y="-3.7084" radius="0.254" width="0" layer="21"/>
-<pad name="C" x="-2.54" y="-2.54" drill="1" diameter="1.6764" shape="long" rot="R90"/>
-<pad name="A" x="2.54" y="-2.54" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="C" x="-2.54" y="-2.54" drill="1.1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="A" x="2.54" y="-2.54" drill="1.1" diameter="1.6764" shape="long" rot="R90"/>
 <text x="-4.572" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.572" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
@@ -16410,15 +16328,31 @@ at 30/07/2012 15:32:30</description>
 <wire x1="5.08" y1="-2.794" x2="5.08" y2="2.794" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="2.794" x2="-5.08" y2="2.794" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="2.794" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.9" shape="long" rot="R90"/>
 <text x="-5.3594" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.81" y="-0.9906" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="NTC-D12">
+<wire x1="-5.234071875" y1="0.898025" x2="5.06723125" y2="0.898025" width="0.1524" layer="21"/>
+<wire x1="5.234071875" y1="0.898025" x2="5.234071875" y2="-0.898025" width="0.1524" layer="21"/>
+<wire x1="-5.234071875" y1="-0.898025" x2="-5.234071875" y2="0.898025" width="0.1524" layer="21"/>
+<wire x1="5.234071875" y1="-0.898025" x2="1.796046875" y2="-1.796046875" width="0.1524" layer="21"/>
+<wire x1="5.234071875" y1="-0.898025" x2="-5.06723125" y2="-0.898025" width="0.1524" layer="21"/>
+<wire x1="1.796046875" y1="-1.796046875" x2="-1.796046875" y2="-1.796046875" width="0.1524" layer="21"/>
+<wire x1="-1.796046875" y1="-1.796046875" x2="-5.234071875" y2="-0.898025" width="0.1524" layer="21"/>
+<wire x1="5.234071875" y1="0.898025" x2="1.796046875" y2="1.796046875" width="0.1524" layer="21"/>
+<wire x1="1.796046875" y1="1.796046875" x2="-1.796046875" y2="1.796046875" width="0.1524" layer="21"/>
+<wire x1="-1.796046875" y1="1.796046875" x2="-5.234071875" y2="0.898025" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1.1" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="2" x="3.81" y="0" drill="1.1" diameter="1.6764" shape="octagon" rot="R90"/>
+<text x="-3.175" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.70105625" y="-4.336053125" size="1.27" layer="21" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -16523,6 +16457,34 @@ at 30/07/2012 15:32:30</description>
 <pin name="S" x="2.54" y="-10.16" visible="pin" length="short" direction="in" rot="R90"/>
 <pin name="D" x="2.54" y="10.16" visible="pin" length="short" direction="in" rot="R270"/>
 </symbol>
+<symbol name="NTC">
+<wire x1="3.175" y1="6.35" x2="3.175" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="3.81" x2="3.556" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="3.556" y1="5.08" x2="2.794" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.794" y1="5.08" x2="3.175" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="3.81" x2="1.905" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="6.35" x2="2.286" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="5.08" x2="1.524" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="5.08" x2="1.905" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="2.413" y1="0.381" x2="3.937" y2="0.381" width="0.1524" layer="94" curve="180"/>
+<wire x1="1.905" y1="0.635" x2="2.413" y2="0.635" width="0.1524" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.413" y1="0.381" x2="2.413" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="3.937" y1="0.381" x2="3.937" y2="1.651" width="0.1524" layer="94"/>
+<wire x1="3.429" y1="1.143" x2="3.937" y2="1.651" width="0.1524" layer="94" curve="-270"/>
+<wire x1="4.191" y1="1.143" x2="4.3047" y2="0.9591" width="0.1524" layer="94" curve="-116.545417" cap="flat"/>
+<wire x1="3.429" y1="1.143" x2="4.191" y2="1.143" width="0.1524" layer="94"/>
+<wire x1="0.889" y1="-2.54" x2="0.889" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.889" y1="2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.889" y1="2.54" x2="-0.889" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.889" y1="-2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.524" y1="1.524" x2="-1.778" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-1.778" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.921" y1="-3.048" x2="-1.651" y2="-3.048" width="0.1524" layer="94"/>
+<text x="2.032" y="-2.8194" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.032" y="-5.207" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="IR2113SPBF">
@@ -16602,6 +16564,22 @@ at 30/07/2012 15:32:30</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="NTC-D12">
+<gates>
+<gate name="G$1" symbol="NTC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NTC-D12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="optocoupler">
@@ -16617,10 +16595,10 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <wire x1="-2.54" y1="2.921" x2="-2.54" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="-2.54" y1="-2.921" x2="-2.54" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="-2.54" y1="1.016" x2="-2.54" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-1.27" y="-3.81" drill="0.8" diameter="1.27" shape="offset" rot="R270"/>
-<pad name="2" x="1.27" y="-3.81" drill="0.8" diameter="1.27" shape="offset" rot="R270"/>
-<pad name="3" x="1.27" y="3.81" drill="0.8" diameter="1.27" shape="offset" rot="R90"/>
-<pad name="4" x="-1.27" y="3.81" drill="0.8" diameter="1.27" shape="offset" rot="R90"/>
+<pad name="1" x="-1.27" y="-3.81" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
+<pad name="2" x="1.27" y="-3.81" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
+<pad name="3" x="1.27" y="3.81" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
+<pad name="4" x="-1.27" y="3.81" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
 <text x="4.191" y="-2.921" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <text x="-2.921" y="-2.667" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 </package>
@@ -16707,9 +16685,9 @@ grid 2.54 mm</description>
 <wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
 <wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
 <circle x="-4.4958" y="-3.7084" radius="0.254" width="0" layer="21"/>
-<pad name="G" x="-2.54" y="-2.54" drill="1" diameter="1.4224" shape="long" rot="R90"/>
-<pad name="D" x="0" y="-2.54" drill="1" diameter="1.4224" shape="long" rot="R90"/>
-<pad name="S" x="2.54" y="-2.54" drill="1" diameter="1.4224" shape="long" rot="R90"/>
+<pad name="G" x="-2.54" y="-2.54" drill="1.1" diameter="1.4224" shape="long" rot="R90"/>
+<pad name="D" x="0" y="-2.54" drill="1.1" diameter="1.4224" shape="long" rot="R90"/>
+<pad name="S" x="2.54" y="-2.54" drill="1.1" diameter="1.4224" shape="long" rot="R90"/>
 <text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
@@ -16791,7 +16769,7 @@ grid 2.54 mm</description>
 <package name="82721K">
 <description>&lt;b&gt;FILTER&lt;/b&gt;&lt;p&gt;
 manufacturer Siemens</description>
-<wire x1="-8.5344" y1="3.8608" x2="-6.096" y2="5.08" width="0.1524" layer="51" curve="-233.130102"/>
+<wire x1="-8.5344" y1="3.8608" x2="-6.096" y2="5.08" width="0.1524" layer="21" curve="-233.130102"/>
 <wire x1="-4.064" y1="5.08" x2="-1.016" y2="5.08" width="0.1524" layer="21" curve="-180"/>
 <wire x1="1.016" y1="5.08" x2="4.064" y2="5.08" width="0.1524" layer="21" curve="-180"/>
 <wire x1="6.0807" y1="5.0803" x2="8.5598" y2="3.7846" width="0.1524" layer="51" curve="-233.305615"/>
@@ -16828,10 +16806,10 @@ manufacturer Siemens</description>
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="3.937" width="0.1524" layer="51"/>
 <wire x1="-2.54" y1="3.937" x2="-5.969" y2="3.937" width="0.1524" layer="51"/>
 <wire x1="-1.524" y1="2.54" x2="1.524" y2="2.54" width="0.1524" layer="51"/>
-<pad name="2" x="-7.493" y="5.0038" drill="1.4" shape="long"/>
-<pad name="1" x="7.493" y="5.0038" drill="1.4" shape="long"/>
-<pad name="3" x="-7.493" y="-5.0038" drill="1.4" shape="long"/>
-<pad name="4" x="7.493" y="-5.0038" drill="1.4" shape="long"/>
+<pad name="2" x="-7.493" y="5.0038" drill="1.5" shape="long"/>
+<pad name="1" x="7.493" y="5.0038" drill="1.5" shape="long"/>
+<pad name="3" x="-7.493" y="-5.0038" drill="1.5" shape="long"/>
+<pad name="4" x="7.493" y="-5.0038" drill="1.5" shape="long"/>
 <text x="11.176" y="-3.81" size="1.778" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <text x="-9.525" y="-3.81" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="7.112" y="2.159" size="1.27" layer="21" ratio="10">1</text>
@@ -16885,10 +16863,10 @@ manufacturer Siemens</description>
 <rectangle x1="-7.62" y1="-1.905" x2="7.62" y2="-0.635" layer="21"/>
 </package>
 <package name="EE20_P1_S1-REV-4PIN">
-<pad name="2-2" x="-7.62" y="-4.445" drill="0.5" diameter="2.54" shape="octagon"/>
-<pad name="2-1" x="7.62" y="-4.445" drill="0.5" diameter="2.54" shape="octagon"/>
-<pad name="1-2" x="7.62" y="5.715" drill="0.5" diameter="2.54" shape="octagon"/>
-<pad name="1-1" x="-7.62" y="5.715" drill="0.5" diameter="2.54" shape="octagon"/>
+<pad name="2-2" x="-7.62" y="-4.445" drill="1.1" diameter="2.54" shape="octagon"/>
+<pad name="2-1" x="7.62" y="-4.445" drill="1.1" diameter="2.54" shape="octagon"/>
+<pad name="1-2" x="7.62" y="5.715" drill="1.1" diameter="2.54" shape="octagon"/>
+<pad name="1-1" x="-7.62" y="5.715" drill="1.1" diameter="2.54" shape="octagon"/>
 <wire x1="-11.43" y1="-6.35" x2="11.43" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="11.43" y1="-6.35" x2="11.43" y2="7.62" width="0.127" layer="21"/>
 <wire x1="11.43" y1="7.62" x2="-11.43" y2="7.62" width="0.127" layer="21"/>
@@ -17178,8 +17156,8 @@ manufacturer Siemens</description>
 <wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="1" diameter="1.6764" shape="octagon" rot="R90"/>
-<pad name="2" x="1.27" y="0" drill="1" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="1" x="-1.27" y="0" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.1" diameter="1.778" shape="octagon" rot="R90"/>
 <text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
@@ -17357,11 +17335,12 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.205"/>
 </class>
 </classes>
 <parts>
 <part name="B1" library="rectifier" deviceset="KBL" device=""/>
-<part name="R1" library="ptc-ntc" deviceset="B57164" device=""/>
+<part name="R1" library="Namenlos" deviceset="NTC-D12" device=""/>
 <part name="F1" library="fuse" deviceset="SH22,5" device=""/>
 <part name="X1" library="con-phoenix-508" deviceset="MKDSN1,5/2-5,08" device=""/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E10-35" value="680u 400V"/>
@@ -17451,7 +17430,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </plain>
 <instances>
 <instance part="B1" gate="1" x="-53.34" y="66.04"/>
-<instance part="R1" gate="1" x="-121.92" y="53.34" rot="R90"/>
+<instance part="R1" gate="G$1" x="-121.92" y="53.34" rot="R90"/>
 <instance part="F1" gate="1" x="-134.62" y="53.34"/>
 <instance part="X1" gate="-1" x="-144.78" y="53.34" rot="R180"/>
 <instance part="X1" gate="-2" x="-144.78" y="78.74" rot="R180"/>
@@ -18152,13 +18131,13 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="F1" gate="1" pin="2"/>
-<pinref part="R1" gate="1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-127" y1="53.34" x2="-129.54" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R1" gate="1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-116.84" y1="53.34" x2="-109.22" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-109.22" y1="53.34" x2="-99.06" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-99.06" y1="53.34" x2="-99.06" y2="63.5" width="0.1524" layer="91"/>
