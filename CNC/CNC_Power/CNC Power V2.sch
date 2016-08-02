@@ -16354,6 +16354,22 @@ at 30/07/2012 15:32:30</description>
 <text x="-3.175" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.70105625" y="-4.336053125" size="1.27" layer="21" ratio="10">&gt;VALUE</text>
 </package>
+<package name="SQP-5">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type SQP-5,</description>
+<wire x1="13.97" y1="0" x2="12.7" y2="0" width="0.8128" layer="51"/>
+<wire x1="-13.97" y1="0" x2="-12.7" y2="0" width="0.8128" layer="51"/>
+<pad name="1" x="-13.97" y="0" drill="1.1" diameter="2.54" shape="octagon"/>
+<pad name="2" x="13.97" y="0" drill="1.1" diameter="2.54" shape="octagon"/>
+<text x="-6.35" y="1.2954" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-6.477" y="-3.1242" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-12.6238" y1="-0.4064" x2="-11.1" y2="0.4064" layer="51"/>
+<rectangle x1="11.1" y1="-0.4064" x2="12.6238" y2="0.4064" layer="51"/>
+<wire x1="-11.1125" y1="4.7625" x2="11.1125" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="11.1125" y1="4.7625" x2="11.1125" y2="-4.7625" width="0.127" layer="21"/>
+<wire x1="11.1125" y1="-4.7625" x2="-11.1125" y2="-4.7625" width="0.127" layer="21"/>
+<wire x1="-11.1125" y1="-4.7625" x2="-11.1125" y2="4.7625" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IR2113SPBF">
@@ -16485,6 +16501,16 @@ at 30/07/2012 15:32:30</description>
 <pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="1" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
+<symbol name="R-EU">
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="IR2113SPBF">
@@ -16570,6 +16596,22 @@ at 30/07/2012 15:32:30</description>
 </gates>
 <devices>
 <device name="" package="NTC-D12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R_SQP-5" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="R-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SQP-5">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -17422,6 +17464,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="4K3"/>
 <part name="TR1" library="_Transformers" deviceset="ETD_CNC" device=""/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="100R"/>
+<part name="R10" library="Namenlos" deviceset="R_SQP-5" device="" value="100R"/>
 </parts>
 <sheets>
 <sheet>
@@ -17515,6 +17558,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <instance part="R27" gate="G$1" x="27.94" y="35.56" rot="R90"/>
 <instance part="TR1" gate="G$1" x="205.74" y="-91.44" rot="MR180"/>
 <instance part="R3" gate="G$1" x="22.86" y="17.78" rot="R90"/>
+<instance part="R10" gate="G$1" x="276.86" y="-53.34"/>
 </instances>
 <busses>
 </busses>
@@ -17954,12 +17998,16 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <junction x="317.5" y="-96.52"/>
 <pinref part="X2" gate="-2" pin="K"/>
 <wire x1="327.66" y1="-96.52" x2="317.5" y2="-96.52" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="-48.26" x2="276.86" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="-48.26" x2="276.86" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="276.86" y="-96.52"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <junction x="327.66" y="-96.52"/>
 <pinref part="TR1" gate="G$1" pin="S0"/>
+<wire x1="276.86" y1="-53.34" x2="276.86" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="-78.74" x2="233.68" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="-53.34" x2="276.86" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="276.86" y="-53.34"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -17970,8 +18018,11 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <wire x1="271.78" y1="-68.58" x2="274.32" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="-68.58" x2="274.32" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="X2" gate="-1" pin="K"/>
-<wire x1="271.78" y1="-48.26" x2="271.78" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="-48.26" x2="271.78" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="271.78" y="-68.58"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="271.78" y1="-53.34" x2="271.78" y2="-68.58" width="0.1524" layer="91"/>
+<junction x="271.78" y="-53.34"/>
 </segment>
 </net>
 <net name="N$36" class="0">
