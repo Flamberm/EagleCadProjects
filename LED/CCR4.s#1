@@ -5537,8 +5537,8 @@ Wickmann</description>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0411/12" value="300k"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="0411/12" value="8R2"/>
 <part name="X1" library="con-phoenix-508" deviceset="MKDSN1,5/2-5,08" device=""/>
-<part name="Q2" library="transistor-power" deviceset="BUZ11" device="BV" value="STP11NM60ND"/>
-<part name="Q3" library="Namenlos" deviceset="KSP42TA" device="" value="ST13003"/>
+<part name="Q2" library="transistor-power" deviceset="BUZ11" device="BV"/>
+<part name="Q3" library="Namenlos" deviceset="KSP42TA" device=""/>
 <part name="B1" library="rectifier" deviceset="RB1A" device=""/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="0204/7" value="160k"/>
 <part name="X3" library="con-phoenix-508" deviceset="MKDSN1,5/2-5,08" device=""/>
