@@ -7,8 +7,12 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="D:/-Eagle/EagleCadLibrary/_Transformers.lbr"
-UsedLibrary="D:/-Eagle/EagleCadLibrary/rcl.lbr"
+UsedLibrary="D:/-EagleCad/Library/Namenlos.lbr"
+UsedLibrary="D:/-EagleCad/Library/_Transformers.lbr"
+UsedLibrary="D:/-EagleCad/Library/diode.lbr"
+UsedLibrary="D:/-EagleCad/Library/heatsink.lbr"
+UsedLibrary="D:/-EagleCad/Library/pinhead.lbr"
+UsedLibrary="D:/-EagleCad/Library/rcl.lbr"
 
 [Win_1]
 Type="Control Panel"
@@ -17,5 +21,5 @@ State=1
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="2560 1024"
 Window="Win_1"
