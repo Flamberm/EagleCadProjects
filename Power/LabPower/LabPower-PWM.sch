@@ -6405,6 +6405,94 @@ http://onsemi.com tl494-d.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="transistor-small-signal">
+<description>&lt;b&gt;Small Signal Transistors&lt;/b&gt;&lt;p&gt;
+Packages from :&lt;br&gt;
+www.infineon.com; &lt;br&gt;
+www.semiconductors.com;&lt;br&gt;
+www.irf.com&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SOT23">
+<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="N-MOS">
+<wire x1="-1.27" y1="0" x2="-0.254" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="0.381" x2="-0.254" y2="-0.381" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-0.381" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-0.889" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.032" x2="0" y2="-2.794" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="3.048" x2="1.27" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="3.048" x2="1.27" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.508" x2="1.27" y2="-2.794" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.794" x2="0" y2="-2.794" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="0" x2="0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="0" x2="1.27" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="1.778" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="0.762" x2="0.762" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="2.032" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.032" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-2.032" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-0.381" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-0.254" x2="-0.381" y2="0.254" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="0.254" x2="-0.889" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.508" x2="1.016" y2="0.127" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0.127" x2="1.524" y2="0.127" width="0.254" layer="94"/>
+<wire x1="1.524" y1="0.127" x2="1.27" y2="0.508" width="0.254" layer="94"/>
+<circle x="0" y="-2.794" radius="0.3592" width="0" layer="94"/>
+<circle x="0" y="-2.032" radius="0.3592" width="0" layer="94"/>
+<circle x="0" y="3.048" radius="0.3592" width="0" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="1.27" x2="-1.524" y2="2.54" layer="94"/>
+<rectangle x1="-2.032" y1="-2.54" x2="-1.524" y2="-1.27" layer="94"/>
+<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BSS123" prefix="Q">
+<description>&lt;b&gt;N-CHANNEL MOS FET&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="N-MOS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6429,19 +6517,24 @@ http://onsemi.com tl494-d.pdf</description>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R1206" value="3R3"/>
+<part name="R23" library="rcl" deviceset="R-EU_" device="R0805" value="3R3"/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X8" device="/90"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R1206" value="0"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R1206" value="0"/>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="5K1"/>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="5K1"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="6K8"/>
+<part name="Q1" library="transistor-small-signal" deviceset="BSS123" device="" value="FDN327N"/>
 </parts>
 <sheets>
 <sheet>
 <description>Control</description>
 <plain>
-<text x="50.8" y="45.72" size="1.778" layer="97">204 kHz</text>
+<text x="200.66" y="58.42" size="1.778" layer="97">106 kHz
+DT 1 us</text>
+<text x="-12.7" y="71.12" size="1.778" layer="97">106 kHz
+DT 1 us</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="76.2" y="73.66"/>
@@ -6464,6 +6557,8 @@ http://onsemi.com tl494-d.pdf</description>
 <instance part="R10" gate="G$1" x="-35.56" y="60.96"/>
 <instance part="R24" gate="G$1" x="-27.94" y="58.42" rot="R270"/>
 <instance part="R25" gate="G$1" x="-43.18" y="55.88" rot="R270"/>
+<instance part="R1" gate="G$1" x="27.94" y="99.06" rot="R270"/>
+<instance part="Q1" gate="G$1" x="7.62" y="68.58"/>
 </instances>
 <busses>
 </busses>
@@ -6484,27 +6579,14 @@ http://onsemi.com tl494-d.pdf</description>
 </net>
 <net name="DTC" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="1"/>
-<pinref part="IC2" gate="G$1" pin="DTC"/>
-<wire x1="27.94" y1="63.5" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-<junction x="27.94" y="63.5"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="68.58" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="63.5" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
-<junction x="27.94" y="63.5"/>
-<label x="15.24" y="63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="-17.78" y1="66.04" x2="-45.72" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="66.04" x2="-45.72" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="6"/>
 <label x="-20.32" y="66.04" size="1.778" layer="95"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="76.2" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="104.14" x2="96.52" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="VREF"/>
 <wire x1="96.52" y1="104.14" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
@@ -6515,13 +6597,17 @@ http://onsemi.com tl494-d.pdf</description>
 <wire x1="96.52" y1="78.74" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
 <junction x="96.52" y="83.82"/>
 <wire x1="35.56" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="83.82" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <junction x="35.56" y="104.14"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="83.82" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
 <junction x="96.52" y="86.36"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="7.62" y1="73.66" x2="7.62" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
+<junction x="27.94" y="104.14"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -6774,9 +6860,36 @@ http://onsemi.com tl494-d.pdf</description>
 <wire x1="-40.64" y1="63.5" x2="-45.72" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="93.98" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="1" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="G$1" pin="DTC"/>
+<wire x1="27.94" y1="63.5" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<junction x="27.94" y="63.5"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="68.58" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
+<junction x="27.94" y="63.5"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
