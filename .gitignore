@@ -48,3 +48,6 @@ Temporary Items
 *.epf
 *.epf
 *.epf
+
+# Eagle Backups
+*.*#*
