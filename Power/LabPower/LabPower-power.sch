@@ -15064,20 +15064,6 @@ Wickmann</description>
 </library>
 <library name="Namenlos">
 <packages>
-<package name="SQP-10">
-<pad name="P$1" x="-26.67" y="0" drill="0.9" diameter="2.54" shape="octagon"/>
-<pad name="P$2" x="26.67" y="0" drill="0.9" diameter="2.54" shape="octagon"/>
-<wire x1="-24.13" y1="5.08" x2="24.13" y2="5.08" width="0.4064" layer="21"/>
-<wire x1="24.13" y1="5.08" x2="24.13" y2="0" width="0.4064" layer="21"/>
-<wire x1="24.13" y1="0" x2="24.13" y2="-5.08" width="0.4064" layer="21"/>
-<wire x1="24.13" y1="-5.08" x2="-24.13" y2="-5.08" width="0.4064" layer="21"/>
-<wire x1="-24.13" y1="-5.08" x2="-24.13" y2="0" width="0.4064" layer="21"/>
-<wire x1="-24.13" y1="0" x2="-24.13" y2="5.08" width="0.4064" layer="21"/>
-<wire x1="-24.13" y1="0" x2="-26.67" y2="0" width="0.4064" layer="21"/>
-<wire x1="24.13" y1="0" x2="26.67" y2="0" width="0.4064" layer="21"/>
-<text x="-3.81" y="2.54" size="1.27" layer="21">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.27" layer="21">&gt;VALUE</text>
-</package>
 <package name="NTC-D12">
 <wire x1="-5.234071875" y1="0.898025" x2="5.06723125" y2="0.898025" width="0.1524" layer="21"/>
 <wire x1="5.234071875" y1="0.898025" x2="5.234071875" y2="-0.898025" width="0.1524" layer="21"/>
@@ -15140,16 +15126,6 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="R-EU">
-<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
 <symbol name="NTC">
 <wire x1="3.175" y1="6.35" x2="3.175" y2="3.81" width="0.1524" layer="94"/>
 <wire x1="3.175" y1="3.81" x2="3.556" y2="5.08" width="0.1524" layer="94"/>
@@ -15207,22 +15183,6 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R_SQP-10" prefix="R" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="R-EU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SQP-10">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="NTC-D12">
 <gates>
 <gate name="G$1" symbol="NTC" x="0" y="0"/>
@@ -18498,7 +18458,6 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="U$6" library="_Transformers" deviceset="DROSSEL-R14" device=""/>
 <part name="D4" library="diode" deviceset="DIODE-" device="DO220S" value="STTH1502D"/>
 <part name="D5" library="diode" deviceset="DIODE-" device="DO220S" value="STTH1502D"/>
-<part name="R31" library="Namenlos" deviceset="R_SQP-10" device="" value="0R1"/>
 <part name="C19" library="rcl" deviceset="CPOL-EU" device="E7.5-18" value="2700u 63V"/>
 <part name="R32" library="rcl" deviceset="R-EU_" device="0207/10" value="10K"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
@@ -18534,6 +18493,9 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="X2" library="Namenlos" deviceset="MKDSN1,5/3-5,08" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X10" device=""/>
 <part name="C7" library="rcl" deviceset="CPOL-EU" device="E7.5-18" value="2700u 63V"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="0207/10" value="N-Wire 39.6x0.5mm 0.3Om"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="0207/10" value="N-Wire 39.6x0.5mm 0.3Om"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="0207/10" value="N-Wire 39.6x0.5mm 0.3Om"/>
 </parts>
 <sheets>
 <sheet>
@@ -19106,7 +19068,6 @@ S - 50+50 turns</text>
 <instance part="U$6" gate="G$1" x="30.48" y="50.8"/>
 <instance part="D4" gate="G$1" x="7.62" y="50.8"/>
 <instance part="D5" gate="G$1" x="7.62" y="25.4"/>
-<instance part="R31" gate="G$1" x="86.36" y="50.8"/>
 <instance part="C19" gate="G$1" x="43.18" y="27.94"/>
 <instance part="R32" gate="G$1" x="63.5" y="43.18" rot="R90"/>
 <instance part="C16" gate="G$1" x="0" y="12.7" rot="R90"/>
@@ -19117,6 +19078,9 @@ S - 50+50 turns</text>
 <instance part="JP3" gate="A" x="157.48" y="33.02"/>
 <instance part="X2" gate="-3" x="119.38" y="50.8"/>
 <instance part="C7" gate="G$1" x="50.8" y="27.94"/>
+<instance part="R8" gate="G$1" x="86.36" y="50.8"/>
+<instance part="R9" gate="G$1" x="86.36" y="53.34"/>
+<instance part="R10" gate="G$1" x="86.36" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -19164,9 +19128,9 @@ S - 50+50 turns</text>
 <net name="OUT+\CUR-" class="0">
 <segment>
 <wire x1="111.76" y1="38.1" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="50.8" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="3"/>
+<wire x1="93.98" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="5"/>
@@ -19176,6 +19140,15 @@ S - 50+50 turns</text>
 <pinref part="X2" gate="-3" pin="KL"/>
 <wire x1="111.76" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
 <junction x="111.76" y="50.8"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="53.34" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
+<junction x="93.98" y="50.8"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="55.88" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
+<junction x="93.98" y="53.34"/>
 </segment>
 </net>
 <net name="N$46" class="0">
@@ -19267,7 +19240,6 @@ S - 50+50 turns</text>
 <pinref part="C19" gate="G$1" pin="+"/>
 <wire x1="50.8" y1="50.8" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="30.48" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="50.8" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
 <junction x="63.5" y="50.8"/>
 <pinref part="JP3" gate="A" pin="6"/>
@@ -19278,6 +19250,14 @@ S - 50+50 turns</text>
 <pinref part="C7" gate="G$1" pin="+"/>
 <wire x1="50.8" y1="30.48" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
 <junction x="50.8" y="50.8"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="53.34" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="55.88" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
+<junction x="78.74" y="53.34"/>
 </segment>
 </net>
 </nets>
