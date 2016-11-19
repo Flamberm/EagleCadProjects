@@ -49,3 +49,5 @@ Temporary Items
 *.epf
 *.epf
 *.epf
+*.b##
+*.s##
