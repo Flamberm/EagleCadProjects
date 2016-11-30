@@ -9541,31 +9541,36 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="-4.57" y1="-5.1" x2="-3.05" y2="5.1" layer="51"/>
 <rectangle x1="3.05" y1="-5.1" x2="4.5688" y2="5.1" layer="51"/>
 </package>
-<package name="E5-13-35-HORIZ">
-<wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="0" x2="-0.889" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="1.27" x2="-0.889" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.27" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="0" x2="1.143" y2="0" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="0" x2="-4.445" y2="0" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.651" y1="0" x2="-1.143" y2="0" width="0.1524" layer="51"/>
-<pad name="+" x="-2.54" y="0" drill="0.9" diameter="2.54"/>
-<pad name="-" x="2.54" y="0" drill="0.9" diameter="2.54" shape="square"/>
-<text x="-3.7846" y="-7.3152" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.572" y="-5.207" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.254" y1="-1.27" x2="0.889" y2="1.27" layer="21"/>
-<wire x1="-6.985" y1="-2.54" x2="-6.985" y2="-38.1" width="0.127" layer="21"/>
-<wire x1="-6.985" y1="-38.1" x2="6.985" y2="-38.1" width="0.127" layer="21"/>
-<wire x1="6.985" y1="-38.1" x2="6.985" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-6.985" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-2.54" x2="6.985" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.8128" layer="21"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.8128" layer="21"/>
+<package name="E7,5-16-32-HORIZ">
+<wire x1="0.635" y1="0" x2="2.032" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="0" x2="-2.032" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.905" x2="-0.889" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.905" x2="-0.254" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-1.905" x2="-0.254" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.905" x2="-0.889" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="0" x2="-0.889" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-7.493" y1="0" x2="-5.969" y2="0" width="0.1524" layer="21"/>
+<wire x1="-6.731" y1="-0.762" x2="-6.731" y2="0.762" width="0.1524" layer="21"/>
+<pad name="-" x="3.81" y="0" drill="0.9" diameter="1.9304" shape="square"/>
+<pad name="+" x="-3.81" y="0" drill="0.9" diameter="1.9304"/>
+<text x="-4.826" y="2.54" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-4.2926" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.905" x2="0.889" y2="1.905" layer="21"/>
+<wire x1="-3.81" y1="-2.54" x2="-7.255" y2="-2.54" width="0.3048" layer="21"/>
+<wire x1="-7.255" y1="-2.54" x2="-8.255" y2="-3.54" width="0.3048" layer="21" curve="90"/>
+<wire x1="-8.255" y1="-3.54" x2="-8.255" y2="-33.29" width="0.3048" layer="21"/>
+<wire x1="-8.255" y1="-33.29" x2="-7.255" y2="-34.29" width="0.3048" layer="21" curve="90"/>
+<wire x1="-7.255" y1="-34.29" x2="5.08" y2="-34.29" width="0.3048" layer="21"/>
+<wire x1="5.08" y1="-34.29" x2="7.255" y2="-34.29" width="0.3048" layer="21"/>
+<wire x1="7.255" y1="-34.29" x2="8.255" y2="-33.29" width="0.3048" layer="21" curve="90"/>
+<wire x1="8.255" y1="-33.29" x2="8.255" y2="-3.54" width="0.3048" layer="21"/>
+<wire x1="8.255" y1="-3.54" x2="7.255" y2="-2.54" width="0.3048" layer="21" curve="90"/>
+<wire x1="7.255" y1="-2.54" x2="5.08" y2="-2.54" width="0.3048" layer="21"/>
+<wire x1="5.08" y1="-2.54" x2="3.81" y2="-2.54" width="0.3048" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.3048" layer="21"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-2.54" width="0.6096" layer="21"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-2.54" width="0.6096" layer="21"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-34.29" width="0.3048" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -11184,7 +11189,7 @@ Source: AVX .. aphvc.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="E5-13-35-HORIZ" package="E5-13-35-HORIZ">
+<device name="E7,5-16-32-H" package="E7,5-16-32-HORIZ">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -17090,7 +17095,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="IC1" library="supertex" deviceset="HV9910B" device="LG"/>
 <part name="B1" library="rectifier" deviceset="RB1A" device="" value="2W10M"/>
 <part name="R1" library="Namenlos" deviceset="NTC-D12" device=""/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="E5-13-35-HORIZ" value="47u 400V"/>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="E7,5-16-32-H" value="47u 400V"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="300K"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
