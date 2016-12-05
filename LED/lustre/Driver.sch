@@ -17101,9 +17101,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100u 16V"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="51K"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="200K"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="0414/15" value="0R3"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="0414/15" value="0R47"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="0414/15" value="0R3"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="_Transformers" deviceset="INDUCTOR" device="EFD-25"/>
 <part name="D1" library="diode" deviceset="DIODE-" device="DO214AC" value="ES1J"/>
@@ -17112,12 +17112,12 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="R8" library="pot" deviceset="TRIM_EU-" device="S75H" value="10K"/>
 <part name="X1" library="Namenlos" deviceset="MKDSN1,5/3-5,08" device=""/>
 <part name="X2" library="Namenlos" deviceset="MKDSN1,5/3-5,08" device=""/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="0613/15" value="27K"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="86.36" y="58.42" size="1.778" layer="97">7mH</text>
-<text x="43.18" y="17.78" size="1.778" layer="97">T-off = 2.92 us</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="55.88" y="43.18"/>
@@ -17144,6 +17144,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="X2" gate="-1" x="109.22" y="78.74"/>
 <instance part="X2" gate="-2" x="109.22" y="73.66"/>
 <instance part="X2" gate="-3" x="109.22" y="68.58"/>
+<instance part="R9" gate="G$1" x="68.58" y="60.96" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -17191,13 +17192,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="-2.54" y1="83.82" x2="-2.54" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="83.82" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="83.82" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
 <junction x="-2.54" y="83.82"/>
-<pinref part="IC1" gate="G$1" pin="VIN"/>
-<wire x1="68.58" y1="50.8" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="83.82" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
-<junction x="68.58" y="83.82"/>
 <pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="68.58" y1="83.82" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="83.82" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="76.2" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
 <junction x="78.74" y="83.82"/>
@@ -17207,6 +17204,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="X2" gate="-1" pin="KL"/>
 <wire x1="106.68" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="78.74" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="66.04" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+<junction x="68.58" y="83.82"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -17334,6 +17334,14 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="X1" gate="-3" pin="KL"/>
 <wire x1="-50.8" y1="68.58" x2="-43.18" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="68.58" x2="-43.18" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VIN"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="50.8" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -361,6 +361,11 @@
 <part name="D10" library="Namenlos" deviceset="LED" device="1W"/>
 <part name="PAD1" library="wirepad" deviceset="3,81/1,4" device=""/>
 <part name="PAD2" library="wirepad" deviceset="3,81/1,4" device=""/>
+<part name="D11" library="Namenlos" deviceset="LED" device="1W"/>
+<part name="D12" library="Namenlos" deviceset="LED" device="1W"/>
+<part name="D13" library="Namenlos" deviceset="LED" device="1W"/>
+<part name="D14" library="Namenlos" deviceset="LED" device="1W"/>
+<part name="D15" library="Namenlos" deviceset="LED" device="1W"/>
 </parts>
 <sheets>
 <sheet>
@@ -378,7 +383,12 @@
 <instance part="D9" gate="G$1" x="81.28" y="40.64" rot="R90"/>
 <instance part="D10" gate="G$1" x="88.9" y="40.64" rot="R90"/>
 <instance part="PAD1" gate="1" x="12.7" y="40.64"/>
-<instance part="PAD2" gate="1" x="93.98" y="40.64" rot="R180"/>
+<instance part="PAD2" gate="1" x="132.08" y="40.64" rot="R180"/>
+<instance part="D11" gate="G$1" x="96.52" y="40.64" rot="R90"/>
+<instance part="D12" gate="G$1" x="104.14" y="40.64" rot="R90"/>
+<instance part="D13" gate="G$1" x="111.76" y="40.64" rot="R90"/>
+<instance part="D14" gate="G$1" x="119.38" y="40.64" rot="R90"/>
+<instance part="D15" gate="G$1" x="127" y="40.64" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -446,6 +456,36 @@
 <net name="N$11" class="0">
 <segment>
 <pinref part="D10" gate="G$1" pin="C"/>
+<pinref part="D11" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="D11" gate="G$1" pin="C"/>
+<pinref part="D12" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="D12" gate="G$1" pin="C"/>
+<pinref part="D13" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="D13" gate="G$1" pin="C"/>
+<pinref part="D14" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="D14" gate="G$1" pin="C"/>
+<pinref part="D15" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="D15" gate="G$1" pin="C"/>
 <pinref part="PAD2" gate="1" pin="P"/>
 </segment>
 </net>
