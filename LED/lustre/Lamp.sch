@@ -363,9 +363,6 @@
 <part name="PAD2" library="wirepad" deviceset="3,81/1,4" device=""/>
 <part name="D11" library="Namenlos" deviceset="LED" device="1W"/>
 <part name="D12" library="Namenlos" deviceset="LED" device="1W"/>
-<part name="D13" library="Namenlos" deviceset="LED" device="1W"/>
-<part name="D14" library="Namenlos" deviceset="LED" device="1W"/>
-<part name="D15" library="Namenlos" deviceset="LED" device="1W"/>
 </parts>
 <sheets>
 <sheet>
@@ -376,19 +373,16 @@
 <instance part="D2" gate="G$1" x="27.94" y="40.64" rot="R90"/>
 <instance part="D3" gate="G$1" x="35.56" y="40.64" rot="R90"/>
 <instance part="D4" gate="G$1" x="43.18" y="40.64" rot="R90"/>
-<instance part="D5" gate="G$1" x="50.8" y="40.64" rot="R90"/>
-<instance part="D6" gate="G$1" x="58.42" y="40.64" rot="R90"/>
-<instance part="D7" gate="G$1" x="66.04" y="40.64" rot="R90"/>
-<instance part="D8" gate="G$1" x="73.66" y="40.64" rot="R90"/>
-<instance part="D9" gate="G$1" x="81.28" y="40.64" rot="R90"/>
-<instance part="D10" gate="G$1" x="88.9" y="40.64" rot="R90"/>
+<instance part="D5" gate="G$1" x="66.04" y="40.64" rot="R90"/>
+<instance part="D6" gate="G$1" x="73.66" y="40.64" rot="R90"/>
+<instance part="D7" gate="G$1" x="81.28" y="40.64" rot="R90"/>
+<instance part="D8" gate="G$1" x="88.9" y="40.64" rot="R90"/>
+<instance part="D9" gate="G$1" x="96.52" y="40.64" rot="R90"/>
+<instance part="D10" gate="G$1" x="104.14" y="40.64" rot="R90"/>
 <instance part="PAD1" gate="1" x="12.7" y="40.64"/>
-<instance part="PAD2" gate="1" x="132.08" y="40.64" rot="R180"/>
-<instance part="D11" gate="G$1" x="96.52" y="40.64" rot="R90"/>
-<instance part="D12" gate="G$1" x="104.14" y="40.64" rot="R90"/>
-<instance part="D13" gate="G$1" x="111.76" y="40.64" rot="R90"/>
-<instance part="D14" gate="G$1" x="119.38" y="40.64" rot="R90"/>
-<instance part="D15" gate="G$1" x="127" y="40.64" rot="R90"/>
+<instance part="PAD2" gate="1" x="114.3" y="40.64" rot="R180"/>
+<instance part="D11" gate="G$1" x="50.8" y="40.64" rot="R90"/>
+<instance part="D12" gate="G$1" x="58.42" y="40.64" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -409,12 +403,6 @@
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
 <pinref part="D4" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="D4" gate="G$1" pin="C"/>
-<pinref part="D5" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -456,37 +444,26 @@
 <net name="N$11" class="0">
 <segment>
 <pinref part="D10" gate="G$1" pin="C"/>
+<pinref part="PAD2" gate="1" pin="P"/>
+<wire x1="111.76" y1="40.64" x2="106.68" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="D4" gate="G$1" pin="C"/>
 <pinref part="D11" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="N$12" class="0">
 <segment>
 <pinref part="D11" gate="G$1" pin="C"/>
 <pinref part="D12" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="N$13" class="0">
 <segment>
 <pinref part="D12" gate="G$1" pin="C"/>
-<pinref part="D13" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="D13" gate="G$1" pin="C"/>
-<pinref part="D14" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="D14" gate="G$1" pin="C"/>
-<pinref part="D15" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="D15" gate="G$1" pin="C"/>
-<pinref part="PAD2" gate="1" pin="P"/>
+<pinref part="D5" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
