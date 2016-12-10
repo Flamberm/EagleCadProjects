@@ -16,7 +16,7 @@ UsedLibrary="D:/-Eagle/EagleCadLibrary/wirepad.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="-8 -8 1911 1008"
+Loc="0 0 1919 1016"
 State=3
 Number=2
 File="Lamp2.sch"
