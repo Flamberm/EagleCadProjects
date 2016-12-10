@@ -1,0 +1,23 @@
+[Eagle]
+Version="07 06 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="D:/-EagleCad/Library/Namenlos.lbr"
+UsedLibrary="D:/-EagleCad/Library/diode.lbr"
+UsedLibrary="D:/-EagleCad/Library/heatsink.lbr"
+UsedLibrary="D:/-EagleCad/Library/rcl.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="0 0 1279 993"
+State=1
+Number=0
+
+[Desktop]
+Screen="2560 1024"
+Window="Win_1"
