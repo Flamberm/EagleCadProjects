@@ -14121,6 +14121,7 @@ package type SS</description>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="Namenlos" deviceset="R_" device="0805" value="0"/>
 <part name="R11" library="Namenlos" deviceset="R_" device="0805" value="0"/>
+<part name="C12" library="Namenlos" deviceset="CAP_" device="0805" value="20n"/>
 </parts>
 <sheets>
 <sheet>
@@ -14594,7 +14595,7 @@ package type SS</description>
 <instance part="+3V2" gate="G$1" x="30.48" y="-60.96"/>
 <instance part="X1" gate="G$1" x="0" y="-10.16" rot="MR0"/>
 <instance part="+3V3" gate="G$1" x="7.62" y="-2.54"/>
-<instance part="GND20" gate="1" x="7.62" y="-20.32"/>
+<instance part="GND20" gate="1" x="7.62" y="-30.48"/>
 <instance part="JP1" gate="A" x="-10.16" y="-50.8" rot="MR0"/>
 <instance part="+3V4" gate="G$1" x="0" y="-33.02"/>
 <instance part="JP2" gate="A" x="114.3" y="-40.64"/>
@@ -14605,6 +14606,7 @@ package type SS</description>
 <instance part="R9" gate="G$1" x="0" y="-91.44" rot="R90"/>
 <instance part="GND19" gate="1" x="0" y="-99.06"/>
 <instance part="R10" gate="G$1" x="91.44" y="-66.04" rot="R180"/>
+<instance part="C12" gate="G$1" x="10.16" y="-15.24"/>
 </instances>
 <busses>
 </busses>
@@ -14614,7 +14616,12 @@ package type SS</description>
 <pinref part="X1" gate="G$1" pin="GND"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="5.08" y1="-15.24" x2="7.62" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-15.24" x2="7.62" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-15.24" x2="7.62" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="-22.86" x2="7.62" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-20.32" x2="10.16" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-22.86" x2="7.62" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="7.62" y="-22.86"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="4"/>
@@ -14670,7 +14677,10 @@ package type SS</description>
 <segment>
 <pinref part="IC2" gate="G$1" pin="NRST/PA1"/>
 <pinref part="X1" gate="G$1" pin="SW-RST"/>
-<wire x1="33.02" y1="-12.7" x2="5.08" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-12.7" x2="10.16" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-12.7" x2="5.08" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<junction x="10.16" y="-12.7"/>
 </segment>
 </net>
 <net name="N$8" class="0">
