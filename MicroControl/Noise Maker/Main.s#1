@@ -4599,7 +4599,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="R3" library="Namenlos" deviceset="R_" device="0805" value="0R"/>
 <part name="R4" library="Namenlos" deviceset="R_" device="0805" value="0R"/>
 <part name="R5" library="Namenlos" deviceset="R_" device="0805" value="20K"/>
-<part name="R6" library="Namenlos" deviceset="R_" device="0805" value="91R"/>
+<part name="R6" library="Namenlos" deviceset="R_" device="0805" value="51R"/>
 <part name="D1" library="Namenlos" deviceset="LED_" device="1206"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 </parts>
