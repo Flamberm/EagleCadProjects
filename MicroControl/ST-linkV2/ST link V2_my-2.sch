@@ -11975,6 +11975,7 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <part name="ESD2" library="Namenlos" deviceset="ESDAXXSC5" device="" value="ESDA5V3SC5"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="R21" library="Namenlos" deviceset="R_" device="0805" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -12043,6 +12044,7 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <instance part="ESD2" gate="G$1" x="208.28" y="-48.26"/>
 <instance part="GND10" gate="1" x="165.1" y="-55.88"/>
 <instance part="GND11" gate="1" x="208.28" y="-55.88"/>
+<instance part="R21" gate="G$1" x="88.9" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -12431,9 +12433,6 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="PB7"/>
-<wire x1="83.82" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="63.5" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="PB10"/>
 <wire x1="88.9" y1="58.42" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
@@ -12442,6 +12441,11 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <junction x="88.9" y="58.42"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="63.5" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="60.96" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SWIM" class="0">
@@ -12629,6 +12633,12 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <segment>
 <pinref part="X2" gate="G$1" pin="12"/>
 <pinref part="R20" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB7"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
