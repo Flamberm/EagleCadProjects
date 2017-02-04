@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4596,7 +4596,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="P+2" gate="VCC" x="165.1" y="114.3"/>
 <instance part="P+3" gate="VCC" x="-12.7" y="114.3"/>
 <instance part="GND3" gate="1" x="-12.7" y="99.06"/>
-<instance part="GND4" gate="1" x="124.46" y="15.24"/>
+<instance part="GND4" gate="1" x="154.94" y="15.24"/>
 <instance part="IC3" gate="G$1" x="15.24" y="63.5"/>
 <instance part="C3" gate="G$1" x="27.94" y="58.42"/>
 <instance part="GND5" gate="1" x="27.94" y="48.26"/>
@@ -4683,15 +4683,13 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="124.46" y1="20.32" x2="154.94" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="20.32" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="D"/>
 <wire x1="137.16" y1="38.1" x2="137.16" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="D"/>
 <wire x1="137.16" y1="35.56" x2="154.94" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="35.56" x2="187.96" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="35.56" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="35.56" x2="154.94" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="35.56" x2="154.94" y2="17.78" width="0.1524" layer="91"/>
 <junction x="154.94" y="35.56"/>
 </segment>
 <segment>
