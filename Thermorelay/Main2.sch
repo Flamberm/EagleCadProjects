@@ -2263,9 +2263,9 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <part name="S1" library="Namenlos" deviceset="SW-SWT-2" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="Namenlos" deviceset="R_" device="0805" value="390R"/>
-<part name="R3" library="Namenlos" deviceset="R_" device="0805" value="430R"/>
+<part name="R3" library="Namenlos" deviceset="R_" device="0805" value="390R"/>
 <part name="R4" library="Namenlos" deviceset="R_" device="1206" value="1K"/>
-<part name="R5" library="Namenlos" deviceset="R_" device="0805" value="33R"/>
+<part name="R5" library="Namenlos" deviceset="R_" device="0805" value="27R"/>
 <part name="IC2" library="Namenlos" deviceset="POWER-TNY264PN" device=""/>
 <part name="OK1" library="Namenlos" deviceset="OPTOTRANS" device="PC817"/>
 <part name="C1" library="Namenlos" deviceset="CAP_" device="0805" value="0u1"/>
@@ -2289,7 +2289,7 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <part name="VT1" library="Namenlos" deviceset="FET-N" device="PF-2X2"/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="Namenlos" deviceset="R_" device="0805" value="27R"/>
+<part name="R11" library="Namenlos" deviceset="R_" device="0805" value="33R"/>
 </parts>
 <sheets>
 <sheet>
