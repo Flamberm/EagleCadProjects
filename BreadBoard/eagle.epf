@@ -1,0 +1,22 @@
+[Eagle]
+Version="08 00 00"
+Platform="Windows"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="D:/-EagleCad/Library/Namenlos.lbr"
+UsedLibrary="D:/-EagleCad/Library/SparkFun-Electromechanical.lbr"
+UsedLibrary="D:/-EagleCad/Library/pinhead.lbr"
+UsedLibrary="D:/-EagleCad/Library/supply1.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="-1 85 1278 626"
+State=2
+Number=0
+
+[Desktop]
+Screen="2560 1024"
+Window="Win_1"
