@@ -4040,6 +4040,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="C17" library="Namenlos" deviceset="CAP_" device="0805" value="100n"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
+<part name="GND28" library="supply1" deviceset="GND" device=""/>
+<part name="P+16" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4680,6 +4682,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <instance part="C17" gate="G$1" x="180.34" y="-40.64"/>
 <instance part="GND26" gate="1" x="180.34" y="-48.26"/>
 <instance part="GND27" gate="1" x="198.12" y="-17.78"/>
+<instance part="GND28" gate="1" x="134.62" y="68.58"/>
+<instance part="P+16" gate="1" x="132.08" y="40.64" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4912,7 +4916,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <segment>
 <wire x1="134.62" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SV2" gate="G$1" pin="3"/>
-<label x="137.16" y="45.72" size="1.778" layer="95" rot="R180"/>
+<label x="137.16" y="48.26" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="EX2-5" class="0">
@@ -4924,7 +4928,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <segment>
 <wire x1="134.62" y1="43.18" x2="147.32" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SV2" gate="G$1" pin="5"/>
-<label x="137.16" y="43.18" size="1.778" layer="95" rot="R180"/>
+<label x="137.16" y="45.72" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="EX1-2" class="0">
@@ -4960,7 +4964,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <segment>
 <wire x1="162.56" y1="40.64" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="SV2" gate="G$1" pin="8"/>
-<label x="175.26" y="40.64" size="1.778" layer="95" rot="R180"/>
+<label x="175.26" y="43.18" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="EX1-10" class="0">
@@ -4988,7 +4992,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <segment>
 <wire x1="134.62" y1="48.26" x2="147.32" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="SV2" gate="G$1" pin="1"/>
-<label x="137.16" y="48.26" size="1.778" layer="95" rot="R180"/>
+<label x="137.16" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="EX2-2" class="0">
@@ -5000,7 +5004,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <segment>
 <wire x1="162.56" y1="48.26" x2="175.26" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="SV2" gate="G$1" pin="2"/>
-<label x="175.26" y="48.26" size="1.778" layer="95" rot="R180"/>
+<label x="175.26" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="EX2-4" class="0">
@@ -5016,7 +5020,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <segment>
 <wire x1="162.56" y1="45.72" x2="175.26" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SV2" gate="G$1" pin="4"/>
-<label x="175.26" y="45.72" size="1.778" layer="95" rot="R180"/>
+<label x="175.26" y="48.26" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="EX2-6" class="0">
@@ -5032,7 +5036,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <segment>
 <wire x1="162.56" y1="43.18" x2="175.26" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SV2" gate="G$1" pin="6"/>
-<label x="175.26" y="43.18" size="1.778" layer="95" rot="R180"/>
+<label x="175.26" y="45.72" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="Z-DIR" class="0">
@@ -5294,6 +5298,12 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <wire x1="198.12" y1="-5.08" x2="198.12" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="198.12" y="-7.62"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="9"/>
+<wire x1="147.32" y1="73.66" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="73.66" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="XTAL1" class="0">
 <segment>
@@ -5414,6 +5424,11 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="P+15" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="G$1" pin="7"/>
+<wire x1="147.32" y1="40.64" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="P+16" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="!RST" class="0">
