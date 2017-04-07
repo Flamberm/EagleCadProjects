@@ -1626,6 +1626,29 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <text x="6.0452" y="-3.1496" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <text x="-2.921" y="1.7018" size="1.27" layer="51" ratio="10">ON</text>
 </package>
+<package name="153CLV-0605">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="2.4" y1="-3.3" x2="-3.3" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-3.3" x2="-3.3" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-1.1" x2="-3.3" y2="1.1" width="0.2032" layer="51"/>
+<wire x1="-3.3" y1="1.1" x2="-3.3" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="3.3" x2="2.4" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="2.4" x2="3.3" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="1.1" x2="3.3" y2="-1.1" width="0.2032" layer="51"/>
+<wire x1="3.3" y1="-1.1" x2="3.3" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="-2.4" x2="2.4" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="3.3" x2="3.3" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="-2.95" y1="-0.9" x2="2.95" y2="-0.95" width="0.2032" layer="21" curve="145.181395"/>
+<wire x1="-2.95" y1="-0.9" x2="-2.95" y2="0.95" width="0.2032" layer="51" curve="-34.818605"/>
+<wire x1="-2.95" y1="0.95" x2="2.95" y2="0.9" width="0.2032" layer="21" curve="-145.181395"/>
+<wire x1="2.95" y1="-0.95" x2="2.95" y2="0.9" width="0.2032" layer="51" curve="34.818605"/>
+<smd name="+" x="2.7" y="0" dx="3.5" dy="1.6" layer="1"/>
+<smd name="-" x="-2.7" y="0" dx="3.5" dy="1.6" layer="1"/>
+<text x="-3.39" y="3.63" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.425" y="-4.885" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="86-I/O-1">
@@ -2606,6 +2629,15 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="D6" package="153CLV-0605">
+<connects>
+<connect gate="C$1" pin="+" pad="+"/>
+<connect gate="C$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="STEP-DRV" prefix="IC" uservalue="yes">
@@ -3174,10 +3206,10 @@ Based on  the following source:
 <wire x1="5.9" y1="1.915" x2="5.9" y2="5.6" width="0.254" layer="21"/>
 <wire x1="-5.9" y1="5.6" x2="-5.9" y2="1.915" width="0.254" layer="21"/>
 <wire x1="5.9" y1="-10.15" x2="5.9" y2="-2.02" width="0.254" layer="21"/>
-<pad name="1" x="1.25" y="4.71" drill="0.9" shape="octagon"/>
-<pad name="2" x="-1.25" y="4.71" drill="0.9" shape="octagon"/>
-<pad name="3" x="-1.25" y="2.71" drill="0.9" shape="octagon"/>
-<pad name="4" x="1.25" y="2.71" drill="0.9" shape="octagon"/>
+<pad name="1" x="1.25" y="4.71" drill="0.95" shape="octagon"/>
+<pad name="2" x="-1.25" y="4.71" drill="0.95" shape="octagon"/>
+<pad name="3" x="-1.25" y="2.71" drill="0.95" shape="octagon"/>
+<pad name="4" x="1.25" y="2.71" drill="0.95" shape="octagon"/>
 <pad name="S1" x="-6.02" y="0" drill="2.3" diameter="2.9"/>
 <pad name="S2" x="6.02" y="0" drill="2.3" diameter="2.9"/>
 <text x="-6.35" y="6.35" size="1.27" layer="25">&gt;NAME</text>
@@ -3310,16 +3342,16 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="-4.445" y1="-4.318" x2="-5.715" y2="-4.318" width="0.1524" layer="21"/>
 <wire x1="-5.715" y1="-4.445" x2="-5.715" y2="-4.318" width="0.1524" layer="21"/>
 <wire x1="-5.715" y1="-4.445" x2="-10.16" y2="-4.445" width="0.1524" layer="21"/>
-<pad name="1" x="-5.08" y="-1.27" drill="1.1" shape="octagon"/>
-<pad name="2" x="-5.08" y="1.27" drill="1.1" shape="octagon"/>
-<pad name="3" x="-2.54" y="-1.27" drill="1.1" shape="octagon"/>
-<pad name="4" x="-2.54" y="1.27" drill="1.1" shape="octagon"/>
-<pad name="5" x="0" y="-1.27" drill="1.1" shape="octagon"/>
-<pad name="6" x="0" y="1.27" drill="1.1" shape="octagon"/>
-<pad name="7" x="2.54" y="-1.27" drill="1.1" shape="octagon"/>
-<pad name="8" x="2.54" y="1.27" drill="1.1" shape="octagon"/>
-<pad name="9" x="5.08" y="-1.27" drill="1.1" shape="octagon"/>
-<pad name="10" x="5.08" y="1.27" drill="1.1" shape="octagon"/>
+<pad name="1" x="-5.08" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="2" x="-5.08" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="3" x="-2.54" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="4" x="-2.54" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="5" x="0" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="6" x="0" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="7" x="2.54" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="8" x="2.54" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="9" x="5.08" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="10" x="5.08" y="1.27" drill="0.9144" shape="octagon"/>
 <text x="-1.016" y="-4.064" size="1.27" layer="21" ratio="10">10</text>
 <text x="-10.16" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="5.08" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
@@ -3690,12 +3722,12 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="-1.27" drill="1.1" shape="octagon"/>
-<pad name="2" x="-2.54" y="1.27" drill="1.1" shape="octagon"/>
-<pad name="3" x="0" y="-1.27" drill="1.1" shape="octagon"/>
-<pad name="4" x="0" y="1.27" drill="1.1" shape="octagon"/>
-<pad name="5" x="2.54" y="-1.27" drill="1.1" shape="octagon"/>
-<pad name="6" x="2.54" y="1.27" drill="1.1" shape="octagon"/>
+<pad name="1" x="-2.54" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="2" x="-2.54" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="3" x="0" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="4" x="0" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="5" x="2.54" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="6" x="2.54" y="1.27" drill="1.016" shape="octagon"/>
 <text x="-3.81" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
@@ -3720,12 +3752,12 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
-<pad name="2" x="-2.54" y="-3.81" drill="1.1" shape="octagon"/>
-<pad name="4" x="0" y="-3.81" drill="1.1" shape="octagon"/>
-<pad name="6" x="2.54" y="-3.81" drill="1.1" shape="octagon"/>
-<pad name="1" x="-2.54" y="-6.35" drill="1.1" shape="octagon"/>
-<pad name="3" x="0" y="-6.35" drill="1.1" shape="octagon"/>
-<pad name="5" x="2.54" y="-6.35" drill="1.1" shape="octagon"/>
+<pad name="2" x="-2.54" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="4" x="0" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="6" x="2.54" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="1" x="-2.54" y="-6.35" drill="1.016" shape="octagon"/>
+<pad name="3" x="0" y="-6.35" drill="1.016" shape="octagon"/>
+<pad name="5" x="2.54" y="-6.35" drill="1.016" shape="octagon"/>
 <text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
@@ -3944,6 +3976,16 @@ Low profile connectors, straight&lt;p&gt;
 <part name="X20" library="Namenlos" deviceset="CON-CP-02" device=""/>
 <part name="X21" library="Namenlos" deviceset="CON-CP-02" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
+<part name="C21" library="Namenlos" deviceset="CAP-POL_" device="D6"/>
+<part name="C22" library="Namenlos" deviceset="CAP-POL_" device="D6"/>
+<part name="C23" library="Namenlos" deviceset="CAP-POL_" device="D6"/>
+<part name="C24" library="Namenlos" deviceset="CAP-POL_" device="D6"/>
+<part name="C25" library="Namenlos" deviceset="CAP-POL_" device="D6"/>
+<part name="GND37" library="supply1" deviceset="GND" device=""/>
+<part name="GND38" library="supply1" deviceset="GND" device=""/>
+<part name="GND39" library="supply1" deviceset="GND" device=""/>
+<part name="GND40" library="supply1" deviceset="GND" device=""/>
+<part name="GND41" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3981,6 +4023,16 @@ Low profile connectors, straight&lt;p&gt;
 <instance part="S4" gate="1" x="12.7" y="-27.94" rot="MR270"/>
 <instance part="S5" gate="1" x="12.7" y="-58.42" rot="MR270"/>
 <instance part="P+26" gate="1" x="2.54" y="81.28"/>
+<instance part="C21" gate="C$1" x="83.82" y="68.58" rot="R90"/>
+<instance part="C22" gate="C$1" x="83.82" y="38.1" rot="R90"/>
+<instance part="C23" gate="C$1" x="83.82" y="7.62" rot="R90"/>
+<instance part="C24" gate="C$1" x="83.82" y="-22.86" rot="R90"/>
+<instance part="C25" gate="C$1" x="83.82" y="-53.34" rot="R90"/>
+<instance part="GND37" gate="1" x="91.44" y="-53.34" rot="R90"/>
+<instance part="GND38" gate="1" x="91.44" y="-22.86" rot="R90"/>
+<instance part="GND39" gate="1" x="91.44" y="7.62" rot="R90"/>
+<instance part="GND40" gate="1" x="91.44" y="38.1" rot="R90"/>
+<instance part="GND41" gate="1" x="91.44" y="68.58" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4251,32 +4303,57 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="IC4" gate="IC$1" pin="MGND"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C25" gate="C$1" pin="-"/>
+<pinref part="GND37" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C24" gate="C$1" pin="-"/>
+<pinref part="GND38" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C23" gate="C$1" pin="-"/>
+<pinref part="GND39" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C22" gate="C$1" pin="-"/>
+<pinref part="GND40" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C21" gate="C$1" pin="-"/>
+<pinref part="GND41" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="V-IN" class="0">
 <segment>
 <pinref part="IC8" gate="IC$1" pin="VMOT"/>
 <wire x1="73.66" y1="-53.34" x2="81.28" y2="-53.34" width="0.1524" layer="91"/>
 <label x="76.2" y="-53.34" size="1.778" layer="95"/>
+<pinref part="C25" gate="C$1" pin="+"/>
 </segment>
 <segment>
 <pinref part="IC7" gate="IC$1" pin="VMOT"/>
 <wire x1="73.66" y1="-22.86" x2="81.28" y2="-22.86" width="0.1524" layer="91"/>
 <label x="76.2" y="-22.86" size="1.778" layer="95"/>
+<pinref part="C24" gate="C$1" pin="+"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="IC$1" pin="VMOT"/>
 <wire x1="73.66" y1="7.62" x2="81.28" y2="7.62" width="0.1524" layer="91"/>
 <label x="76.2" y="7.62" size="1.778" layer="95"/>
+<pinref part="C23" gate="C$1" pin="+"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="IC$1" pin="VMOT"/>
 <wire x1="73.66" y1="38.1" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
 <label x="76.2" y="38.1" size="1.778" layer="95"/>
+<pinref part="C22" gate="C$1" pin="+"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="IC$1" pin="VMOT"/>
 <wire x1="73.66" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
 <label x="76.2" y="68.58" size="1.778" layer="95"/>
+<pinref part="C21" gate="C$1" pin="+"/>
 </segment>
 </net>
 <net name="N$3" class="0">
