@@ -2251,8 +2251,8 @@ http://www.bccomponents.com/</description>
 <devices>
 <device name="3225" package="CRYSTAL-3225">
 <connects>
-<connect gate="Q" pin="1" pad="P$1"/>
-<connect gate="Q" pin="2" pad="P$3"/>
+<connect gate="Q" pin="1" pad="P$2"/>
+<connect gate="Q" pin="2" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
