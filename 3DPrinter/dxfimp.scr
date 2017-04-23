@@ -1,0 +1,16 @@
+# dxfimport generated script file.
+Grid mic 1 off;
+Set Wire_Bend 2;
+CHANGE LAYER 50;
+Change Font Vector;
+Wire 1 (-403.57 87487.95) (-13270.19 87487.95);
+Wire 1 (-13270.19 87487.95) (-13270.19 75440.12);
+Wire 1 (-13270.19 75440.12) (-403.57 75440.12);
+Wire 1 (-403.57 75440.12) (-403.57 87487.95);
+Circle 1 (41754.35 71949.63) (41754.35 73549.63);
+Circle 1 (-57840.86 53520.04) (-57840.86 55120.04);
+Circle 1 (-56586.08 -69906.70) (-56586.08 -68306.70);
+Circle 1 (2089.73 -63340.44) (2089.73 -61740.44);
+Window Fit;
+# lines=0, arcs=0, circles=4, polylines=1
+Grid last;
