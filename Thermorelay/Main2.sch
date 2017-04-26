@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2265,7 +2265,7 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <part name="R2" library="Namenlos" deviceset="R_" device="0805" value="390R"/>
 <part name="R3" library="Namenlos" deviceset="R_" device="0805" value="390R"/>
 <part name="R4" library="Namenlos" deviceset="R_" device="1206" value="1K"/>
-<part name="R5" library="Namenlos" deviceset="R_" device="0805" value="27R"/>
+<part name="R5" library="Namenlos" deviceset="R_" device="0805" value="15R"/>
 <part name="IC2" library="Namenlos" deviceset="POWER-TNY264PN" device=""/>
 <part name="OK1" library="Namenlos" deviceset="OPTOTRANS" device="PC817"/>
 <part name="C1" library="Namenlos" deviceset="CAP_" device="0805" value="0u1"/>
@@ -2289,7 +2289,7 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <part name="VT1" library="Namenlos" deviceset="FET-N" device="PF-2X2"/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="Namenlos" deviceset="R_" device="0805" value="33R"/>
+<part name="R11" library="Namenlos" deviceset="R_" device="0805" value="27R"/>
 </parts>
 <sheets>
 <sheet>
