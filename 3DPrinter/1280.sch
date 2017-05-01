@@ -4912,14 +4912,14 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="20.32" y1="71.12" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="E1-PWM" class="0">
+<net name="HB-PWM" class="0">
 <segment>
 <wire x1="20.32" y1="20.32" x2="7.62" y2="20.32" width="0.1524" layer="91"/>
 <label x="7.62" y="20.32" size="1.778" layer="95"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="HB-PWM" class="0">
+<net name="E1-PWM" class="0">
 <segment>
 <label x="48.26" y="71.12" size="1.778" layer="95"/>
 <wire x1="60.96" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
@@ -5157,14 +5157,14 @@ Low profile connectors, straight&lt;p&gt;
 <label x="96.52" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="E1-PWM" class="0">
+<net name="HB-PWM" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="PH6(OC2B)"/>
 <wire x1="20.32" y1="-20.32" x2="7.62" y2="-20.32" width="0.1524" layer="91"/>
 <label x="10.16" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="HB-PWM" class="0">
+<net name="E1-PWM" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="PH5(OC4C)"/>
 <wire x1="20.32" y1="-22.86" x2="7.62" y2="-22.86" width="0.1524" layer="91"/>
@@ -5271,7 +5271,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="170.18" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EX1-4" class="0">
+<net name="DISP_E" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="PH1(TXD2)"/>
 <wire x1="20.32" y1="-33.02" x2="7.62" y2="-33.02" width="0.1524" layer="91"/>
@@ -5283,7 +5283,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="175.26" y="81.28" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="EX1-3" class="0">
+<net name="DISP_RS" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="PH0(RXD2)"/>
 <wire x1="20.32" y1="-35.56" x2="7.62" y2="-35.56" width="0.1524" layer="91"/>
@@ -5387,7 +5387,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="96.52" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EX1-5" class="0">
+<net name="DISP_D4" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="(AD1)PA1"/>
 <wire x1="91.44" y1="99.06" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
@@ -5399,7 +5399,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="144.78" y="78.74" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="EX1-6" class="0">
+<net name="DISP_D5" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="(AD3)PA3"/>
 <wire x1="91.44" y1="104.14" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
@@ -5411,7 +5411,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="175.26" y="78.74" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="EX1-7" class="0">
+<net name="DISP_D6" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="(AD5)PA5"/>
 <wire x1="91.44" y1="109.22" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
@@ -5423,7 +5423,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="144.78" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="EX1-8" class="0">
+<net name="DISP_D7" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="(AD7)PA7"/>
 <wire x1="91.44" y1="114.3" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
@@ -5435,7 +5435,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="175.26" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="EX2-3" class="0">
+<net name="ENC2" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="(A14)PC6"/>
 <wire x1="91.44" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
@@ -5447,7 +5447,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="137.16" y="48.26" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="EX2-5" class="0">
+<net name="ENC1" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="(A12)PC4"/>
 <wire x1="91.44" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
@@ -5459,7 +5459,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="137.16" y="45.72" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="EX1-2" class="0">
+<net name="ENC_BUT" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="(A10)PC2"/>
 <wire x1="91.44" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
@@ -5471,7 +5471,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="175.26" y="83.82" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="EX1-1" class="0">
+<net name="BEEP" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="(A8)PC0"/>
 <wire x1="91.44" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
@@ -5483,7 +5483,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="144.78" y="83.82" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="EX2-8" class="0">
+<net name="KILL" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="(WR)PG0"/>
 <wire x1="91.44" y1="-35.56" x2="101.6" y2="-35.56" width="0.1524" layer="91"/>
@@ -5495,7 +5495,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="175.26" y="43.18" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="EX1-10" class="0">
+<net name="SD_DET" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="PL0(ICP4)"/>
 <wire x1="20.32" y1="33.02" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
@@ -5507,7 +5507,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="175.26" y="73.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="EX2-1" class="0">
+<net name="SD_MOSI" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="(MOSI/PCINT2)PB2"/>
 <wire x1="91.44" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
@@ -5523,7 +5523,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="137.16" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="EX2-2" class="0">
+<net name="SD-SS" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="(SS/PCINT0)PB0"/>
 <wire x1="91.44" y1="73.66" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
@@ -5535,7 +5535,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="175.26" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="EX2-4" class="0">
+<net name="SD_SCK" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="(SCK/PCINT1)PB1"/>
 <wire x1="91.44" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
