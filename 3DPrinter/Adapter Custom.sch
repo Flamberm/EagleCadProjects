@@ -2686,6 +2686,101 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="sd-mmc">
+<packages>
+<package name="SDCMF-10915W010">
+<wire x1="-12.7" y1="12.7" x2="11.684" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-3.556" x2="-11.43" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-3.556" x2="12.192" y2="-3.556" width="0.127" layer="20"/>
+<wire x1="12.192" y1="-3.556" x2="13.462" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="13.462" y1="-3.556" x2="13.462" y2="5.334" width="0.127" layer="21"/>
+<wire x1="11.684" y1="12.7" x2="11.684" y2="7.62" width="0.127" layer="21"/>
+<wire x1="11.684" y1="7.62" x2="13.462" y2="5.334" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-12.192" x2="-11.43" y2="-11.684" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-3.556" x2="-11.43" y2="-23.368" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-23.368" x2="12.192" y2="-23.368" width="0.127" layer="21"/>
+<wire x1="12.192" y1="-23.368" x2="12.192" y2="-3.556" width="0.127" layer="21"/>
+<smd name="M4" x="-13.208" y="11.43" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="M3" x="-13.208" y="-2.54" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="M2" x="13.97" y="-2.54" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="M1" x="12.192" y="11.43" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="10" x="-11.938" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="11" x="-10.668" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="8" x="-9.398" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="7" x="-7.874" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="6" x="-5.334" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="5" x="-2.794" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="4" x="-0.254" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="3" x="2.286" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="2" x="4.826" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="1" x="7.366" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="9" x="9.906" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<text x="7.112" y="-16.764" size="1.27" layer="21" rot="R180">SD/MMC Card</text>
+<text x="-7.62" y="5.08" size="1.27" layer="22">Amphenol MMC/SD</text>
+<hole x="9.906" y="10.414" drill="1.6"/>
+<hole x="-11.176" y="10.414" drill="1.1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SDCARD_SYMBOL">
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="13.208" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="DAT0/DO" x="-15.24" y="-5.08" length="short"/>
+<pin name="DAT1" x="-15.24" y="-7.62" length="short"/>
+<pin name="DAT2" x="-15.24" y="-10.16" length="short"/>
+<pin name="CD/DAT3/CS" x="-15.24" y="10.16" length="short"/>
+<pin name="CMD/DI" x="-15.24" y="7.62" length="short"/>
+<pin name="CLK/SCLK" x="-15.24" y="0" length="short"/>
+<pin name="GND@1" x="15.24" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@2" x="15.24" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@3" x="15.24" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@4" x="15.24" y="-10.16" length="short" direction="pwr" rot="R180"/>
+<pin name="VSS2" x="-15.24" y="-2.54" length="short" direction="pwr"/>
+<pin name="VSS1" x="-15.24" y="5.08" length="short" direction="pwr"/>
+<pin name="VDD" x="-15.24" y="2.54" length="short" direction="pwr"/>
+<pin name="WP" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="CDI#" x="15.24" y="10.16" length="short" direction="out" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SDCARD" prefix="J" uservalue="yes">
+<description>SD card connector
+KINGFONT SDCMF-10915W010</description>
+<gates>
+<gate name="G$1" symbol="SDCARD_SYMBOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SDCMF-10915W010">
+<connects>
+<connect gate="G$1" pin="CD/DAT3/CS" pad="1"/>
+<connect gate="G$1" pin="CDI#" pad="10"/>
+<connect gate="G$1" pin="CLK/SCLK" pad="5"/>
+<connect gate="G$1" pin="CMD/DI" pad="2"/>
+<connect gate="G$1" pin="DAT0/DO" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="9"/>
+<connect gate="G$1" pin="GND@1" pad="M1"/>
+<connect gate="G$1" pin="GND@2" pad="M2"/>
+<connect gate="G$1" pin="GND@3" pad="M3"/>
+<connect gate="G$1" pin="GND@4" pad="M4"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS1" pad="3"/>
+<connect gate="G$1" pin="VSS2" pad="6"/>
+<connect gate="G$1" pin="WP" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2731,6 +2826,9 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="R10" library="Namenlos" deviceset="R_" device="1206" value="0"/>
 <part name="R11" library="Namenlos" deviceset="R_" device="1206" value="0"/>
 <part name="R12" library="Namenlos" deviceset="R_" device="0805" value="0"/>
+<part name="J1" library="sd-mmc" deviceset="SDCARD" device=""/>
+<part name="JP4" library="pinhead" deviceset="PINHD-1X8" device="/90"/>
+<part name="C2" library="Namenlos" deviceset="CAP_" device="0805"/>
 </parts>
 <sheets>
 <sheet>
@@ -2775,6 +2873,9 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="R10" gate="G$1" x="193.04" y="-68.58" rot="R180"/>
 <instance part="R11" gate="G$1" x="203.2" y="-68.58" rot="R180"/>
 <instance part="R12" gate="G$1" x="210.82" y="-60.96" rot="R270"/>
+<instance part="J1" gate="G$1" x="254" y="-40.64"/>
+<instance part="JP4" gate="A" x="256.54" y="10.16" rot="MR90"/>
+<instance part="C2" gate="G$1" x="215.9" y="-35.56"/>
 </instances>
 <busses>
 </busses>
@@ -3225,6 +3326,114 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <wire x1="208.28" y1="-68.58" x2="210.82" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="-66.04" x2="210.82" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="JP4" gate="A" pin="8"/>
+<wire x1="248.92" y1="7.62" x2="248.92" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="2.54" x2="271.78" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="2.54" x2="271.78" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="CDI#"/>
+<wire x1="271.78" y1="-30.48" x2="269.24" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="JP4" gate="A" pin="1"/>
+<wire x1="266.7" y1="7.62" x2="266.7" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="-25.4" x2="236.22" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-25.4" x2="236.22" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="CD/DAT3/CS"/>
+<wire x1="236.22" y1="-30.48" x2="238.76" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="CMD/DI"/>
+<wire x1="238.76" y1="-33.02" x2="233.68" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="-33.02" x2="233.68" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="-22.86" x2="264.16" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="2"/>
+<wire x1="264.16" y1="-22.86" x2="264.16" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="VSS1"/>
+<wire x1="238.76" y1="-35.56" x2="231.14" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="-35.56" x2="231.14" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="3"/>
+<wire x1="231.14" y1="-20.32" x2="261.62" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="-20.32" x2="261.62" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="VDD"/>
+<wire x1="238.76" y1="-38.1" x2="228.6" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-38.1" x2="228.6" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="4"/>
+<wire x1="228.6" y1="-30.48" x2="228.6" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-17.78" x2="259.08" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="-17.78" x2="259.08" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="-33.02" x2="215.9" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-30.48" x2="228.6" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="228.6" y="-30.48"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="CLK/SCLK"/>
+<wire x1="238.76" y1="-40.64" x2="226.06" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="-40.64" x2="226.06" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="5"/>
+<wire x1="226.06" y1="-15.24" x2="256.54" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="-15.24" x2="256.54" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="VSS2"/>
+<wire x1="238.76" y1="-43.18" x2="231.14" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="-43.18" x2="223.52" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-43.18" x2="223.52" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="6"/>
+<wire x1="223.52" y1="-12.7" x2="254" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="254" y1="-12.7" x2="254" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="-43.18" x2="231.14" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="231.14" y="-43.18"/>
+<wire x1="231.14" y1="-55.88" x2="271.78" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="-55.88" x2="271.78" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="GND@4"/>
+<wire x1="271.78" y1="-50.8" x2="269.24" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="GND@1"/>
+<wire x1="271.78" y1="-50.8" x2="271.78" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="-48.26" x2="271.78" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="-45.72" x2="271.78" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="-43.18" x2="269.24" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="271.78" y="-50.8"/>
+<pinref part="J1" gate="G$1" pin="GND@2"/>
+<wire x1="269.24" y1="-45.72" x2="271.78" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="271.78" y="-45.72"/>
+<pinref part="J1" gate="G$1" pin="GND@3"/>
+<wire x1="269.24" y1="-48.26" x2="271.78" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="271.78" y="-48.26"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="-43.18" x2="215.9" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-43.18" x2="215.9" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="223.52" y="-43.18"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="DAT0/DO"/>
+<wire x1="238.76" y1="-45.72" x2="220.98" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-45.72" x2="220.98" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="7"/>
+<wire x1="220.98" y1="-10.16" x2="251.46" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="-10.16" x2="251.46" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
