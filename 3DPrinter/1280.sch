@@ -5001,6 +5001,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="R16" library="Namenlos" deviceset="R_" device="0805" value="8K2"/>
 <part name="VT5" library="Namenlos" deviceset="FET-N" device="PF-6X5"/>
 <part name="R17" library="Namenlos" deviceset="R_" device="0805"/>
+<part name="C18" library="Namenlos" deviceset="CAP_" device="0805" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -5931,6 +5932,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="IC9" gate="B" x="256.54" y="5.08"/>
 <instance part="IC9" gate="C" x="279.4" y="-7.62"/>
 <instance part="R17" gate="G$1" x="248.92" y="38.1"/>
+<instance part="C18" gate="G$1" x="162.56" y="210.82" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6744,8 +6746,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <wire x1="-10.16" y1="114.3" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="DTR"/>
-<wire x1="160.02" y1="210.82" x2="177.8" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="210.82" x2="177.8" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="C18" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="TX-1280" class="0">
@@ -6911,6 +6913,12 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <wire x1="200.66" y1="10.16" x2="185.42" y2="10.16" width="0.1524" layer="91"/>
 <label x="190.5" y="10.16" size="1.778" layer="95"/>
 <pinref part="JP3" gate="A" pin="6"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="DTR"/>
+<pinref part="C18" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

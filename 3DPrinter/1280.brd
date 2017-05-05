@@ -1975,6 +1975,7 @@ design rules under a new name.</description>
 <element name="R16" library="Namenlos" package="R0805" value="8K2" x="45.4025" y="93.82125" rot="R180"/>
 <element name="VT5" library="Namenlos" package="POWERFLAT-5X6" value="" x="51.348115625" y="99.85375"/>
 <element name="R17" library="Namenlos" package="R0805" value="" x="21.2725" y="72.0725" rot="R180"/>
+<element name="C18" library="Namenlos" package="C0805" value="100n" x="26.522534375" y="78.70148125" rot="R45"/>
 </elements>
 <signals>
 <signal name="E0-PWM">
@@ -3005,19 +3006,16 @@ design rules under a new name.</description>
 <signal name="!RST">
 <contactref element="R1" pad="2"/>
 <contactref element="IC1" pad="30"/>
-<contactref element="IC3" pad="28"/>
 <wire x1="32.9575" y1="73.85" x2="34.1625" y2="73.85" width="0.3048" layer="1"/>
 <wire x1="34.1625" y1="73.85" x2="34.6075" y2="74.295" width="0.3048" layer="1"/>
 <wire x1="34.6075" y1="74.295" x2="34.6075" y2="76.2" width="0.3048" layer="1"/>
 <wire x1="34.6075" y1="76.2" x2="33.56" y2="77.2475" width="0.3048" layer="1"/>
 <wire x1="33.56" y1="77.2475" x2="33.56" y2="77.7875" width="0.3048" layer="1"/>
 <wire x1="33.56" y1="77.7875" x2="31.75" y2="79.5975" width="0.6096" layer="1"/>
-<wire x1="20.955" y1="66.5875" x2="20.3975" y2="66.5875" width="0.3048" layer="1"/>
-<wire x1="27.5275" y1="79.5975" x2="22.5425" y2="74.6125" width="0.6096" layer="1"/>
-<wire x1="31.75" y1="79.5975" x2="27.5275" y2="79.5975" width="0.6096" layer="1"/>
-<wire x1="21.2725" y1="66.905" x2="20.955" y2="66.5875" width="0.3048" layer="1"/>
-<wire x1="22.5425" y1="74.6125" x2="21.2725" y2="73.3425" width="0.3048" layer="1"/>
-<wire x1="21.2725" y1="73.3425" x2="21.2725" y2="66.905" width="0.3048" layer="1"/>
+<wire x1="27.5275" y1="79.5975" x2="31.75" y2="79.5975" width="0.6096" layer="1"/>
+<contactref element="C18" pad="2"/>
+<wire x1="27.353384375" y1="79.53233125" x2="27.5275" y2="79.53233125" width="0.6096" layer="1"/>
+<wire x1="27.5275" y1="79.53233125" x2="27.5275" y2="79.5975" width="0.6096" layer="1"/>
 </signal>
 <signal name="TX-1280">
 <contactref element="IC1" pad="3"/>
@@ -3592,6 +3590,15 @@ design rules under a new name.</description>
 <wire x1="20.0975" y1="72.0725" x2="20.0975" y2="73.8825" width="0.6096" layer="1"/>
 <wire x1="20.0975" y1="73.8825" x2="15.24" y2="78.74" width="0.6096" layer="1"/>
 <wire x1="15.24" y1="78.74" x2="10.16" y2="78.74" width="0.6096" layer="1"/>
+</signal>
+<signal name="N$44">
+<contactref element="IC3" pad="28"/>
+<contactref element="C18" pad="1"/>
+<wire x1="25.69168125" y1="77.870628125" x2="21.2725" y2="73.451446875" width="0.6096" layer="1"/>
+<wire x1="21.2725" y1="68.58" x2="21.2725" y2="73.451446875" width="0.6096" layer="1"/>
+<wire x1="20.3975" y1="66.5875" x2="20.8675" y2="66.5875" width="0.3048" layer="1"/>
+<wire x1="20.8675" y1="66.5875" x2="21.2725" y2="66.9925" width="0.3048" layer="1"/>
+<wire x1="21.2725" y1="66.9925" x2="21.2725" y2="68.58" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <errors>
