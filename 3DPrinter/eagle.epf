@@ -7,6 +7,7 @@ Desktop="Desktop"
 [Globals]
 AutoSaveProject=1
 UsedLibrary="C:/EAGLE 8.1.1/lbr/40xx.lbr"
+UsedLibrary="C:/EAGLE 8.1.1/lbr/buzzer.lbr"
 UsedLibrary="C:/EAGLE 8.1.1/lbr/supply1.lbr"
 UsedLibrary="C:/EAGLE 8.1.1/lbr/v-reg.lbr"
 UsedLibrary="D:/-Eagle/EagleCadLibrary/Namenlos.lbr"

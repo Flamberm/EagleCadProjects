@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13159,46 +13159,6 @@ Source: http://www.cypressindustries.com/pdf/32005-601.pdf</description>
 <text x="-3" y="-2" size="1.016" layer="25" rot="R90">&gt;NAME</text>
 <text x="4" y="-2" size="1.016" layer="27" rot="R90">&gt;VALUE</text>
 </package>
-<package name="LED3030">
-<wire x1="-1.5" y1="1.5" x2="1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="1.5" y2="1" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="1.5" y2="1" width="0.127" layer="21"/>
-<wire x1="1" y1="1.5" x2="1.5" y2="1" width="0.05" layer="21"/>
-<wire x1="1" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="1" width="0.127" layer="21"/>
-<smd name="P$1" x="-1.075" y="0" dx="2.27" dy="0.48" layer="1" rot="R90"/>
-<smd name="P$2" x="0.58" y="0" dx="2.27" dy="1.43" layer="1" rot="R90"/>
-<wire x1="0.27" y1="-1.27" x2="-0.27" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-0.27" y1="-1.27" x2="-1.27" y2="-0.27" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-0.27" x2="-1.27" y2="0.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="0.27" x2="-0.27" y2="1.27" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.27" y1="1.27" x2="0.27" y2="1.27" width="0.127" layer="21"/>
-<wire x1="0.27" y1="1.27" x2="1.27" y2="0.27" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.27" y1="0.27" x2="1.27" y2="-0.27" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-0.27" x2="0.27" y2="-1.27" width="0.127" layer="21" curve="-90"/>
-<polygon width="0.05" layer="1">
-<vertex x="-0.82" y="-1.15"/>
-<vertex x="-0.82" y="1.15"/>
-<vertex x="-1.4" y="1.15"/>
-<vertex x="-1.4" y="1.575"/>
-<vertex x="-2" y="1.575"/>
-<vertex x="-2" y="-1.575"/>
-<vertex x="-1.4" y="-1.575"/>
-<vertex x="-1.4" y="-1.15"/>
-</polygon>
-<polygon width="0.05" layer="1">
-<vertex x="-0.13" y="1.15"/>
-<vertex x="-0.13" y="-1.15"/>
-<vertex x="1.4" y="-1.15"/>
-<vertex x="1.4" y="-1.575"/>
-<vertex x="2" y="-1.575"/>
-<vertex x="2" y="1.575"/>
-<vertex x="1.4" y="1.575"/>
-<vertex x="1.4" y="1.15"/>
-</polygon>
-</package>
 <package name="LED-5152">
 <smd name="A" x="-1.15" y="0" dx="3.4" dy="5.4" layer="1"/>
 <smd name="C" x="2.025" y="0" dx="1.65" dy="5.4" layer="1"/>
@@ -13289,6 +13249,46 @@ Source: http://www.cypressindustries.com/pdf/32005-601.pdf</description>
 <rectangle x1="0.889" y1="-5.461" x2="1.651" y2="-4.445" layer="21"/>
 <rectangle x1="3.429" y1="-5.461" x2="4.191" y2="-4.445" layer="21"/>
 <rectangle x1="5.969" y1="-5.461" x2="6.731" y2="-4.445" layer="21"/>
+</package>
+<package name="LED3030">
+<wire x1="-1.5" y1="1.5" x2="1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="1.5" x2="1.5" y2="1" width="0.05" layer="21"/>
+<wire x1="1" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.3925" y="0" dx="2.27" dy="0.9652" layer="1" rot="R90"/>
+<smd name="P$2" x="0.8975" y="0" dx="2.27" dy="1.7856" layer="1" rot="R90"/>
+<wire x1="0.27" y1="-1.27" x2="-0.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-0.27" y1="-1.27" x2="-1.27" y2="-0.27" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.27" x2="-1.27" y2="0.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.27" x2="-0.27" y2="1.27" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.27" y1="1.27" x2="0.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0.27" y1="1.27" x2="1.27" y2="0.27" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.27" y1="0.27" x2="1.27" y2="-0.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-0.27" x2="0.27" y2="-1.27" width="0.127" layer="21" curve="-90"/>
+<polygon width="0.05" layer="1">
+<vertex x="-0.82" y="-1.15"/>
+<vertex x="-0.82" y="1.15"/>
+<vertex x="-1.4" y="1.15"/>
+<vertex x="-1.4" y="1.575"/>
+<vertex x="-2" y="1.575"/>
+<vertex x="-2" y="-1.575"/>
+<vertex x="-1.4" y="-1.575"/>
+<vertex x="-1.4" y="-1.15"/>
+</polygon>
+<polygon width="0.05" layer="1">
+<vertex x="-0.13" y="1.15"/>
+<vertex x="-0.13" y="-1.15"/>
+<vertex x="1.4" y="-1.15"/>
+<vertex x="1.4" y="-1.575"/>
+<vertex x="2" y="-1.575"/>
+<vertex x="2" y="1.575"/>
+<vertex x="1.4" y="1.575"/>
+<vertex x="1.4" y="1.15"/>
+</polygon>
 </package>
 </packages>
 <symbols>
