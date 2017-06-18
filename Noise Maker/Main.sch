@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4585,16 +4585,14 @@ grid 32.5 mm, outline 18.2 x 37.4 mm</description>
 <wire x1="116.84" y1="38.1" x2="116.84" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="38.1" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="45.72" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="45.72" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="40.64" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="PD4/TIM1_CH2"/>
-<wire x1="96.52" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="45.72" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="G"/>
 <wire x1="182.88" y1="45.72" x2="160.02" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="45.72" x2="160.02" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="38.1" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="50.8" x2="160.02" y2="50.8" width="0.1524" layer="91"/>
 <junction x="116.84" y="38.1"/>
+<pinref part="IC1" gate="G$1" pin="PD2/TIM1_CH1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
