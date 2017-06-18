@@ -2025,6 +2025,50 @@ Source: Panasonic</description>
 <rectangle x1="2.15" y1="-0.7" x2="2.4" y2="0.65" layer="51"/>
 <rectangle x1="-1" y1="-1.05" x2="-0.7" y2="1.05" layer="21"/>
 </package>
+<package name="SCD-0705">
+<polygon width="0.2" layer="1">
+<vertex x="-4.445" y="-1.016"/>
+<vertex x="4.445" y="-1.016" curve="-90"/>
+<vertex x="0.254" y="-4.445"/>
+<vertex x="-0.254" y="-4.445" curve="-90"/>
+</polygon>
+<polygon width="0.2" layer="1">
+<vertex x="-4.445" y="1.016"/>
+<vertex x="4.445" y="1.016" curve="90"/>
+<vertex x="0.254" y="4.445"/>
+<vertex x="-0.254" y="4.445" curve="90"/>
+</polygon>
+<circle x="0" y="0" radius="3.937" width="0.1016" layer="21"/>
+<smd name="P$1" x="0" y="2.54" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$2" x="0" y="-2.54" dx="1.27" dy="0.635" layer="1"/>
+<polygon width="0.2" layer="29">
+<vertex x="-4.445" y="-1.016"/>
+<vertex x="4.445" y="-1.016" curve="-90"/>
+<vertex x="-0.254" y="-4.445"/>
+<vertex x="0.254" y="-4.445" curve="-90"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-4.445" y="1.016"/>
+<vertex x="4.445" y="1.016" curve="90"/>
+<vertex x="-0.254" y="4.445"/>
+<vertex x="0.254" y="4.445" curve="90"/>
+</polygon>
+</package>
+<package name="SOT23">
+<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="86-I/O-1">
@@ -2801,6 +2845,15 @@ Source: Panasonic</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="0705" package="SCD-0705">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="R_" prefix="R" uservalue="yes">
@@ -3149,6 +3202,16 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <connect gate="G$1" pin="D" pad="D1"/>
 <connect gate="G$1" pin="G" pad="G"/>
 <connect gate="G$1" pin="S" pad="S1 S2 S3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOT-23" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3671,16 +3734,16 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <wire x1="5.715" y1="2.54" x2="6.35" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="6.35" y1="1.905" x2="6.35" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="4.445" y1="-2.54" x2="5.715" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-5.08" y="-1.27" drill="1.1" diameter="1.6764" shape="octagon"/>
-<pad name="2" x="-5.08" y="1.27" drill="1.1" diameter="1.6764" shape="octagon"/>
-<pad name="3" x="-2.54" y="-1.27" drill="1.1" diameter="1.6764" shape="octagon"/>
-<pad name="4" x="-2.54" y="1.27" drill="1.1" diameter="1.6764" shape="octagon"/>
-<pad name="5" x="0" y="-1.27" drill="1.1" diameter="1.6764" shape="octagon"/>
-<pad name="6" x="0" y="1.27" drill="1.1" diameter="1.6764" shape="octagon"/>
-<pad name="7" x="2.54" y="-1.27" drill="1.1" diameter="1.6764" shape="octagon"/>
-<pad name="8" x="2.54" y="1.27" drill="1.1" diameter="1.6764" shape="octagon"/>
-<pad name="9" x="5.08" y="-1.27" drill="1.1" diameter="1.6764" shape="octagon"/>
-<pad name="10" x="5.08" y="1.27" drill="1.1" diameter="1.6764" shape="octagon"/>
+<pad name="1" x="-5.08" y="-1.27" drill="1.1" shape="octagon"/>
+<pad name="2" x="-5.08" y="1.27" drill="1.1" shape="octagon"/>
+<pad name="3" x="-2.54" y="-1.27" drill="1.1" shape="octagon"/>
+<pad name="4" x="-2.54" y="1.27" drill="1.1" shape="octagon"/>
+<pad name="5" x="0" y="-1.27" drill="1.1" shape="octagon"/>
+<pad name="6" x="0" y="1.27" drill="1.1" shape="octagon"/>
+<pad name="7" x="2.54" y="-1.27" drill="1.1" shape="octagon"/>
+<pad name="8" x="2.54" y="1.27" drill="1.1" shape="octagon"/>
+<pad name="9" x="5.08" y="-1.27" drill="1.1" shape="octagon"/>
+<pad name="10" x="5.08" y="1.27" drill="1.1" shape="octagon"/>
 <text x="-6.35" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.35" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-5.334" y1="-1.524" x2="-4.826" y2="-1.016" layer="51"/>
@@ -4425,7 +4488,7 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="40xx">
+<library name="40xx" urn="urn:adsk.eagle:library:80">
 <description>&lt;b&gt;CMOS Logic Devices, 4000 Series&lt;/b&gt;&lt;p&gt;
 Based on the following sources:
 &lt;ul&gt;
@@ -4590,7 +4653,7 @@ Based on the following sources:
 </deviceset>
 </devicesets>
 </library>
-<library name="v-reg">
+<library name="v-reg" urn="urn:adsk.eagle:library:409">
 <description>&lt;b&gt;Voltage Regulators&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
@@ -4781,64 +4844,6 @@ Basic DC/DC converter with internal power-NPN transistor, 100KHz, 1.5A peak swit
 </deviceset>
 </devicesets>
 </library>
-<library name="inductors" urn="urn:adsk.eagle:library:243">
-<description>&lt;b&gt;Inductors and Filters&lt;/b&gt;&lt;p&gt;
-Based on the previous library ind-a.lbr&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DR127" library_version="1">
-<description>&lt;b&gt;High Power Density, High Efficiency, Shielded Inductors&lt;/b&gt;&lt;p&gt;
-Source: coiltronics_dr_series.pdf</description>
-<wire x1="-6.5" y1="6.5" x2="6.525" y2="6.5" width="0.2032" layer="21"/>
-<wire x1="6.525" y1="6.5" x2="6.525" y2="-6.5" width="0.2032" layer="21"/>
-<wire x1="6.525" y1="-6.5" x2="-6.5" y2="-6.5" width="0.2032" layer="21"/>
-<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.2032" layer="21"/>
-<wire x1="-4.5254" y1="3.783" x2="-3.8006" y2="4.5431" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
-<wire x1="-3.783" y1="-4.5254" x2="-4.5431" y2="-3.8006" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
-<wire x1="4.5254" y1="-3.783" x2="3.8006" y2="-4.5431" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
-<wire x1="3.783" y1="4.5254" x2="4.5431" y2="3.8006" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
-<wire x1="0" y1="5.9" x2="4.9" y2="3.275" width="0.2032" layer="21" curve="-56.209779"/>
-<wire x1="0" y1="5.9" x2="-4.95" y2="3.225" width="0.2032" layer="21" curve="56.95663"/>
-<wire x1="0" y1="-5.9" x2="-4.9" y2="-3.275" width="0.2032" layer="21" curve="-56.209779"/>
-<wire x1="0" y1="-5.9" x2="4.95" y2="-3.225" width="0.2032" layer="21" curve="56.95663"/>
-<circle x="0" y="0" radius="5.9" width="0.2032" layer="51"/>
-<smd name="1" x="-4.975" y="0" dx="3.85" dy="5.5" layer="1"/>
-<smd name="2" x="4.975" y="0" dx="3.85" dy="5.5" layer="1"/>
-<text x="-2.5" y="3" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-4.5" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="DRK" library_version="1">
-<wire x1="-3.81" y1="1.651" x2="3.81" y2="1.651" width="0.254" layer="94"/>
-<text x="-3.81" y="2.286" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.937" y="-3.048" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-3.81" y1="-0.889" x2="3.81" y2="0.889" layer="94"/>
-<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DR127" prefix="L" library_version="1">
-<description>&lt;b&gt;High Power Density, High Efficiency, Shielded Inductors&lt;/b&gt;&lt;p&gt;
-Source: coiltronics_dr_series.pdf</description>
-<gates>
-<gate name="G$1" symbol="DRK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DR127">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4865,9 +4870,7 @@ Source: coiltronics_dr_series.pdf</description>
 <part name="X1" library="Namenlos" deviceset="USB" device="BF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="Namenlos" deviceset="CAP_" device="0805" value="1u"/>
-<part name="C8" library="Namenlos" deviceset="CAP-POL_" device="D8"/>
 <part name="C9" library="Namenlos" deviceset="CAP-POL_" device="D8"/>
-<part name="C10" library="Namenlos" deviceset="CAP_" device="0805" value="100n"/>
 <part name="C11" library="Namenlos" deviceset="CAP_" device="0805" value="100n"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -4972,12 +4975,12 @@ Source: coiltronics_dr_series.pdf</description>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="R5" library="Namenlos" deviceset="R_POT" device="TURN-X"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X8" device=""/>
-<part name="IC9" library="40xx" deviceset="4050" device="D"/>
+<part name="IC9" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4050" device="D"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC10" library="v-reg" deviceset="TS5205" device="" technology="33"/>
+<part name="IC10" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="TS5205" device="" technology="33"/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
@@ -5001,7 +5004,7 @@ Source: coiltronics_dr_series.pdf</description>
 <part name="D1" library="Namenlos" deviceset="DIODE-SH_" device="SMA" value="MBRA130LT3G"/>
 <part name="C4" library="Namenlos" deviceset="CAP_" device="0805" value="470p"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
-<part name="L2" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR127" device="" value="SCDS127T-221M-N"/>
+<part name="L2" library="Namenlos" deviceset="INDUCTOR" device="0705" value="SCDS127T-221M-N"/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="R21" library="Namenlos" deviceset="R_" device="0805" value="3K9"/>
 <part name="R22" library="Namenlos" deviceset="R_" device="0805" value="1K3"/>
@@ -5028,9 +5031,7 @@ Source: coiltronics_dr_series.pdf</description>
 <instance part="X1" gate="G$1" x="88.9" y="208.28" rot="MR0"/>
 <instance part="GND4" gate="1" x="88.9" y="195.58"/>
 <instance part="C7" gate="G$1" x="109.22" y="205.74" rot="R90"/>
-<instance part="C8" gate="C$1" x="-27.94" y="195.58"/>
 <instance part="C9" gate="C$1" x="68.58" y="187.96"/>
-<instance part="C10" gate="G$1" x="-22.86" y="195.58"/>
 <instance part="C11" gate="G$1" x="63.5" y="187.96"/>
 <instance part="P+4" gate="1" x="73.66" y="200.66"/>
 <instance part="GND5" gate="1" x="-33.02" y="182.88"/>
@@ -5733,14 +5734,6 @@ Source: coiltronics_dr_series.pdf</description>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="-35.56" y1="187.96" x2="-33.02" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="187.96" x2="-33.02" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="-33.02" y1="187.96" x2="-27.94" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="187.96" x2="-22.86" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="187.96" x2="-22.86" y2="190.5" width="0.1524" layer="91"/>
-<junction x="-33.02" y="187.96"/>
-<pinref part="C8" gate="C$1" pin="-"/>
-<wire x1="-27.94" y1="190.5" x2="-27.94" y2="187.96" width="0.1524" layer="91"/>
-<junction x="-27.94" y="187.96"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
@@ -6109,24 +6102,16 @@ Source: coiltronics_dr_series.pdf</description>
 <wire x1="96.52" y1="213.36" x2="91.44" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$47" class="0">
+<net name="V-IN" class="0">
 <segment>
 <pinref part="X4" gate="1" pin="KL"/>
-<pinref part="C8" gate="C$1" pin="+"/>
-<wire x1="-35.56" y1="203.2" x2="-27.94" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="203.2" x2="-27.94" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="-27.94" y1="203.2" x2="-22.86" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="203.2" x2="-22.86" y2="198.12" width="0.1524" layer="91"/>
-<junction x="-27.94" y="203.2"/>
+<wire x1="-35.56" y1="203.2" x2="-15.24" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
 <wire x1="2.54" y1="187.96" x2="-5.08" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="187.96" x2="-7.62" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="187.96" x2="-10.16" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="187.96" x2="-15.24" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="187.96" x2="-15.24" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="203.2" x2="-22.86" y2="203.2" width="0.1524" layer="91"/>
-<junction x="-22.86" y="203.2"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="-10.16" y1="190.5" x2="-10.16" y2="187.96" width="0.1524" layer="91"/>
 <junction x="-10.16" y="187.96"/>
