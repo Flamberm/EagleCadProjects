@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2690,6 +2690,30 @@ Source: Panasonic</description>
 <smd name="9" x="5.08" y="-6.35" dx="3.81" dy="1.5" layer="1" rot="R90"/>
 <smd name="10" x="5.08" y="-6.35" dx="3.81" dy="1.5" layer="16" rot="R90"/>
 </package>
+<package name="E3.5-8-11H">
+<wire x1="-3.429" y1="1.143" x2="-2.667" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="0.762" x2="-3.048" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<pad name="-" x="1.778" y="0" drill="0.9" diameter="1.6002" shape="octagon"/>
+<pad name="+" x="-1.778" y="0" drill="0.9" diameter="1.6002"/>
+<text x="-1.524" y="-9.398" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="1.778" y="-9.906" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
+<wire x1="-4.064" y1="-1.27" x2="-4.064" y2="-12.319" width="0.127" layer="21"/>
+<wire x1="-4.064" y1="-12.319" x2="4.064" y2="-12.319" width="0.127" layer="21"/>
+<wire x1="4.064" y1="-12.319" x2="4.064" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="4.064" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="-4.064" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="-1.143" width="0.254" layer="21"/>
+<wire x1="1.778" y1="0" x2="1.778" y2="-1.143" width="0.254" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-12.192" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="86-I/O-1">
@@ -3827,6 +3851,15 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 </technologies>
 </device>
 <device name="E7,5-16" package="E7,5-16-32-HORIZ">
+<connects>
+<connect gate="C$1" pin="+" pad="+"/>
+<connect gate="C$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E3.5-8-11H" package="E3.5-8-11H">
 <connects>
 <connect gate="C$1" pin="+" pad="+"/>
 <connect gate="C$1" pin="-" pad="-"/>
@@ -5004,7 +5037,7 @@ Basic DC/DC converter with internal power-NPN transistor, 100KHz, 1.5A peak swit
 <part name="X1" library="Namenlos" deviceset="USB" device="BF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="Namenlos" deviceset="CAP_" device="0805" value="1u"/>
-<part name="C9" library="Namenlos" deviceset="CAP-POL_" device="D8"/>
+<part name="C9" library="Namenlos" deviceset="CAP-POL_" device="D6" value="220u 6.3V "/>
 <part name="C11" library="Namenlos" deviceset="CAP_" device="0805" value="100n"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -5091,11 +5124,11 @@ Basic DC/DC converter with internal power-NPN transistor, 100KHz, 1.5A peak swit
 <part name="R12" library="Namenlos" deviceset="R_" device="0805" value="20R"/>
 <part name="R13" library="Namenlos" deviceset="R_" device="0805" value="20R"/>
 <part name="R14" library="Namenlos" deviceset="R_" device="0805" value="20R"/>
-<part name="C21" library="Namenlos" deviceset="CAP-POL_" device="D6"/>
-<part name="C22" library="Namenlos" deviceset="CAP-POL_" device="D6"/>
-<part name="C23" library="Namenlos" deviceset="CAP-POL_" device="D6"/>
-<part name="C24" library="Namenlos" deviceset="CAP-POL_" device="D6"/>
-<part name="C25" library="Namenlos" deviceset="CAP-POL_" device="D6"/>
+<part name="C21" library="Namenlos" deviceset="CAP-POL_" device="E3.5-8-11H" value="220u 35V"/>
+<part name="C22" library="Namenlos" deviceset="CAP-POL_" device="E3.5-8-11H" value="220u 35V"/>
+<part name="C23" library="Namenlos" deviceset="CAP-POL_" device="E3.5-8-11H" value="220u 35V"/>
+<part name="C24" library="Namenlos" deviceset="CAP-POL_" device="E3.5-8-11H" value="220u 35V"/>
+<part name="C25" library="Namenlos" deviceset="CAP-POL_" device="E3.5-8-11H" value="220u 35V"/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
