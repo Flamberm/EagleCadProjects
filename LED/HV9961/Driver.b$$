@@ -164,6 +164,7 @@
 <wire x1="-21.5775" y1="26.67" x2="32.385" y2="26.67" width="0" layer="20"/>
 <hole x="29.21" y="13.335" drill="3.2"/>
 <hole x="-18.415" y="13.335" drill="3.2"/>
+<dimension x1="-21.5775" y1="0.02" x2="-21.5775" y2="26.67" x3="-25.7175" y3="13.345" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="Namenlos">

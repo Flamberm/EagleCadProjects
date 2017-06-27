@@ -2896,11 +2896,6 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <wire x1="73.66" y1="27.94" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="VT6" gate="G$1" pin="S"/>
-<pinref part="RSENSE4" gate="M" pin="PE"/>
-<wire x1="152.4" y1="-96.52" x2="152.4" y2="-101.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="RSENSE5" gate="M" pin="PE"/>
 <pinref part="VT4" gate="G$1" pin="S"/>
 <wire x1="152.4" y1="-38.1" x2="152.4" y2="-33.02" width="0.1524" layer="91"/>
@@ -2987,6 +2982,11 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <pinref part="RSENSE2" gate="M" pin="PE"/>
 <wire x1="78.74" y1="-93.98" x2="76.2" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-93.98" x2="76.2" y2="-104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="VT6" gate="G$1" pin="S"/>
+<pinref part="RSENSE4" gate="M" pin="PE"/>
+<wire x1="152.4" y1="-96.52" x2="152.4" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
