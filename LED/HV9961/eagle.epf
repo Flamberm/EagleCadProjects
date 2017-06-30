@@ -6,13 +6,18 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="D:/-EagleCad/EagleCadLibrary/Namenlos.lbr"
+UsedLibrary="D:/-EagleCad/EagleCadLibrary/_Plates.lbr"
+UsedLibrary="D:/-EagleCad/EagleCadLibrary/_Transformers.lbr"
+UsedLibrary="D:/-EagleCad/EagleCadLibrary/pinhead.lbr"
+UsedLibrary="D:/-EagleCad/EagleCadLibrary/sd-mmc.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="-8 -8 1911 1008"
+Loc="0 0 1279 993"
 State=2
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="2560 1024"
 Window="Win_1"
