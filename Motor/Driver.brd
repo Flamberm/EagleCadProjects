@@ -587,12 +587,12 @@ design rules under a new name.</description>
 <element name="R6" library="Namenlos" package="R0805" value="20" x="74.93" y="34.29"/>
 <element name="R8" library="Namenlos" package="R0805" value="20" x="69.977" y="22.225" rot="R90"/>
 <element name="R9" library="Namenlos" package="R0805" value="20" x="74.93" y="16.51"/>
-<element name="VT1" library="Namenlos" package="DPAK" value="" x="82.55" y="58.42" rot="R270"/>
-<element name="VT2" library="Namenlos" package="DPAK" value="" x="82.55" y="49.53" rot="R270"/>
-<element name="VT3" library="Namenlos" package="DPAK" value="" x="82.55" y="40.64" rot="R270"/>
-<element name="VT4" library="Namenlos" package="DPAK" value="" x="82.55" y="31.75" rot="R270"/>
-<element name="VT5" library="Namenlos" package="DPAK" value="" x="82.55" y="22.86" rot="R270"/>
-<element name="VT6" library="Namenlos" package="DPAK" value="" x="82.55" y="13.97" rot="R270"/>
+<element name="VT1" library="Namenlos" package="DPAK" value="IRFR110PBF" x="82.55" y="58.42" rot="R270"/>
+<element name="VT2" library="Namenlos" package="DPAK" value="IRFR110PBF" x="82.55" y="49.53" rot="R270"/>
+<element name="VT3" library="Namenlos" package="DPAK" value="IRFR110PBF" x="82.55" y="40.64" rot="R270"/>
+<element name="VT4" library="Namenlos" package="DPAK" value="IRFR110PBF" x="82.55" y="31.75" rot="R270"/>
+<element name="VT5" library="Namenlos" package="DPAK" value="IRFR110PBF" x="82.55" y="22.86" rot="R270"/>
+<element name="VT6" library="Namenlos" package="DPAK" value="IRFR110PBF" x="82.55" y="13.97" rot="R270"/>
 <element name="X1" library="Namenlos" package="MKDSN1,5/3-5,08" value="CON-5.08-03P" x="94.107" y="36.195" rot="R270"/>
 <element name="X2" library="Namenlos" package="KF25C-7.62-02P-13" value="CON-7.62-02P" x="66.04" y="60.96"/>
 </elements>

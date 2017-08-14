@@ -1873,12 +1873,12 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <part name="C1" library="Namenlos" deviceset="CAP_" device="0805" value="0u1"/>
 <part name="C4" library="Namenlos" deviceset="CAP_" device="0805" value="0u1"/>
 <part name="C6" library="Namenlos" deviceset="CAP_" device="0805" value="0u1"/>
-<part name="VT1" library="Namenlos" deviceset="FET-N" device="DPAK"/>
-<part name="VT2" library="Namenlos" deviceset="FET-N" device="DPAK"/>
-<part name="VT3" library="Namenlos" deviceset="FET-N" device="DPAK"/>
-<part name="VT4" library="Namenlos" deviceset="FET-N" device="DPAK"/>
-<part name="VT5" library="Namenlos" deviceset="FET-N" device="DPAK"/>
-<part name="VT6" library="Namenlos" deviceset="FET-N" device="DPAK"/>
+<part name="VT1" library="Namenlos" deviceset="FET-N" device="DPAK" value="IRFR110PBF"/>
+<part name="VT2" library="Namenlos" deviceset="FET-N" device="DPAK" value="IRFR110PBF"/>
+<part name="VT3" library="Namenlos" deviceset="FET-N" device="DPAK" value="IRFR110PBF"/>
+<part name="VT4" library="Namenlos" deviceset="FET-N" device="DPAK" value="IRFR110PBF"/>
+<part name="VT5" library="Namenlos" deviceset="FET-N" device="DPAK" value="IRFR110PBF"/>
+<part name="VT6" library="Namenlos" deviceset="FET-N" device="DPAK" value="IRFR110PBF"/>
 <part name="RSENSE4" library="supply1" deviceset="PE" device="" value="RSENSE"/>
 <part name="RSENSE5" library="supply1" deviceset="PE" device="" value="RSENSE"/>
 <part name="RSENSE6" library="supply1" deviceset="PE" device="" value="RSENSE"/>
