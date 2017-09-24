@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15798,7 +15798,7 @@ Secondary: 8 turns 9 wires 0.56 mm</text>
 <instance part="C17" gate="G$1" x="7.62" y="-33.02" rot="R90"/>
 <instance part="C18" gate="C$1" x="-7.62" y="-48.26"/>
 <instance part="R20" gate="G$1" x="-5.08" y="-68.58"/>
-<instance part="U$1" gate="G$1" x="144.78" y="-78.74" rot="MR0"/>
+<instance part="U$1" gate="G$1" x="144.78" y="-78.74" rot="R180"/>
 <instance part="C19" gate="G$1" x="-20.32" y="-25.4" rot="R180"/>
 <instance part="R27" gate="G$1" x="132.08" y="-17.78" rot="R90"/>
 <instance part="C25" gate="G$1" x="132.08" y="-7.62"/>
@@ -16130,13 +16130,13 @@ Secondary: 8 turns 9 wires 0.56 mm</text>
 <wire x1="17.78" y1="-20.32" x2="-20.32" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-20.32" x2="-22.86" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-20.32" x2="-22.86" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$3"/>
-<wire x1="134.62" y1="-81.28" x2="-27.94" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="-81.28" x2="-27.94" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="-20.32" x2="-22.86" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="-22.86" y="-20.32"/>
 <pinref part="C19" gate="G$1" pin="2"/>
 <junction x="-20.32" y="-20.32"/>
+<pinref part="U$1" gate="G$1" pin="P$4"/>
+<wire x1="134.62" y1="-81.28" x2="-27.94" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -16164,24 +16164,24 @@ Secondary: 8 turns 9 wires 0.56 mm</text>
 <wire x1="5.08" y1="-68.58" x2="5.08" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="INV.IN"/>
 <wire x1="5.08" y1="-48.26" x2="17.78" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$4"/>
-<wire x1="134.62" y1="-76.2" x2="5.08" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-76.2" x2="5.08" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="5.08" y="-68.58"/>
+<pinref part="U$1" gate="G$1" pin="P$3"/>
+<wire x1="5.08" y1="-76.2" x2="134.62" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FB1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$1"/>
-<wire x1="154.94" y1="-76.2" x2="160.02" y2="-76.2" width="0.1524" layer="91"/>
-<label x="157.48" y="-76.2" size="1.778" layer="95"/>
+<wire x1="154.94" y1="-81.28" x2="160.02" y2="-81.28" width="0.1524" layer="91"/>
+<label x="157.48" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FB2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
-<wire x1="154.94" y1="-81.28" x2="160.02" y2="-81.28" width="0.1524" layer="91"/>
-<label x="157.48" y="-81.28" size="1.778" layer="95"/>
+<wire x1="154.94" y1="-76.2" x2="160.02" y2="-76.2" width="0.1524" layer="91"/>
+<label x="157.48" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TR-OUT2" class="0">
@@ -16623,15 +16623,6 @@ Pimary Inductance 3.512 mH</text>
 <junction x="177.8" y="0"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="TL1" gate="G$1" pin="A"/>
-<wire x1="152.4" y1="-12.7" x2="152.4" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="-15.24" x2="177.8" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="-15.24" x2="177.8" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="S1-1"/>
@@ -16692,6 +16683,14 @@ Pimary Inductance 3.512 mH</text>
 <wire x1="187.96" y1="76.2" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
 <junction x="187.96" y="76.2"/>
 <junction x="187.96" y="66.04"/>
+<pinref part="TL1" gate="G$1" pin="A"/>
+<wire x1="152.4" y1="-12.7" x2="152.4" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="-15.24" x2="177.8" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-15.24" x2="177.8" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-15.24" x2="187.96" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="-15.24" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
+<junction x="177.8" y="-15.24"/>
 </segment>
 </net>
 <net name="AC2" class="0">
