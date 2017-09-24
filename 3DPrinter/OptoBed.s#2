@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -879,7 +879,7 @@ grid 2.54 mm</description>
 <part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRF740" device="" package3d_urn="urn:adsk.eagle:package:29484/1" value="STP36NF06L"/>
 <part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRF740" device="" package3d_urn="urn:adsk.eagle:package:29484/1" value="STP36NF06L"/>
 <part name="R2" library="Namenlos" deviceset="R_" device="0805" value="1k"/>
-<part name="R3" library="Namenlos" deviceset="R_" device="0805" value="1K"/>
+<part name="R3" library="Namenlos" deviceset="R_" device="0805" value="15K"/>
 </parts>
 <sheets>
 <sheet>
@@ -929,14 +929,13 @@ grid 2.54 mm</description>
 <pinref part="P421F" gate="A" pin="EMIT"/>
 <wire x1="68.58" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="12.7" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="55.88" y1="22.86" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="5.08" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="5.08" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
 <junction x="55.88" y="12.7"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="63.5" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
-<junction x="55.88" y="22.86"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -965,29 +964,29 @@ grid 2.54 mm</description>
 </net>
 <net name="N$7" class="0">
 <segment>
+<pinref part="X3" gate="-2" pin="KL"/>
 <pinref part="X2" gate="-1" pin="KL"/>
 <wire x1="66.04" y1="68.58" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="63.5" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
+<wire x1="73.66" y1="20.32" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="73.66" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="53.34" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
+<junction x="66.04" y="53.34"/>
+<junction x="68.58" y="30.48"/>
 <pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="35.56" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="50.8" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="35.56" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
+<junction x="68.58" y="35.56"/>
 <pinref part="X3" gate="-1" pin="KL"/>
 <wire x1="93.98" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="40.64" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
 <junction x="66.04" y="63.5"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<junction x="68.58" y="30.48"/>
-<pinref part="X3" gate="-2" pin="KL"/>
-<wire x1="93.98" y1="35.56" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="35.56" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="73.66" y1="20.32" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

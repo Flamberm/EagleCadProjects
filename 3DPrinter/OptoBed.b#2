@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -152,6 +152,8 @@
 <hole x="6.35" y="40.64" drill="3"/>
 <hole x="6.35" y="2.54" drill="3"/>
 <hole x="29.21" y="2.54" drill="3"/>
+<dimension x1="3.81" y1="43.17" x2="36.5" y2="43.17" x3="20.155" y3="46.99" textsize="1.778" layer="47"/>
+<dimension x1="3.81" y1="43.17" x2="3.81" y2="0" x3="0" y3="21.585" textsize="1.778" layer="47"/>
 </plain>
 <libraries>
 <library name="Namenlos">
@@ -535,7 +537,7 @@ design rules under a new name.</description>
 <element name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/1" value="STP36NF06L" x="17.78" y="22.86"/>
 <element name="R1" library="Namenlos" package="R0805" value="1k" x="17.78" y="6.35" rot="MR0"/>
 <element name="R2" library="Namenlos" package="R0805" value="1k" x="25.4" y="12.7" rot="MR180"/>
-<element name="R3" library="Namenlos" package="R0805" value="15K" x="17.78" y="17.78" rot="MR0"/>
+<element name="R3" library="Namenlos" package="R0805" value="1K" x="19.05" y="16.51" rot="MR0"/>
 <element name="X1" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MKDSN1,5/2-5,08" package3d_urn="urn:adsk.eagle:package:9630/1" value="MKDSN1,5/2-5,08" x="17.78" y="3.81"/>
 <element name="X2" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MKDSN1,5/2-5,08" package3d_urn="urn:adsk.eagle:package:9630/1" value="MKDSN1,5/2-5,08" x="31.75" y="11.43" rot="R90"/>
 <element name="X3" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MKDSN1,5/2-5,08" package3d_urn="urn:adsk.eagle:package:9630/1" value="MKDSN1,5/2-5,08" x="31.75" y="35.56" rot="R90"/>
@@ -566,26 +568,24 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="Q2" pad="G"/>
 <contactref element="P421F" pad="3"/>
-<contactref element="Q1" pad="G"/>
 <contactref element="R3" pad="2"/>
-<wire x1="15.24" y1="33.02" x2="15.24" y2="20.32" width="1.016" layer="16"/>
-<wire x1="21.59" y1="10.16" x2="16.605" y2="15.145" width="1.016" layer="16"/>
-<wire x1="16.605" y1="17.78" x2="16.605" y2="15.145" width="1.016" layer="16"/>
 <wire x1="15.24" y1="20.32" x2="15.24" y2="19.145" width="1.016" layer="16"/>
-<wire x1="15.24" y1="19.145" x2="16.605" y2="17.78" width="1.016" layer="16"/>
+<wire x1="15.24" y1="16.51" x2="15.24" y2="20.32" width="1.016" layer="16"/>
+<wire x1="15.24" y1="16.51" x2="21.59" y2="10.16" width="1.016" layer="16"/>
+<contactref element="Q1" pad="G"/>
+<wire x1="15.24" y1="33.02" x2="15.24" y2="20.32" width="1.016" layer="16"/>
+<wire x1="17.875" y1="16.51" x2="15.24" y2="16.51" width="1.016" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="Q1" pad="S"/>
 <contactref element="Q2" pad="S"/>
 <contactref element="X2" pad="2"/>
 <contactref element="R3" pad="1"/>
-<wire x1="20.32" y1="19.145" x2="20.32" y2="20.32" width="1.016" layer="16"/>
-<wire x1="20.32" y1="19.145" x2="18.955" y2="17.78" width="1.016" layer="16"/>
 <wire x1="26.67" y1="26.67" x2="20.32" y2="20.32" width="2" layer="16"/>
 <wire x1="26.67" y1="26.67" x2="20.32" y2="33.02" width="2" layer="16"/>
-<wire x1="31.725" y1="13.9489" x2="31.725" y2="25.425" width="2" layer="16"/>
-<wire x1="31.725" y1="25.425" x2="30.48" y2="26.67" width="2" layer="16"/>
-<wire x1="30.48" y1="26.67" x2="26.67" y2="26.67" width="2" layer="16"/>
+<wire x1="31.725" y1="13.9489" x2="27.915" y2="17.805" width="2" layer="16"/>
+<wire x1="27.915" y1="17.805" x2="26.67" y2="19.05" width="2" layer="16"/>
+<wire x1="26.67" y1="19.05" x2="26.67" y2="26.67" width="2" layer="16"/>
 <polygon width="0.254" layer="16" isolate="0.3048" orphans="yes">
 <vertex x="3.81" y="0"/>
 <vertex x="3.81" y="43.18"/>
@@ -593,6 +593,8 @@ design rules under a new name.</description>
 <vertex x="36.83" y="5.08"/>
 <vertex x="31.75" y="0"/>
 </polygon>
+<wire x1="20.32" y1="20.32" x2="20.32" y2="16.605" width="1.016" layer="16"/>
+<wire x1="20.32" y1="16.605" x2="20.225" y2="16.51" width="1.016" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="P421F" pad="4"/>
@@ -607,9 +609,9 @@ design rules under a new name.</description>
 <wire x1="26.67" y1="12.7" x2="30.48" y2="8.89" width="1.016" layer="16"/>
 <wire x1="30.48" y1="8.89" x2="31.7039" y2="8.89" width="1.016" layer="16"/>
 <wire x1="31.725" y1="8.8689" x2="31.7039" y2="8.89" width="1.016" layer="16"/>
-<wire x1="31.725" y1="32.9989" x2="31.725" y2="31.775" width="2" layer="16"/>
-<wire x1="31.725" y1="31.775" x2="34.29" y2="29.21" width="2" layer="16"/>
-<wire x1="34.29" y1="29.21" x2="34.29" y2="11.4339" width="2" layer="16"/>
+<wire x1="31.725" y1="32.9989" x2="31.725" y2="33.045" width="2" layer="16"/>
+<wire x1="31.725" y1="33.045" x2="34.29" y2="30.48" width="2" layer="16"/>
+<wire x1="34.29" y1="30.48" x2="34.29" y2="11.4339" width="2" layer="16"/>
 <wire x1="34.29" y1="11.4339" x2="31.725" y2="8.8689" width="2" layer="16"/>
 </signal>
 <signal name="N$6">
