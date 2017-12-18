@@ -10496,7 +10496,7 @@ Standard 6 pin header for AVR programming</description>
 <instance part="PAD4" gate="1" x="147.32" y="0" rot="R270"/>
 <instance part="PAD5" gate="1" x="22.86" y="48.26" rot="R180"/>
 <instance part="PAD6" gate="1" x="119.38" y="0" rot="R270"/>
-<instance part="S1" gate="1" x="139.7" y="15.24" rot="R270"/>
+<instance part="S1" gate="1" x="142.24" y="15.24" rot="R270"/>
 <instance part="U$1" gate="G$1" x="45.72" y="60.96"/>
 <instance part="R9" gate="G$1" x="27.94" y="63.5"/>
 <instance part="R10" gate="G$1" x="27.94" y="58.42"/>
@@ -10619,8 +10619,10 @@ Standard 6 pin header for AVR programming</description>
 <segment>
 <pinref part="S1" gate="1" pin="S"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="144.78" y1="15.24" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="15.24" x2="147.32" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="15.24" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="S1" gate="1" pin="S1"/>
+<wire x1="147.32" y1="12.7" x2="147.32" y2="10.16" width="0.1524" layer="91"/>
+<junction x="147.32" y="12.7"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -10746,8 +10748,13 @@ Standard 6 pin header for AVR programming</description>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="SCK/PB2"/>
-<pinref part="S1" gate="1" pin="P"/>
 <wire x1="101.6" y1="15.24" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="S1" gate="1" pin="P1"/>
+<wire x1="137.16" y1="12.7" x2="134.62" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="12.7" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="S1" gate="1" pin="P"/>
+<wire x1="137.16" y1="15.24" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
+<junction x="134.62" y="15.24"/>
 </segment>
 </net>
 <net name="MISO" class="0">
