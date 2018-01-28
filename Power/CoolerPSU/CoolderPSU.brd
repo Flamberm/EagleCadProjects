@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -159,11 +159,11 @@
 <layer number="255" name="bExtra" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOGRlMGUz" projecturn="a.cGVyc29uYWw6dWUyOGRlMGUzIzIwMTcwNDA2NzA3MTU3MDY" f3durn="urn:adsk.wipprod:dm.lineage:nLVD7WS7TiGAnZIXOozZWA" pcbguid="b1d2b768-2c93-477c-8ddc-babf2c818e90" lastpulledtime="" lastsyncedchangeguid="5334aa8d-c1f0-df13-93ed-a8d22cc183d9"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOGRlMGUz" projecturn="a.cGVyc29uYWw6dWUyOGRlMGUzIzIwMTcwNDA2NzA3MTU3MDY" f3durn="urn:adsk.wipprod:dm.lineage:nLVD7WS7TiGAnZIXOozZWA" pcbguid="b1d2b768-2c93-477c-8ddc-babf2c818e90" lastpulledtime="" lastsyncedchangeguid="d9127983-b2e4-118e-8ec2-75270ef31dd5"/>
 <plain>
 <wire x1="0" y1="0" x2="82.53" y2="0" width="0" layer="20"/>
-<wire x1="82.53" y1="0" x2="82.53" y2="37.77" width="0" layer="20"/>
-<wire x1="82.53" y1="37.77" x2="0" y2="37.135" width="0" layer="20"/>
+<wire x1="82.53" y1="0" x2="82.53" y2="37.135" width="0" layer="20"/>
+<wire x1="82.53" y1="37.135" x2="0" y2="37.135" width="0" layer="20"/>
 <wire x1="0" y1="37.135" x2="0" y2="0" width="0" layer="20"/>
 <dimension x1="0" y1="0" x2="82.53" y2="0" x3="41.265" y3="-5.715" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="37.135" x2="0" y2="0" x3="-3.81" y3="18.5675" textsize="1.778" layer="47"/>

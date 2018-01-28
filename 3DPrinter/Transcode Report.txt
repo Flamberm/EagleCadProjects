@@ -1,0 +1,26 @@
+
+
+   ---- Transcoding 'D:\-Eagle\EagleCadProjects\3DPrinter\Adafruit AD849x_Thermo_copper_bottom.gbr' ----   Sun Jan 28 17:09:57 2018
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\-Eagle\EagleCadProjects\3DPrinter\Adafruit AD849x_Thermo_copper_bottom.gbr' ----   Sun Jan 28 17:18:07 2018
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+-----------------------------------------------------------------

@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,8.6.0*%
+%TF.CreationDate,2018-01-28T11:53:51Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Konstantin Potiomkin <flamberm@gmail.com>*%
+%TJ.B_ID,Adafruit AD849x_Thermo*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,22.225000*%
+%TJ.B_Size_Y,15.875000*%
+M02*
