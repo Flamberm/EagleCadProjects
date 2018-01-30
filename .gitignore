@@ -47,3 +47,14 @@ Temporary Items
 .apdisk
 *.b##
 *.s##
+*.gbr
+*.gbrjob
+Power/CoolerPSU/CoolderPSU_copper_bottom.gbr
+*.gbr
+Power/CoolerPSU/CoolderPSU_solderpaste_top.gbr
+*.gbr
+Power/CoolerPSU/CoolderPSU_silkscreen_bottom.gbr
+*.gbr
+Power/CoolerPSU/drills.xln
+*.gbrjob
+Power/CoolerPSU/drills.xln
