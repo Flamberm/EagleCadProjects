@@ -1,0 +1,21 @@
+[Eagle]
+Version="08 05 00"
+Platform="Windows"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="D:/-EagleCad/EagleCadLibrary/Namenlos.lbr"
+UsedLibrary="D:/-EagleCad/EagleCadLibrary/_Plates.lbr"
+UsedLibrary="D:/-EagleCad/EagleCadLibrary/attiny13.lbr"
+UsedLibrary="D:/-EagleCad/EagleCadLibrary/pinhead.lbr"
+UsedLibrary="D:/-EagleCad/EagleCadLibrary/sd-mmc.lbr"
+
+[Win_1]
+Type="Control Panel"
+Number=0
+
+[Desktop]
+Screen="2560 1024"
+Window="Win_1"
