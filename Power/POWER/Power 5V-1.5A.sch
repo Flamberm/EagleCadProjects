@@ -334,23 +334,6 @@ Source: Source: Comchip Bridge Rectifiers DF005S-G thru DF10S-G.pdf</description
 <text x="-3.175" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.70105625" y="-4.336053125" size="1.27" layer="21" ratio="10">&gt;VALUE</text>
 </package>
-<package name="DIP-8B">
-<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21" curve="180"/>
-<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="-2.794" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.794" x2="5.08" y2="-2.794" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-2.794" x2="5.08" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.794" x2="-5.08" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.794" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.9" shape="long" rot="R90"/>
-<text x="-5.3594" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="-0.9906" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="32.5-27.5-27.5">
 <pad name="1" x="-10.16" y="-10.16" drill="0.9" diameter="2.54" shape="octagon"/>
 <pad name="5" x="10.16" y="-10.16" drill="0.9" diameter="2.54" shape="octagon"/>
@@ -1180,18 +1163,6 @@ package type OT</description>
 <pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="1" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="TNY264">
-<wire x1="-5.08" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="BP" x="10.16" y="-2.54" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="EN" x="10.16" y="2.54" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="S" x="2.54" y="-10.16" visible="pin" length="short" direction="in" rot="R90"/>
-<pin name="D" x="2.54" y="10.16" visible="pin" length="short" direction="in" rot="R270"/>
-</symbol>
 <symbol name="TRANS_1_1">
 <wire x1="0.254" y1="5.715" x2="0.254" y2="-5.715" width="0.254" layer="94"/>
 <circle x="-3.048" y="5.588" radius="0.127" width="0.3048" layer="94"/>
@@ -1326,24 +1297,6 @@ package type OT</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="POWER-TNY264PN" prefix="IC">
-<gates>
-<gate name="G$1" symbol="TNY264" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DIP-8B">
-<connects>
-<connect gate="G$1" pin="BP" pad="1"/>
-<connect gate="G$1" pin="D" pad="5"/>
-<connect gate="G$1" pin="EN" pad="4"/>
-<connect gate="G$1" pin="S" pad="2 3 7 8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11316,6 +11269,61 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Flamberm" urn="urn:adsk.eagle:library:2654185">
+<packages>
+<package name="DIP-8C" library_version="2" library_locally_modified="yes">
+<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21" curve="180"/>
+<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="-2.794" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.794" x2="5.08" y2="-2.794" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-2.794" x2="5.08" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.794" x2="-5.08" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.794" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-5.3594" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="-0.9906" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TNY264" urn="urn:adsk.eagle:symbol:2654231/1" library_version="2" library_locally_modified="yes">
+<wire x1="-5.08" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="BP" x="10.16" y="-2.54" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="EN" x="10.16" y="2.54" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="S" x="2.54" y="-10.16" visible="pin" length="short" direction="in" rot="R90"/>
+<pin name="D" x="2.54" y="10.16" visible="pin" length="short" direction="in" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="POWER-TNY275" library_version="2" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="TNY264" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIP-8C">
+<connects>
+<connect gate="G$1" pin="BP" pad="2"/>
+<connect gate="G$1" pin="D" pad="4"/>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="S" pad="5 6 7 8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11331,7 +11339,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="R1" library="Namenlos" deviceset="NTC-D12" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E5-13" package3d_urn="urn:adsk.eagle:package:23375/1" value="22u 400V"/>
-<part name="IC1" library="Namenlos" deviceset="POWER-TNY264PN" device="" value="TNY275PN"/>
+<part name="IC1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="POWER-TNY275" device="" value="TNY275PN"/>
 <part name="T1" library="Namenlos" deviceset="TRANS-1/1" device="EFD20"/>
 <part name="C2" library="Namenlos" deviceset="CAP_" device="1210" value="10u"/>
 <part name="D1" library="Namenlos" deviceset="DIODE_" device="ES1J" value="ES1J"/>
@@ -11341,7 +11349,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R3" library="Namenlos" deviceset="R_" device="0805" value="3M6"/>
 <part name="R4" library="Namenlos" deviceset="R_" device="0805" value="3M6"/>
 <part name="D3" library="Namenlos" deviceset="DIODE_" device="ES1J" value="ES1J"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/1" value="1000u 16V"/>
 <part name="TL1" library="Namenlos" deviceset="IC-TL431" device="CDBZR"/>
 <part name="R5" library="Namenlos" deviceset="R_" device="1206" value="1K2"/>
 <part name="C4" library="Namenlos" deviceset="CAP_" device="0805" value="100n"/>
@@ -11349,7 +11356,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R7" library="Namenlos" deviceset="R_" device="1206" value="2K7"/>
 <part name="PAD3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="PAD4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/1" value="1000u 16V"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E7.5-18" package3d_urn="urn:adsk.eagle:package:23379/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -11376,7 +11383,6 @@ Gap: 0.458
 <instance part="R3" gate="G$1" x="45.72" y="20.32" rot="R90"/>
 <instance part="R4" gate="G$1" x="45.72" y="10.16" rot="R90"/>
 <instance part="D3" gate="G$1" x="81.28" y="27.94"/>
-<instance part="C3" gate="G$1" x="88.9" y="33.02" rot="R180"/>
 <instance part="TL1" gate="G$1" x="111.76" y="-22.86" rot="MR90"/>
 <instance part="R5" gate="G$1" x="109.22" y="12.7" rot="R90"/>
 <instance part="C4" gate="G$1" x="119.38" y="-12.7" rot="R90"/>
@@ -11384,7 +11390,7 @@ Gap: 0.458
 <instance part="R7" gate="G$1" x="132.08" y="-5.08" rot="R90"/>
 <instance part="PAD3" gate="1" x="132.08" y="30.48" rot="R270"/>
 <instance part="PAD4" gate="1" x="132.08" y="40.64" rot="R270"/>
-<instance part="C5" gate="G$1" x="93.98" y="33.02" rot="R180"/>
+<instance part="C3" gate="G$1" x="109.22" y="30.48" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -11519,24 +11525,17 @@ Gap: 0.458
 <net name="N$17" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
-<pinref part="C3" gate="G$1" pin="+"/>
-<wire x1="83.82" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="27.94" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="27.94" x2="109.22" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="27.94" x2="109.22" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="27.94" x2="109.22" y2="17.78" width="0.1524" layer="91"/>
-<junction x="88.9" y="27.94"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="0" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="27.94" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="27.94" x2="109.22" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="27.94" x2="109.22" y2="27.94" width="0.1524" layer="91"/>
 <junction x="109.22" y="27.94"/>
 <pinref part="PAD3" gate="1" pin="P"/>
 <junction x="132.08" y="27.94"/>
-<pinref part="C5" gate="G$1" pin="+"/>
-<wire x1="93.98" y1="30.48" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-<junction x="93.98" y="27.94"/>
+<pinref part="C3" gate="G$1" pin="+"/>
+<junction x="109.22" y="27.94"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -11584,17 +11583,15 @@ Gap: 0.458
 <wire x1="132.08" y1="-33.02" x2="137.16" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="132.08" y="-33.02"/>
 <pinref part="T1" gate="G$1" pin="S1-2"/>
-<pinref part="C3" gate="G$1" pin="-"/>
-<wire x1="78.74" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="-33.02" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
-<junction x="88.9" y="38.1"/>
 <pinref part="PAD4" gate="1" pin="P"/>
-<wire x1="132.08" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
 <junction x="132.08" y="38.1"/>
-<pinref part="C5" gate="G$1" pin="-"/>
-<wire x1="93.98" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
-<junction x="93.98" y="38.1"/>
+<wire x1="132.08" y1="38.1" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="-"/>
+<wire x1="109.22" y1="38.1" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="35.56" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
+<junction x="109.22" y="38.1"/>
 </segment>
 </net>
 </nets>
