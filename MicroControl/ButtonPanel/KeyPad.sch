@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -162,30 +162,39 @@
 <libraries>
 <library name="Flamberm" urn="urn:adsk.eagle:library:2654185">
 <packages>
-<package name="HOLLOW-ENCODER" library_version="2" library_locally_modified="yes">
-<pad name="1" x="-2.5" y="-18" drill="1.1" shape="long" rot="R90"/>
-<pad name="2" x="2.5" y="-18" drill="1.1" shape="long" rot="R90"/>
-<pad name="C" x="0" y="-18" drill="1.1" shape="long" rot="R90"/>
-<hole x="-11.5" y="0" drill="2.6"/>
-<hole x="11.5" y="0" drill="2.6"/>
-<hole x="-16" y="0" drill="2.9"/>
-<hole x="16" y="0" drill="2.9"/>
+<package name="HOLLOW-ENCODER" urn="urn:adsk.eagle:footprint:4015400/1" library_version="5" library_locally_modified="yes">
 <circle x="0" y="0" radius="15" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="9.013878125" width="0.127" layer="21"/>
 <wire x1="0" y1="-17" x2="8" y2="-17" width="0.127" layer="21"/>
 <wire x1="8" y1="-17" x2="10" y2="-15" width="0.127" layer="21"/>
 <wire x1="10" y1="-15" x2="10" y2="-11" width="0.127" layer="21"/>
 <wire x1="0" y1="-17" x2="-8" y2="-17" width="0.127" layer="21"/>
 <wire x1="-8" y1="-17" x2="-10" y2="-15" width="0.127" layer="21"/>
 <wire x1="-10" y1="-15" x2="-10" y2="-11" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="9.013878125" width="0.127" layer="21"/>
+<pad name="1" x="-2.5" y="-18" drill="1.1" shape="long" rot="R90"/>
+<pad name="2" x="2.5" y="-18" drill="1.1" shape="long" rot="R90"/>
+<pad name="C" x="0" y="-18" drill="1.1" shape="long" rot="R90"/>
 <text x="-3" y="11" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-12.5" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="-11.5" y="0" drill="2.6"/>
+<hole x="11.5" y="0" drill="2.6"/>
+<hole x="-16" y="0" drill="2.9"/>
+<hole x="16" y="0" drill="2.9"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="HOLLOW-ENCODER" urn="urn:adsk.eagle:package:4015402/2" type="model" library_version="5" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="HOLLOW-ENCODER"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="ENCODER-QUADRATURE" library_version="2" library_locally_modified="yes">
-<description>&lt;h3&gt;Rotary Encoder&lt;/h3&gt;
-&lt;p&gt;Encoders rotate similarly to potentiometers, but they’re different from potentiometers in that an encoder has full rotation without limits. They output gray code so that you can tell how much and in which direction the encoder has been turned.&lt;/p&gt;</description>
+<symbol name="ENCODER-QUADRATURE" urn="urn:adsk.eagle:symbol:4015399/1" library_version="5" library_locally_modified="yes">
+<circle x="0" y="7.62" radius="0.127" width="0.4064" layer="94"/>
+<circle x="5.08" y="7.62" radius="0.127" width="0.4064" layer="94"/>
+<circle x="0" y="-7.62" radius="0.127" width="0.4064" layer="94"/>
+<circle x="5.08" y="-7.62" radius="0.127" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
@@ -199,19 +208,15 @@
 <wire x1="-2.54" y1="0" x2="-2.54" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="-7.62" x2="0" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-4.318" y2="0" width="0.1524" layer="94"/>
-<pin name="C" x="-10.16" y="0" visible="pad" length="middle"/>
 <pin name="A" x="10.16" y="7.62" visible="pad" length="middle" rot="R180"/>
 <pin name="B" x="10.16" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="C" x="-10.16" y="0" visible="pad" length="middle"/>
 <text x="-5.08" y="10.414" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-5.08" y="-10.414" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<circle x="0" y="7.62" radius="0.127" width="0.4064" layer="94"/>
-<circle x="5.08" y="7.62" radius="0.127" width="0.4064" layer="94"/>
-<circle x="0" y="-7.62" radius="0.127" width="0.4064" layer="94"/>
-<circle x="5.08" y="-7.62" radius="0.127" width="0.4064" layer="94"/>
+<text x="-5.08" y="-10.414" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ENCODER-HOLLOW" library_version="2" library_locally_modified="yes">
+<deviceset name="ENCODER-HOLLOW" urn="urn:adsk.eagle:component:4015404/2" library_version="5" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="ENCODER-QUADRATURE" x="0" y="0"/>
 </gates>
@@ -222,6 +227,9 @@
 <connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4015402/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -715,7 +723,7 @@
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="ENCODER-HOLLOW" device=""/>
+<part name="U$1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="ENCODER-HOLLOW" device="" package3d_urn="urn:adsk.eagle:package:4015402/2"/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="40-XX" device="" package3d_urn="urn:adsk.eagle:package:27483/1"/>
 <part name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="40-XX" device="" package3d_urn="urn:adsk.eagle:package:27483/1"/>
 <part name="S3" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="40-XX" device="" package3d_urn="urn:adsk.eagle:package:27483/1"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -278,26 +278,33 @@
 </library>
 <library name="Flamberm" urn="urn:adsk.eagle:library:2654185">
 <packages>
-<package name="HOLLOW-ENCODER" library_version="2" library_locally_modified="yes">
-<pad name="1" x="-2.5" y="-18" drill="1.1" shape="long" rot="R90"/>
-<pad name="2" x="2.5" y="-18" drill="1.1" shape="long" rot="R90"/>
-<pad name="C" x="0" y="-18" drill="1.1" shape="long" rot="R90"/>
-<hole x="-11.5" y="0" drill="2.6"/>
-<hole x="11.5" y="0" drill="2.6"/>
-<hole x="-16" y="0" drill="2.9"/>
-<hole x="16" y="0" drill="2.9"/>
+<package name="HOLLOW-ENCODER" urn="urn:adsk.eagle:footprint:4015400/1" library_version="5" library_locally_modified="yes">
 <circle x="0" y="0" radius="15" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="9.013878125" width="0.127" layer="21"/>
 <wire x1="0" y1="-17" x2="8" y2="-17" width="0.127" layer="21"/>
 <wire x1="8" y1="-17" x2="10" y2="-15" width="0.127" layer="21"/>
 <wire x1="10" y1="-15" x2="10" y2="-11" width="0.127" layer="21"/>
 <wire x1="0" y1="-17" x2="-8" y2="-17" width="0.127" layer="21"/>
 <wire x1="-8" y1="-17" x2="-10" y2="-15" width="0.127" layer="21"/>
 <wire x1="-10" y1="-15" x2="-10" y2="-11" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="9.013878125" width="0.127" layer="21"/>
+<pad name="1" x="-2.5" y="-18" drill="1.1" shape="long" rot="R90"/>
+<pad name="2" x="2.5" y="-18" drill="1.1" shape="long" rot="R90"/>
+<pad name="C" x="0" y="-18" drill="1.1" shape="long" rot="R90"/>
 <text x="-3" y="11" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-12.5" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="-11.5" y="0" drill="2.6"/>
+<hole x="11.5" y="0" drill="2.6"/>
+<hole x="-16" y="0" drill="2.9"/>
+<hole x="16" y="0" drill="2.9"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="HOLLOW-ENCODER" urn="urn:adsk.eagle:package:4015402/2" type="model" library_version="5" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="HOLLOW-ENCODER"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
@@ -491,6 +498,9 @@ design rules under a new name.</description>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -663,7 +673,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="176434" x="47.3075" y="33.9725" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="36K3105" x="47.3075" y="33.9725" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="HOLLOW-ENCODER" value="ENCODER-HOLLOW" x="29.5275" y="91.7575" rot="R270"/>
+<element name="U$1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="HOLLOW-ENCODER" package3d_urn="urn:adsk.eagle:package:4015402/2" value="ENCODER-HOLLOW" x="29.5275" y="91.7575" rot="R270"/>
 <element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03/90" package3d_urn="urn:adsk.eagle:package:22459/2" value="" x="14.2875" y="1.27" rot="R180"/>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X07/90" package3d_urn="urn:adsk.eagle:package:22476/2" value="" x="29.5275" y="1.27" rot="R180"/>
 </elements>
@@ -851,6 +861,13 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>
