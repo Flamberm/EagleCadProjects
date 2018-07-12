@@ -159,7 +159,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOGRlMGUz" projecturn="a.cGVyc29uYWw6dWUyOGRlMGUzIzIwMTcwNDA2NzA3MTU3MDY" f3durn="urn:adsk.wipprod:dm.lineage:fojqi3iZSGGzgwdvYKWH5w" pcbguid="132616ee-cdcb-4346-af84-ddefcf6b20db" lastpulledtime="" lastsyncedchangeguid="e96ec202-4e3c-405b-30bf-2fbe633682c4"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOGRlMGUz" projecturn="a.cGVyc29uYWw6dWUyOGRlMGUzIzIwMTcwNDA2NzA3MTU3MDY" f3durn="urn:adsk.wipprod:dm.lineage:fojqi3iZSGGzgwdvYKWH5w" pcbguid="132616ee-cdcb-4346-af84-ddefcf6b20db" lastpulledtime="" lastsyncedchangeguid="2cf39450-8c5b-74ef-8fd0-1515978d6d25"/>
 <plain>
 <wire x1="0" y1="8.8775" x2="0" y2="1.27" width="0" layer="20"/>
 <wire x1="0" y1="1.27" x2="1.27" y2="0" width="0" layer="20" curve="90"/>
@@ -187,21 +187,22 @@
 <text x="0" y="1.6049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.6049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SOD523" urn="urn:adsk.eagle:footprint:2654347/1" library_version="7">
-<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
-<wire x1="-0.59" y1="0.4" x2="0.59" y2="0.4" width="0.1016" layer="51"/>
-<wire x1="0.59" y1="0.4" x2="0.59" y2="-0.4" width="0.1016" layer="51"/>
-<wire x1="0.59" y1="-0.4" x2="-0.59" y2="-0.4" width="0.1016" layer="51"/>
-<wire x1="-0.59" y1="-0.4" x2="-0.59" y2="0.4" width="0.1016" layer="51"/>
-<smd name="A" x="0.7" y="0" dx="0.7" dy="0.5" layer="1"/>
-<smd name="C" x="-0.6" y="0" dx="0.7" dy="0.5" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.75" y1="-0.17" x2="-0.54" y2="0.17" layer="51"/>
-<rectangle x1="0.54" y1="-0.17" x2="0.75" y2="0.17" layer="51"/>
-<rectangle x1="-0.59" y1="-0.4" x2="-0.3" y2="0.4" layer="51"/>
+<package name="SODFL1608X65" urn="urn:adsk.eagle:footprint:4109697/1" library_version="9">
+<description>SODFL, 1.6 mm span, 1.2 X 0.8 X 0.65 mm body
+&lt;p&gt;SODFL package with 1.6 mm span with body size 1.2 X 0.8 X 0.65 mm&lt;/p&gt;</description>
+<wire x1="0.625" y1="0.5127" x2="-1.364" y2="0.5127" width="0.12" layer="21"/>
+<wire x1="-1.364" y1="0.5127" x2="-1.364" y2="-0.5127" width="0.12" layer="21"/>
+<wire x1="-1.364" y1="-0.5127" x2="0.625" y2="-0.5127" width="0.12" layer="21"/>
+<wire x1="0.625" y1="-0.425" x2="-0.625" y2="-0.425" width="0.12" layer="51"/>
+<wire x1="-0.625" y1="-0.425" x2="-0.625" y2="0.425" width="0.12" layer="51"/>
+<wire x1="-0.625" y1="0.425" x2="0.625" y2="0.425" width="0.12" layer="51"/>
+<wire x1="0.625" y1="0.425" x2="0.625" y2="-0.425" width="0.12" layer="51"/>
+<smd name="1" x="-0.7201" y="0" dx="0.6598" dy="0.3975" layer="1"/>
+<smd name="2" x="0.7201" y="0" dx="0.6598" dy="0.3975" layer="1"/>
+<text x="0" y="1.1477" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.1477" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESC2012X50" urn="urn:adsk.eagle:footprint:4015757/1" library_version="7">
+<package name="RESC2012X50" urn="urn:adsk.eagle:footprint:4015757/1" library_version="9">
 <description>CHIP, 2 X 1.2 X 0.5 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.2 X 0.5 mm&lt;/p&gt;</description>
 <wire x1="1" y1="0.9699" x2="-1" y2="0.9699" width="0.12" layer="21"/>
@@ -215,6 +216,27 @@
 <text x="0" y="1.6049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.6049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="SOIC-8" urn="urn:adsk.eagle:footprint:4108640/2" library_version="9">
+<description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 1.7 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6 mm span with body size 4.9 X 3.9 X 1.7 mm&lt;/p&gt;</description>
+<circle x="-2.7288" y="2.7099" radius="0.25" width="0" layer="21"/>
+<wire x1="-2" y1="2.5199" x2="2" y2="2.5199" width="0.12" layer="21"/>
+<wire x1="-2" y1="-2.5199" x2="2" y2="-2.5199" width="0.12" layer="21"/>
+<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.12" layer="51"/>
+<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="2" y1="2.5" x2="2" y2="-2.5" width="0.12" layer="51"/>
+<smd name="1" x="-2.4734" y="1.905" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="2" x="-2.4734" y="0.635" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="3" x="-2.4734" y="-0.635" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="4" x="-2.4734" y="-1.905" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="5" x="2.4734" y="-1.905" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="6" x="2.4734" y="-0.635" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="7" x="2.4734" y="0.635" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="8" x="2.4734" y="1.905" dx="1.9685" dy="0.6019" layer="1"/>
+<text x="0" y="3.5949" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.1549" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="CAPC2012X50" urn="urn:adsk.eagle:package:4015421/2" type="model" library_version="7">
@@ -224,85 +246,25 @@
 <packageinstance name="CAP0805"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD523" urn="urn:adsk.eagle:package:2654517/1" type="box" library_version="7">
-<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
+<package3d name="SODFL1608X65" urn="urn:adsk.eagle:package:4109696/1" type="model" library_version="9">
+<description>SODFL, 1.6 mm span, 1.2 X 0.8 X 0.65 mm body
+&lt;p&gt;SODFL package with 1.6 mm span with body size 1.2 X 0.8 X 0.65 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="SOD523"/>
+<packageinstance name="SODFL1608X65"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC2012X50" urn="urn:adsk.eagle:package:4015756/1" type="model" library_version="7">
+<package3d name="RESC2012X50" urn="urn:adsk.eagle:package:4015756/1" type="model" library_version="9">
 <description>CHIP, 2 X 1.2 X 0.5 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.2 X 0.5 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESC2012X50"/>
 </packageinstances>
 </package3d>
-</packages3d>
-</library>
-<library name="SparkFun-IC-Special-Function" urn="urn:adsk.eagle:library:527">
-<description>&lt;h3&gt;SparkFun Special Function ICs&lt;/h3&gt;
-This library contains ICs that do not really fit into the other, more generic categories.  Basically, anything that serves some function but has a bunch of brains or special bias circuitry that prevents it from being used as a general part qualifies for this category.
-&lt;p&gt;Contents:
-&lt;ul&gt;&lt;li&gt;555 timers&lt;/li&gt;
-&lt;li&gt;LED drivers&lt;/li&gt;
-&lt;li&gt;H-Bridge drivers&lt;/li&gt;
-&lt;li&gt;Motor drivers&lt;/li&gt;
-&lt;li&gt;Waveform generators&lt;/li&gt;
-&lt;li&gt;Crypto&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SO08" urn="urn:adsk.eagle:footprint:39123/1" library_version="1">
-<description>SOIC, 0.15 inch width</description>
-<wire x1="2.3368" y1="1.9463" x2="-2.3368" y2="1.9463" width="0.2032" layer="21"/>
-<wire x1="2.4368" y1="-1.9463" x2="2.7178" y2="-1.5653" width="0.2032" layer="21" curve="90"/>
-<wire x1="-2.7178" y1="1.4653" x2="-2.3368" y2="1.9463" width="0.2032" layer="21" curve="-90.023829"/>
-<wire x1="2.3368" y1="1.9463" x2="2.7178" y2="1.5653" width="0.2032" layer="21" curve="-90.030084"/>
-<wire x1="-2.7178" y1="-1.6653" x2="-2.3368" y2="-1.9463" width="0.2032" layer="21" curve="90.060185"/>
-<wire x1="-2.3368" y1="-1.9463" x2="2.4368" y2="-1.9463" width="0.2032" layer="21"/>
-<wire x1="2.7178" y1="-1.5653" x2="2.7178" y2="1.5653" width="0.2032" layer="21"/>
-<wire x1="-2.667" y1="0.6096" x2="-2.667" y2="-0.6604" width="0.2032" layer="21" curve="-180"/>
-<wire x1="-2.7178" y1="1.4526" x2="-2.7178" y2="0.6096" width="0.2032" layer="21"/>
-<wire x1="-2.7178" y1="-1.6653" x2="-2.7178" y2="-0.6604" width="0.2032" layer="21"/>
-<rectangle x1="-2.159" y1="-3.302" x2="-1.651" y2="-2.2733" layer="51"/>
-<rectangle x1="-0.889" y1="-3.302" x2="-0.381" y2="-2.2733" layer="51"/>
-<rectangle x1="0.381" y1="-3.302" x2="0.889" y2="-2.2733" layer="51"/>
-<rectangle x1="1.651" y1="-3.302" x2="2.159" y2="-2.2733" layer="51"/>
-<rectangle x1="-0.889" y1="2.286" x2="-0.381" y2="3.302" layer="51"/>
-<rectangle x1="0.381" y1="2.286" x2="0.889" y2="3.302" layer="51"/>
-<rectangle x1="1.651" y1="2.286" x2="2.159" y2="3.302" layer="51"/>
-<rectangle x1="-2.159" y1="2.286" x2="-1.651" y2="3.302" layer="51"/>
-<smd name="1" x="-1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="2" x="-0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="5" x="1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="6" x="0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<text x="-3.175" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
-<polygon width="0.002540625" layer="21">
-<vertex x="-2.69875" y="-2.38125" curve="90"/>
-<vertex x="-3.01625" y="-2.06375" curve="90"/>
-<vertex x="-3.33375" y="-2.38125" curve="90"/>
-<vertex x="-3.01625" y="-2.69875" curve="90"/>
-</polygon>
-</package>
-</packages>
-<packages3d>
-<package3d name="SO08" urn="urn:adsk.eagle:package:39192/1" type="box" library_version="1">
-<description>SOIC, 0.15 inch width</description>
+<package3d name="SOIC127P600X170-8" urn="urn:adsk.eagle:package:4108622/2" type="model" library_version="9">
+<description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 1.7 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6 mm span with body size 4.9 X 3.9 X 1.7 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="SO08"/>
+<packageinstance name="SOIC-8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -521,16 +483,14 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="C1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="CAP0805" package3d_urn="urn:adsk.eagle:package:4015421/2" value="1u" x="3.175" y="3.175" rot="R270"/>
-<element name="D1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SOD523" package3d_urn="urn:adsk.eagle:package:2654517/1" value="" x="1.905" y="8.89"/>
-<element name="IC1" library="SparkFun-IC-Special-Function" library_urn="urn:adsk.eagle:library:527" package="SO08" package3d_urn="urn:adsk.eagle:package:39192/1" value="555" x="8.89" y="5.08">
-<attribute name="PROD_ID" value="NA-XXXXX" x="8.89" y="5.08" size="1.778" layer="27" display="off"/>
-</element>
+<element name="D1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SODFL1608X65" package3d_urn="urn:adsk.eagle:package:4109696/1" value="" x="2.2225" y="8.89" rot="R180"/>
+<element name="IC1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SOIC-8" package3d_urn="urn:adsk.eagle:package:4108622/2" value="555" x="8.89" y="5.08" rot="R90"/>
 <element name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="WIREPADSMD1,27-254" x="1.27" y="3.175"/>
 <element name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="WIREPADSMD1,27-254" x="12.7" y="6.985"/>
 <element name="PAD3" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="WIREPADSMD1,27-254" x="1.27" y="6.985"/>
 <element name="PAD4" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="WIREPADSMD1,27-254" x="12.7" y="3.175"/>
 <element name="R1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="50K" x="3.175" y="6.35" rot="R90"/>
-<element name="R2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="0" x="5.08" y="5.715" rot="R90"/>
+<element name="R2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="0" x="5.3975" y="5.3975" rot="R90"/>
 </elements>
 <signals>
 <signal name="+5V">
@@ -540,10 +500,10 @@ design rules under a new name.</description>
 <wire x1="12.7" y1="6.985" x2="12.7" y2="8.255" width="0.508" layer="1"/>
 <wire x1="12.7" y1="8.255" x2="11.7475" y2="9.2075" width="0.508" layer="1"/>
 <wire x1="12.7" y1="6.985" x2="10.795" y2="5.08" width="0.508" layer="1"/>
-<wire x1="10.795" y1="5.08" x2="10.795" y2="2.28" width="0.508" layer="1"/>
+<wire x1="10.795" y1="5.08" x2="10.795" y2="2.6066" width="0.508" layer="1"/>
 <wire x1="11.7475" y1="9.2075" x2="7.62" y2="9.2075" width="0.508" layer="1"/>
 <wire x1="7.62" y1="9.2075" x2="6.985" y2="8.5725" width="0.508" layer="1"/>
-<wire x1="6.985" y1="8.5725" x2="6.985" y2="7.88" width="0.508" layer="1"/>
+<wire x1="6.985" y1="8.5725" x2="6.985" y2="7.5534" width="0.508" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C1" pad="1"/>
@@ -552,11 +512,13 @@ design rules under a new name.</description>
 <wire x1="3.175" y1="5.3" x2="3.175" y2="4.665" width="0.508" layer="1"/>
 <wire x1="3.175" y1="4.445" x2="3.175" y2="4.225" width="0.508" layer="1"/>
 <contactref element="R2" pad="1"/>
-<wire x1="5.08" y1="4.665" x2="3.175" y2="4.665" width="0.508" layer="1"/>
-<wire x1="5.08" y1="4.665" x2="6.765" y2="4.665" width="0.508" layer="1"/>
-<wire x1="6.765" y1="4.665" x2="8.255" y2="3.175" width="0.508" layer="1"/>
-<wire x1="8.255" y1="3.175" x2="8.255" y2="2.28" width="0.508" layer="1"/>
+<wire x1="5.3975" y1="4.3475" x2="3.175" y2="4.3475" width="0.508" layer="1"/>
+<wire x1="8.255" y1="3.175" x2="8.255" y2="2.6066" width="0.508" layer="1"/>
 <wire x1="3.175" y1="4.665" x2="3.175" y2="4.445" width="0.508" layer="1"/>
+<wire x1="3.175" y1="4.665" x2="3.175" y2="4.3475" width="0.508" layer="1"/>
+<wire x1="5.3975" y1="4.3475" x2="7.7175" y2="4.3475" width="0.4064" layer="1"/>
+<wire x1="7.7175" y1="4.3475" x2="8.255" y2="3.81" width="0.4064" layer="1"/>
+<wire x1="8.255" y1="3.81" x2="8.255" y2="2.6066" width="0.4064" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="2"/>
@@ -571,35 +533,39 @@ design rules under a new name.</description>
 <wire x1="2.2225" y1="0.9525" x2="1.27" y2="1.905" width="0.508" layer="1"/>
 <wire x1="1.27" y1="1.905" x2="1.27" y2="3.175" width="0.508" layer="1"/>
 <wire x1="3.175" y1="2.125" x2="3.175" y2="0.9525" width="0.508" layer="1"/>
-<wire x1="6.985" y1="2.28" x2="6.985" y2="0.9525" width="0.508" layer="1"/>
+<wire x1="6.985" y1="2.6066" x2="6.985" y2="0.9525" width="0.508" layer="1"/>
 <wire x1="6.985" y1="0.9525" x2="5.3975" y2="0.9525" width="0.508" layer="1"/>
 <wire x1="3.175" y1="0.9525" x2="2.2225" y2="0.9525" width="0.508" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="IC1" pad="3"/>
 <contactref element="R1" pad="2"/>
-<contactref element="D1" pad="A"/>
-<wire x1="2.605" y1="8.89" x2="3.175" y2="8.32" width="0.508" layer="1"/>
-<wire x1="3.175" y1="8.32" x2="3.175" y2="7.4" width="0.508" layer="1"/>
-<wire x1="3.175" y1="7.4" x2="3.175" y2="6.985" width="0.508" layer="1"/>
-<wire x1="4.6351" y1="5.5249" x2="7.1751" y2="5.5249" width="0.508" layer="1"/>
-<wire x1="7.1751" y1="5.5249" x2="9.525" y2="3.175" width="0.508" layer="1"/>
-<wire x1="9.525" y1="3.175" x2="9.525" y2="2.28" width="0.508" layer="1"/>
-<wire x1="3.175" y1="6.985" x2="4.6351" y2="5.5249" width="0.508" layer="1"/>
+<contactref element="D1" pad="1"/>
+<wire x1="9.525" y1="3.175" x2="9.525" y2="2.6066" width="0.508" layer="1"/>
+<wire x1="2.9426" y1="8.89" x2="3.175" y2="8.6576" width="0.508" layer="1"/>
+<wire x1="3.175" y1="8.6576" x2="3.175" y2="7.4" width="0.508" layer="1"/>
+<wire x1="3.175" y1="7.4" x2="4.2841" y2="6.2909" width="0.4064" layer="1"/>
+<wire x1="4.2841" y1="6.2909" x2="4.2841" y2="5.3975" width="0.4064" layer="1"/>
+<wire x1="4.2841" y1="5.3975" x2="5.51920625" y2="5.3975" width="0.4064" layer="1"/>
+<wire x1="5.51920625" y1="5.3975" x2="5.54060625" y2="5.3761" width="0.4064" layer="1"/>
+<wire x1="5.54060625" y1="5.3761" x2="8.2764" y2="5.3761" width="0.4064" layer="1"/>
+<wire x1="8.2764" y1="5.3761" x2="9.525" y2="4.1275" width="0.4064" layer="1"/>
+<wire x1="9.525" y1="4.1275" x2="9.525" y2="2.6066" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$4">
-<contactref element="D1" pad="C"/>
+<contactref element="D1" pad="2"/>
 <contactref element="PAD3" pad="1"/>
-<wire x1="1.27" y1="6.985" x2="1.27" y2="8.855" width="0.508" layer="1"/>
-<wire x1="1.27" y1="8.855" x2="1.305" y2="8.89" width="0.508" layer="1"/>
+<wire x1="1.5024" y1="8.89" x2="1.27" y2="8.6576" width="0.508" layer="1"/>
+<wire x1="1.27" y1="8.6576" x2="1.27" y2="6.985" width="0.508" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC1" pad="6"/>
 <contactref element="R2" pad="2"/>
-<wire x1="9.525" y1="7.88" x2="9.525" y2="6.985" width="0.508" layer="1"/>
-<wire x1="9.525" y1="6.985" x2="8.89" y2="6.35" width="0.508" layer="1"/>
-<wire x1="8.89" y1="6.35" x2="5.495" y2="6.35" width="0.508" layer="1"/>
-<wire x1="5.495" y1="6.35" x2="5.08" y2="6.765" width="0.508" layer="1"/>
+<wire x1="9.525" y1="6.985" x2="9.525" y2="7.5534" width="0.508" layer="1"/>
+<wire x1="5.3975" y1="6.4475" x2="5.8125" y2="6.0325" width="0.4064" layer="1"/>
+<wire x1="9.2075" y1="6.0325" x2="9.525" y2="6.35" width="0.4064" layer="1"/>
+<wire x1="9.525" y1="6.35" x2="9.525" y2="7.5534" width="0.4064" layer="1"/>
+<wire x1="5.8125" y1="6.0325" x2="9.2075" y2="6.0325" width="0.4064" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
