@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -330,6 +330,27 @@
 <rectangle x1="2.15" y1="-0.7" x2="2.4" y2="0.65" layer="51"/>
 <rectangle x1="-1" y1="-1.05" x2="-0.7" y2="1.05" layer="21"/>
 </package>
+<package name="SOIC-8" urn="urn:adsk.eagle:footprint:4108640/2" library_version="9">
+<description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 1.7 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6 mm span with body size 4.9 X 3.9 X 1.7 mm&lt;/p&gt;</description>
+<circle x="-2.7288" y="2.7099" radius="0.25" width="0" layer="21"/>
+<wire x1="-2" y1="2.5199" x2="2" y2="2.5199" width="0.12" layer="21"/>
+<wire x1="-2" y1="-2.5199" x2="2" y2="-2.5199" width="0.12" layer="21"/>
+<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.12" layer="51"/>
+<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="2" y1="2.5" x2="2" y2="-2.5" width="0.12" layer="51"/>
+<smd name="1" x="-2.4734" y="1.905" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="2" x="-2.4734" y="0.635" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="3" x="-2.4734" y="-0.635" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="4" x="-2.4734" y="-1.905" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="5" x="2.4734" y="-1.905" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="6" x="2.4734" y="-0.635" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="7" x="2.4734" y="0.635" dx="1.9685" dy="0.6019" layer="1"/>
+<smd name="8" x="2.4734" y="1.905" dx="1.9685" dy="0.6019" layer="1"/>
+<text x="0" y="3.5949" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.1549" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 <package name="SQP-5" urn="urn:adsk.eagle:footprint:2654324/1" library_version="9">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type SQP-5,</description>
@@ -556,27 +577,6 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <rectangle x1="2.159" y1="-0.381" x2="2.54" y2="0.381" layer="51"/>
 <rectangle x1="-2.54" y1="-0.381" x2="-2.159" y2="0.381" layer="51"/>
 </package>
-<package name="SOIC-8" urn="urn:adsk.eagle:footprint:4108640/2" library_version="9">
-<description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 1.7 mm body
-&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6 mm span with body size 4.9 X 3.9 X 1.7 mm&lt;/p&gt;</description>
-<circle x="-2.7288" y="2.7099" radius="0.25" width="0" layer="21"/>
-<wire x1="-2" y1="2.5199" x2="2" y2="2.5199" width="0.12" layer="21"/>
-<wire x1="-2" y1="-2.5199" x2="2" y2="-2.5199" width="0.12" layer="21"/>
-<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.12" layer="51"/>
-<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.12" layer="51"/>
-<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.12" layer="51"/>
-<wire x1="2" y1="2.5" x2="2" y2="-2.5" width="0.12" layer="51"/>
-<smd name="1" x="-2.4734" y="1.905" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="2" x="-2.4734" y="0.635" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="3" x="-2.4734" y="-0.635" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="4" x="-2.4734" y="-1.905" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="5" x="2.4734" y="-1.905" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="6" x="2.4734" y="-0.635" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="7" x="2.4734" y="0.635" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="8" x="2.4734" y="1.905" dx="1.9685" dy="0.6019" layer="1"/>
-<text x="0" y="3.5949" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.1549" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="SQP-10" urn="urn:adsk.eagle:package:2654500/2" type="model" library_version="7">
@@ -630,6 +630,13 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <description>&lt;b&gt;DIODE&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="DO214AC"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P600X170-8" urn="urn:adsk.eagle:package:4108622/2" type="model" library_version="9">
+<description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 1.7 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6 mm span with body size 4.9 X 3.9 X 1.7 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC-8"/>
 </packageinstances>
 </package3d>
 <package3d name="SQP-5" urn="urn:adsk.eagle:package:2654494/2" type="model" library_version="9">
@@ -700,13 +707,6 @@ type MF-0125, grid 5 mm</description>
 grid 5 mm, outline 2.4 x 4.4 mm</description>
 <packageinstances>
 <packageinstance name="C050-024X044"/>
-</packageinstances>
-</package3d>
-<package3d name="SOIC127P600X170-8" urn="urn:adsk.eagle:package:4108622/2" type="model" library_version="9">
-<description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 1.7 mm body
-&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6 mm span with body size 4.9 X 3.9 X 1.7 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOIC-8"/>
 </packageinstances>
 </package3d>
 </packages3d>
