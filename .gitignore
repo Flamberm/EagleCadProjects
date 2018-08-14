@@ -58,3 +58,5 @@ Power/CoolerPSU/CoolderPSU_silkscreen_bottom.gbr
 Power/CoolerPSU/drills.xln
 *.gbrjob
 Power/CoolerPSU/drills.xln
+*.job
+*.pro
