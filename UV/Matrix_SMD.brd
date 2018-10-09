@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -159,7 +159,7 @@
 <layer number="255" name="bExtra" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOGRlMGUz" projecturn="a.cGVyc29uYWw6dWUyOGRlMGUzIzIwMTcwNDA2NzA3MTU3MDY" f3durn="urn:adsk.wipprod:dm.lineage:E4ykqQvnSwyUSSaRp_1YvQ" pcbguid="1c9629b0-23da-4e3c-b2b3-6405cd3337ec" lastpulledtime="" lastsyncedchangeguid="ee3e9d03-dad5-d3c7-bea6-13e507037502"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOGRlMGUz" projecturn="a.cGVyc29uYWw6dWUyOGRlMGUzIzIwMTcwNDA2NzA3MTU3MDY" f3durn="urn:adsk.wipprod:dm.lineage:E4ykqQvnSwyUSSaRp_1YvQ" pcbguid="1c9629b0-23da-4e3c-b2b3-6405cd3337ec" lastpulledtime="" lastsyncedchangeguid="548b9be6-1686-fc17-a5ec-1054ad34328c"/>
 <plain>
 <wire x1="2" y1="0" x2="193" y2="0" width="0" layer="20"/>
 <wire x1="193" y1="0" x2="195" y2="2" width="0" layer="20"/>
@@ -461,217 +461,850 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="131.1275"/>
-<element name="LED1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="131.1275"/>
-<element name="LED10" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="131.1275"/>
-<element name="LED11" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="131.1275"/>
-<element name="LED12" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="131.1275"/>
-<element name="LED13" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="131.1275"/>
-<element name="LED14" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="131.1275"/>
-<element name="LED15" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="131.1275"/>
-<element name="LED16" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="131.1275"/>
-<element name="LED17" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="131.1275"/>
-<element name="LED18" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="131.1275"/>
-<element name="LED2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="131.1275"/>
-<element name="LED3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="131.1275"/>
-<element name="LED4" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="131.1275"/>
-<element name="LED5" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="131.1275"/>
-<element name="LED6" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="131.1275"/>
-<element name="LED7" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="131.1275"/>
-<element name="LED8" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="131.1275"/>
-<element name="LED9" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="131.1275"/>
-<element name="LED19" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="118.5545"/>
-<element name="LED20" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="118.5545"/>
-<element name="LED21" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="118.5545"/>
-<element name="LED22" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="118.5545"/>
-<element name="LED23" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="118.5545"/>
-<element name="LED24" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="118.5545"/>
-<element name="LED25" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="118.5545"/>
-<element name="LED26" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="118.5545"/>
-<element name="LED27" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="118.5545"/>
-<element name="LED28" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="118.5545"/>
-<element name="LED29" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="118.5545"/>
-<element name="LED30" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="118.5545"/>
-<element name="LED31" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="118.5545"/>
-<element name="LED32" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="118.5545"/>
-<element name="LED33" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="118.5545"/>
-<element name="LED34" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="118.5545"/>
-<element name="LED35" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="118.5545"/>
-<element name="LED36" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="118.5545"/>
-<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="118.5545"/>
-<element name="LED37" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="105.9815"/>
-<element name="LED38" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="105.9815"/>
-<element name="LED39" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="105.9815"/>
-<element name="LED40" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="105.9815"/>
-<element name="LED41" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="105.9815"/>
-<element name="LED42" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="105.9815"/>
-<element name="LED43" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="105.9815"/>
-<element name="LED44" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="105.9815"/>
-<element name="LED45" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="105.9815"/>
-<element name="LED46" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="105.9815"/>
-<element name="LED47" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="105.9815"/>
-<element name="LED48" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="105.9815"/>
-<element name="LED49" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="105.9815"/>
-<element name="LED50" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="105.9815"/>
-<element name="LED51" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="105.9815"/>
-<element name="LED52" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="105.9815"/>
-<element name="LED53" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="105.9815"/>
-<element name="LED54" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="105.9815"/>
-<element name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="105.9815"/>
-<element name="LED55" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="93.4085"/>
-<element name="LED56" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="93.4085"/>
-<element name="LED57" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="93.4085"/>
-<element name="LED58" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="93.4085"/>
-<element name="LED59" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="93.4085"/>
-<element name="LED60" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="93.4085"/>
-<element name="LED61" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="93.4085"/>
-<element name="LED62" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="93.4085"/>
-<element name="LED63" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="93.4085"/>
-<element name="LED64" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="93.4085"/>
-<element name="LED65" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="93.4085"/>
-<element name="LED66" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="93.4085"/>
-<element name="LED67" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="93.4085"/>
-<element name="LED68" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="93.4085"/>
-<element name="LED69" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="93.4085"/>
-<element name="LED70" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="93.4085"/>
-<element name="LED71" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="93.4085"/>
-<element name="LED72" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="93.4085"/>
-<element name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="93.4085"/>
-<element name="LED73" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="80.8355"/>
-<element name="LED74" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="80.8355"/>
-<element name="LED75" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="80.8355"/>
-<element name="LED76" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="80.8355"/>
-<element name="LED77" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="80.8355"/>
-<element name="LED78" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="80.8355"/>
-<element name="LED79" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="80.8355"/>
-<element name="LED80" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="80.8355"/>
-<element name="LED81" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="80.8355"/>
-<element name="LED82" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="80.8355"/>
-<element name="LED83" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="80.8355"/>
-<element name="LED84" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="80.8355"/>
-<element name="LED85" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="80.8355"/>
-<element name="LED86" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="80.8355"/>
-<element name="LED87" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="80.8355"/>
-<element name="LED88" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="80.8355"/>
-<element name="LED89" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="80.8355"/>
-<element name="LED90" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="80.8355"/>
-<element name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="80.8355"/>
-<element name="LED91" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="68.2625"/>
-<element name="LED92" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="68.2625"/>
-<element name="LED93" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="68.2625"/>
-<element name="LED94" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="68.2625"/>
-<element name="LED95" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="68.2625"/>
-<element name="LED96" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="68.2625"/>
-<element name="LED97" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="68.2625"/>
-<element name="LED98" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="68.2625"/>
-<element name="LED99" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="68.2625"/>
-<element name="LED100" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="68.2625"/>
-<element name="LED101" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="68.2625"/>
-<element name="LED102" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="68.2625"/>
-<element name="LED103" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="68.2625"/>
-<element name="LED104" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="68.2625"/>
-<element name="LED105" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="68.2625"/>
-<element name="LED106" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="68.2625"/>
-<element name="LED107" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="68.2625"/>
-<element name="LED108" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="68.2625"/>
-<element name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="68.2625"/>
-<element name="LED109" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="55.6895"/>
-<element name="LED110" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="55.6895"/>
-<element name="LED111" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="55.6895"/>
-<element name="LED112" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="55.6895"/>
-<element name="LED113" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="55.6895"/>
-<element name="LED114" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="55.6895"/>
-<element name="LED115" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="55.6895"/>
-<element name="LED116" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="55.6895"/>
-<element name="LED117" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="55.6895"/>
-<element name="LED118" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="55.6895"/>
-<element name="LED119" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="55.6895"/>
-<element name="LED120" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="55.6895"/>
-<element name="LED121" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="55.6895"/>
-<element name="LED122" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="55.6895"/>
-<element name="LED123" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="55.6895"/>
-<element name="LED124" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="55.6895"/>
-<element name="LED125" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="55.6895"/>
-<element name="LED126" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="55.6895"/>
-<element name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="55.6895"/>
-<element name="LED127" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="43.1165"/>
-<element name="LED128" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="43.1165"/>
-<element name="LED129" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="43.1165"/>
-<element name="LED130" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="43.1165"/>
-<element name="LED131" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="43.1165"/>
-<element name="LED132" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="43.1165"/>
-<element name="LED133" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="43.1165"/>
-<element name="LED134" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="43.1165"/>
-<element name="LED135" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="43.1165"/>
-<element name="LED136" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="43.1165"/>
-<element name="LED137" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="43.1165"/>
-<element name="LED138" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="43.1165"/>
-<element name="LED139" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="43.1165"/>
-<element name="LED140" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="43.1165"/>
-<element name="LED141" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="43.1165"/>
-<element name="LED142" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="43.1165"/>
-<element name="LED143" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="43.1165"/>
-<element name="LED144" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="43.1165"/>
-<element name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="43.1165"/>
-<element name="LED145" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="30.5435"/>
-<element name="LED146" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="30.5435"/>
-<element name="LED147" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="30.5435"/>
-<element name="LED148" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="30.5435"/>
-<element name="LED149" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="30.5435"/>
-<element name="LED150" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="30.5435"/>
-<element name="LED151" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="30.5435"/>
-<element name="LED152" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="30.5435"/>
-<element name="LED153" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="30.5435"/>
-<element name="LED154" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="30.5435"/>
-<element name="LED155" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="30.5435"/>
-<element name="LED156" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="30.5435"/>
-<element name="LED157" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="30.5435"/>
-<element name="LED158" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="30.5435"/>
-<element name="LED159" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="30.5435"/>
-<element name="LED160" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="30.5435"/>
-<element name="LED161" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="30.5435"/>
-<element name="LED162" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="30.5435"/>
-<element name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="30.5435"/>
-<element name="LED163" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="17.9705"/>
-<element name="LED164" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="17.9705"/>
-<element name="LED165" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="17.9705"/>
-<element name="LED166" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="17.9705"/>
-<element name="LED167" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="17.9705"/>
-<element name="LED168" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="17.9705"/>
-<element name="LED169" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="17.9705"/>
-<element name="LED170" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="17.9705"/>
-<element name="LED171" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="17.9705"/>
-<element name="LED172" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="17.9705"/>
-<element name="LED173" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="17.9705"/>
-<element name="LED174" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="17.9705"/>
-<element name="LED175" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="17.9705"/>
-<element name="LED176" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="17.9705"/>
-<element name="LED177" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="17.9705"/>
-<element name="LED178" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="17.9705"/>
-<element name="LED179" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="17.9705"/>
-<element name="LED180" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="17.9705"/>
-<element name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="17.9705"/>
-<element name="LED181" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="5.3975"/>
-<element name="LED182" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="5.3975"/>
-<element name="LED183" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="5.3975"/>
-<element name="LED184" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="5.3975"/>
-<element name="LED185" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="5.3975"/>
-<element name="LED186" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="5.3975"/>
-<element name="LED187" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="5.3975"/>
-<element name="LED188" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="5.3975"/>
-<element name="LED189" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="5.3975"/>
-<element name="LED190" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="5.3975"/>
-<element name="LED191" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="5.3975"/>
-<element name="LED192" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="5.3975"/>
-<element name="LED193" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="5.3975"/>
-<element name="LED194" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="5.3975"/>
-<element name="LED195" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="5.3975"/>
-<element name="LED196" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="5.3975"/>
-<element name="LED197" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="5.3975"/>
-<element name="LED198" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="5.3975"/>
-<element name="D11" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="5.3975"/>
-<element name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="3,81/1,4" package3d_urn="urn:adsk.eagle:package:30835/1" value="" x="188.595" y="12.065"/>
-<element name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="3,81/1,4" package3d_urn="urn:adsk.eagle:package:30835/1" value="" x="188.595" y="23.8125"/>
+<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="131.1275">
+<attribute name="NAME" x="189.0825" y="132.1275" size="1.27" layer="25"/>
+<attribute name="VALUE" x="189.0825" y="128.8275" size="1.27" layer="27"/>
+</element>
+<element name="LED1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="131.1275">
+<attribute name="NAME" x="3.81" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="3.556" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED10" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="131.1275">
+<attribute name="NAME" x="99.11600625" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="98.86200625" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED11" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="131.1275">
+<attribute name="NAME" x="109.7055625" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="109.4515625" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED12" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="131.1275">
+<attribute name="NAME" x="120.29511875" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="120.04111875" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED13" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="131.1275">
+<attribute name="NAME" x="130.884675" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="130.630675" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED14" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="131.1275">
+<attribute name="NAME" x="141.47423125" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="141.22023125" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED15" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="131.1275">
+<attribute name="NAME" x="152.0637875" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="151.8097875" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED16" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="131.1275">
+<attribute name="NAME" x="162.65334375" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="162.39934375" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED17" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="131.1275">
+<attribute name="NAME" x="173.2429" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="172.9889" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED18" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="131.1275">
+<attribute name="NAME" x="183.83245625" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="183.57845625" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="131.1275">
+<attribute name="NAME" x="14.39955625" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="14.14555625" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="131.1275">
+<attribute name="NAME" x="24.9891125" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="24.7351125" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED4" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="131.1275">
+<attribute name="NAME" x="35.57866875" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="35.32466875" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED5" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="131.1275">
+<attribute name="NAME" x="46.168225" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="45.914225" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED6" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="131.1275">
+<attribute name="NAME" x="56.75778125" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="56.50378125" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED7" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="131.1275">
+<attribute name="NAME" x="67.3473375" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="67.0933375" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED8" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="131.1275">
+<attribute name="NAME" x="77.93689375" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="77.68289375" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED9" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="131.1275">
+<attribute name="NAME" x="88.52645" y="132.6515" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="88.27245" y="128.9685" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED19" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="118.5545">
+<attribute name="NAME" x="3.81" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="3.556" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED20" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="118.5545">
+<attribute name="NAME" x="14.39955625" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="14.14555625" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED21" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="118.5545">
+<attribute name="NAME" x="24.9891125" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="24.7351125" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED22" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="118.5545">
+<attribute name="NAME" x="35.57866875" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="35.32466875" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED23" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="118.5545">
+<attribute name="NAME" x="46.168225" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="45.914225" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED24" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="118.5545">
+<attribute name="NAME" x="56.75778125" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="56.50378125" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED25" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="118.5545">
+<attribute name="NAME" x="67.3473375" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="67.0933375" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED26" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="118.5545">
+<attribute name="NAME" x="77.93689375" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="77.68289375" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED27" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="118.5545">
+<attribute name="NAME" x="88.52645" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="88.27245" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED28" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="118.5545">
+<attribute name="NAME" x="99.11600625" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="98.86200625" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED29" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="118.5545">
+<attribute name="NAME" x="109.7055625" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="109.4515625" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED30" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="118.5545">
+<attribute name="NAME" x="120.29511875" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="120.04111875" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED31" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="118.5545">
+<attribute name="NAME" x="130.884675" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="130.630675" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED32" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="118.5545">
+<attribute name="NAME" x="141.47423125" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="141.22023125" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED33" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="118.5545">
+<attribute name="NAME" x="152.0637875" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="151.8097875" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED34" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="118.5545">
+<attribute name="NAME" x="162.65334375" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="162.39934375" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED35" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="118.5545">
+<attribute name="NAME" x="173.2429" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="172.9889" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED36" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="118.5545">
+<attribute name="NAME" x="183.83245625" y="120.0785" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="183.57845625" y="116.3955" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="118.5545">
+<attribute name="NAME" x="189.0825" y="119.5545" size="1.27" layer="25"/>
+<attribute name="VALUE" x="189.0825" y="116.2545" size="1.27" layer="27"/>
+</element>
+<element name="LED37" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="105.9815">
+<attribute name="NAME" x="3.81" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="3.556" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED38" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="105.9815">
+<attribute name="NAME" x="14.39955625" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="14.14555625" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED39" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="105.9815">
+<attribute name="NAME" x="24.9891125" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="24.7351125" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED40" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="105.9815">
+<attribute name="NAME" x="35.57866875" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="35.32466875" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED41" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="105.9815">
+<attribute name="NAME" x="46.168225" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="45.914225" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED42" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="105.9815">
+<attribute name="NAME" x="56.75778125" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="56.50378125" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED43" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="105.9815">
+<attribute name="NAME" x="67.3473375" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="67.0933375" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED44" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="105.9815">
+<attribute name="NAME" x="77.93689375" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="77.68289375" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED45" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="105.9815">
+<attribute name="NAME" x="88.52645" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="88.27245" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED46" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="105.9815">
+<attribute name="NAME" x="99.11600625" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="98.86200625" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED47" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="105.9815">
+<attribute name="NAME" x="109.7055625" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="109.4515625" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED48" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="105.9815">
+<attribute name="NAME" x="120.29511875" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="120.04111875" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED49" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="105.9815">
+<attribute name="NAME" x="130.884675" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="130.630675" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED50" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="105.9815">
+<attribute name="NAME" x="141.47423125" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="141.22023125" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED51" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="105.9815">
+<attribute name="NAME" x="152.0637875" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="151.8097875" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED52" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="105.9815">
+<attribute name="NAME" x="162.65334375" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="162.39934375" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED53" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="105.9815">
+<attribute name="NAME" x="173.2429" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="172.9889" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED54" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="105.9815">
+<attribute name="NAME" x="183.83245625" y="107.5055" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="183.57845625" y="103.8225" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="105.9815">
+<attribute name="NAME" x="189.0825" y="106.9815" size="1.27" layer="25"/>
+<attribute name="VALUE" x="189.0825" y="103.6815" size="1.27" layer="27"/>
+</element>
+<element name="LED55" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="93.4085">
+<attribute name="NAME" x="3.81" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="3.556" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED56" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="93.4085">
+<attribute name="NAME" x="14.39955625" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="14.14555625" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED57" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="93.4085">
+<attribute name="NAME" x="24.9891125" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="24.7351125" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED58" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="93.4085">
+<attribute name="NAME" x="35.57866875" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="35.32466875" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED59" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="93.4085">
+<attribute name="NAME" x="46.168225" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="45.914225" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED60" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="93.4085">
+<attribute name="NAME" x="56.75778125" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="56.50378125" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED61" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="93.4085">
+<attribute name="NAME" x="67.3473375" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="67.0933375" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED62" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="93.4085">
+<attribute name="NAME" x="77.93689375" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="77.68289375" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED63" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="93.4085">
+<attribute name="NAME" x="88.52645" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="88.27245" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED64" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="93.4085">
+<attribute name="NAME" x="99.11600625" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="98.86200625" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED65" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="93.4085">
+<attribute name="NAME" x="109.7055625" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="109.4515625" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED66" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="93.4085">
+<attribute name="NAME" x="120.29511875" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="120.04111875" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED67" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="93.4085">
+<attribute name="NAME" x="130.884675" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="130.630675" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED68" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="93.4085">
+<attribute name="NAME" x="141.47423125" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="141.22023125" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED69" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="93.4085">
+<attribute name="NAME" x="152.0637875" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="151.8097875" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED70" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="93.4085">
+<attribute name="NAME" x="162.65334375" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="162.39934375" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED71" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="93.4085">
+<attribute name="NAME" x="173.2429" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="172.9889" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED72" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="93.4085">
+<attribute name="NAME" x="183.83245625" y="94.9325" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="183.57845625" y="91.2495" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="93.4085">
+<attribute name="NAME" x="189.0825" y="94.4085" size="1.27" layer="25"/>
+<attribute name="VALUE" x="189.0825" y="91.1085" size="1.27" layer="27"/>
+</element>
+<element name="LED73" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="80.8355">
+<attribute name="NAME" x="3.81" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="3.556" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED74" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="80.8355">
+<attribute name="NAME" x="14.39955625" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="14.14555625" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED75" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="80.8355">
+<attribute name="NAME" x="24.9891125" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="24.7351125" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED76" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="80.8355">
+<attribute name="NAME" x="35.57866875" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="35.32466875" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED77" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="80.8355">
+<attribute name="NAME" x="46.168225" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="45.914225" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED78" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="80.8355">
+<attribute name="NAME" x="56.75778125" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="56.50378125" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED79" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="80.8355">
+<attribute name="NAME" x="67.3473375" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="67.0933375" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED80" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="80.8355">
+<attribute name="NAME" x="77.93689375" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="77.68289375" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED81" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="80.8355">
+<attribute name="NAME" x="88.52645" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="88.27245" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED82" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="80.8355">
+<attribute name="NAME" x="99.11600625" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="98.86200625" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED83" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="80.8355">
+<attribute name="NAME" x="109.7055625" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="109.4515625" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED84" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="80.8355">
+<attribute name="NAME" x="120.29511875" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="120.04111875" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED85" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="80.8355">
+<attribute name="NAME" x="130.884675" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="130.630675" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED86" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="80.8355">
+<attribute name="NAME" x="141.47423125" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="141.22023125" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED87" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="80.8355">
+<attribute name="NAME" x="152.0637875" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="151.8097875" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED88" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="80.8355">
+<attribute name="NAME" x="162.65334375" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="162.39934375" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED89" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="80.8355">
+<attribute name="NAME" x="173.2429" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="172.9889" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED90" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="80.8355">
+<attribute name="NAME" x="183.83245625" y="82.3595" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="183.57845625" y="78.6765" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="80.8355">
+<attribute name="NAME" x="189.0825" y="81.8355" size="1.27" layer="25"/>
+<attribute name="VALUE" x="189.0825" y="78.5355" size="1.27" layer="27"/>
+</element>
+<element name="LED91" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="68.2625">
+<attribute name="NAME" x="3.81" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="3.556" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED92" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="68.2625">
+<attribute name="NAME" x="14.39955625" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="14.14555625" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED93" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="68.2625">
+<attribute name="NAME" x="24.9891125" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="24.7351125" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED94" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="68.2625">
+<attribute name="NAME" x="35.57866875" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="35.32466875" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED95" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="68.2625">
+<attribute name="NAME" x="46.168225" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="45.914225" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED96" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="68.2625">
+<attribute name="NAME" x="56.75778125" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="56.50378125" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED97" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="68.2625">
+<attribute name="NAME" x="67.3473375" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="67.0933375" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED98" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="68.2625">
+<attribute name="NAME" x="77.93689375" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="77.68289375" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED99" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="68.2625">
+<attribute name="NAME" x="88.52645" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="88.27245" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED100" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="68.2625">
+<attribute name="NAME" x="99.11600625" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="98.86200625" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED101" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="68.2625">
+<attribute name="NAME" x="109.7055625" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="109.4515625" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED102" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="68.2625">
+<attribute name="NAME" x="120.29511875" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="120.04111875" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED103" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="68.2625">
+<attribute name="NAME" x="130.884675" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="130.630675" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED104" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="68.2625">
+<attribute name="NAME" x="141.47423125" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="141.22023125" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED105" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="68.2625">
+<attribute name="NAME" x="152.0637875" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="151.8097875" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED106" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="68.2625">
+<attribute name="NAME" x="162.65334375" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="162.39934375" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED107" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="68.2625">
+<attribute name="NAME" x="173.2429" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="172.9889" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED108" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="68.2625">
+<attribute name="NAME" x="183.83245625" y="69.7865" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="183.57845625" y="66.1035" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="68.2625">
+<attribute name="NAME" x="189.0825" y="69.2625" size="1.27" layer="25"/>
+<attribute name="VALUE" x="189.0825" y="65.9625" size="1.27" layer="27"/>
+</element>
+<element name="LED109" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="55.6895">
+<attribute name="NAME" x="3.81" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="3.556" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED110" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="55.6895">
+<attribute name="NAME" x="14.39955625" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="14.14555625" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED111" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="55.6895">
+<attribute name="NAME" x="24.9891125" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="24.7351125" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED112" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="55.6895">
+<attribute name="NAME" x="35.57866875" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="35.32466875" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED113" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="55.6895">
+<attribute name="NAME" x="46.168225" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="45.914225" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED114" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="55.6895">
+<attribute name="NAME" x="56.75778125" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="56.50378125" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED115" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="55.6895">
+<attribute name="NAME" x="67.3473375" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="67.0933375" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED116" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="55.6895">
+<attribute name="NAME" x="77.93689375" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="77.68289375" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED117" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="55.6895">
+<attribute name="NAME" x="88.52645" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="88.27245" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED118" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="55.6895">
+<attribute name="NAME" x="99.11600625" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="98.86200625" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED119" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="55.6895">
+<attribute name="NAME" x="109.7055625" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="109.4515625" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED120" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="55.6895">
+<attribute name="NAME" x="120.29511875" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="120.04111875" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED121" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="55.6895">
+<attribute name="NAME" x="130.884675" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="130.630675" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED122" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="55.6895">
+<attribute name="NAME" x="141.47423125" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="141.22023125" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED123" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="55.6895">
+<attribute name="NAME" x="152.0637875" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="151.8097875" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED124" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="55.6895">
+<attribute name="NAME" x="162.65334375" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="162.39934375" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED125" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="55.6895">
+<attribute name="NAME" x="173.2429" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="172.9889" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED126" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="55.6895">
+<attribute name="NAME" x="183.83245625" y="57.2135" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="183.57845625" y="53.5305" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="55.6895">
+<attribute name="NAME" x="189.0825" y="56.6895" size="1.27" layer="25"/>
+<attribute name="VALUE" x="189.0825" y="53.3895" size="1.27" layer="27"/>
+</element>
+<element name="LED127" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="43.1165">
+<attribute name="NAME" x="3.81" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="3.556" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED128" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="43.1165">
+<attribute name="NAME" x="14.39955625" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="14.14555625" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED129" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="43.1165">
+<attribute name="NAME" x="24.9891125" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="24.7351125" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED130" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="43.1165">
+<attribute name="NAME" x="35.57866875" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="35.32466875" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED131" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="43.1165">
+<attribute name="NAME" x="46.168225" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="45.914225" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED132" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="43.1165">
+<attribute name="NAME" x="56.75778125" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="56.50378125" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED133" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="43.1165">
+<attribute name="NAME" x="67.3473375" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="67.0933375" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED134" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="43.1165">
+<attribute name="NAME" x="77.93689375" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="77.68289375" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED135" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="43.1165">
+<attribute name="NAME" x="88.52645" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="88.27245" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED136" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="43.1165">
+<attribute name="NAME" x="99.11600625" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="98.86200625" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED137" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="43.1165">
+<attribute name="NAME" x="109.7055625" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="109.4515625" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED138" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="43.1165">
+<attribute name="NAME" x="120.29511875" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="120.04111875" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED139" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="43.1165">
+<attribute name="NAME" x="130.884675" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="130.630675" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED140" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="43.1165">
+<attribute name="NAME" x="141.47423125" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="141.22023125" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED141" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="43.1165">
+<attribute name="NAME" x="152.0637875" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="151.8097875" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED142" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="43.1165">
+<attribute name="NAME" x="162.65334375" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="162.39934375" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED143" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="43.1165">
+<attribute name="NAME" x="173.2429" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="172.9889" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED144" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="43.1165">
+<attribute name="NAME" x="183.83245625" y="44.6405" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="183.57845625" y="40.9575" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="43.1165">
+<attribute name="NAME" x="189.0825" y="44.1165" size="1.27" layer="25"/>
+<attribute name="VALUE" x="189.0825" y="40.8165" size="1.27" layer="27"/>
+</element>
+<element name="LED145" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="30.5435">
+<attribute name="NAME" x="3.81" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="3.556" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED146" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="30.5435">
+<attribute name="NAME" x="14.39955625" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="14.14555625" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED147" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="30.5435">
+<attribute name="NAME" x="24.9891125" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="24.7351125" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED148" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="30.5435">
+<attribute name="NAME" x="35.57866875" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="35.32466875" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED149" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="30.5435">
+<attribute name="NAME" x="46.168225" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="45.914225" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED150" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="30.5435">
+<attribute name="NAME" x="56.75778125" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="56.50378125" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED151" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="30.5435">
+<attribute name="NAME" x="67.3473375" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="67.0933375" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED152" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="30.5435">
+<attribute name="NAME" x="77.93689375" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="77.68289375" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED153" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="30.5435">
+<attribute name="NAME" x="88.52645" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="88.27245" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED154" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="30.5435">
+<attribute name="NAME" x="99.11600625" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="98.86200625" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED155" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="30.5435">
+<attribute name="NAME" x="109.7055625" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="109.4515625" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED156" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="30.5435">
+<attribute name="NAME" x="120.29511875" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="120.04111875" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED157" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="30.5435">
+<attribute name="NAME" x="130.884675" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="130.630675" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED158" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="30.5435">
+<attribute name="NAME" x="141.47423125" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="141.22023125" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED159" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="30.5435">
+<attribute name="NAME" x="152.0637875" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="151.8097875" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED160" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="30.5435">
+<attribute name="NAME" x="162.65334375" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="162.39934375" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED161" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="30.5435">
+<attribute name="NAME" x="173.2429" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="172.9889" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED162" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="30.5435">
+<attribute name="NAME" x="183.83245625" y="32.0675" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="183.57845625" y="28.3845" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="30.5435">
+<attribute name="NAME" x="189.0825" y="31.5435" size="1.27" layer="25"/>
+<attribute name="VALUE" x="189.0825" y="28.2435" size="1.27" layer="27"/>
+</element>
+<element name="LED163" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="17.9705">
+<attribute name="NAME" x="3.81" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="3.556" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED164" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="17.9705">
+<attribute name="NAME" x="14.39955625" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="14.14555625" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED165" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="17.9705">
+<attribute name="NAME" x="24.9891125" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="24.7351125" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED166" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="17.9705">
+<attribute name="NAME" x="35.57866875" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="35.32466875" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED167" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="17.9705">
+<attribute name="NAME" x="46.168225" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="45.914225" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED168" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="17.9705">
+<attribute name="NAME" x="56.75778125" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="56.50378125" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED169" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="17.9705">
+<attribute name="NAME" x="67.3473375" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="67.0933375" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED170" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="17.9705">
+<attribute name="NAME" x="77.93689375" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="77.68289375" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED171" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="17.9705">
+<attribute name="NAME" x="88.52645" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="88.27245" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED172" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="17.9705">
+<attribute name="NAME" x="99.11600625" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="98.86200625" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED173" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="17.9705">
+<attribute name="NAME" x="109.7055625" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="109.4515625" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED174" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="17.9705">
+<attribute name="NAME" x="120.29511875" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="120.04111875" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED175" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="17.9705">
+<attribute name="NAME" x="130.884675" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="130.630675" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED176" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="17.9705">
+<attribute name="NAME" x="141.47423125" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="141.22023125" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED177" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="17.9705">
+<attribute name="NAME" x="152.0637875" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="151.8097875" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED178" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="17.9705">
+<attribute name="NAME" x="162.65334375" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="162.39934375" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED179" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="17.9705">
+<attribute name="NAME" x="173.2429" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="172.9889" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED180" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="17.9705">
+<attribute name="NAME" x="183.83245625" y="19.4945" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="183.57845625" y="15.8115" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="17.9705">
+<attribute name="NAME" x="189.0825" y="18.9705" size="1.27" layer="25"/>
+<attribute name="VALUE" x="189.0825" y="15.6705" size="1.27" layer="27"/>
+</element>
+<element name="LED181" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="5.08" y="5.3975">
+<attribute name="NAME" x="3.81" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="3.556" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED182" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="15.66955625" y="5.3975">
+<attribute name="NAME" x="14.39955625" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="14.14555625" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED183" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="26.2591125" y="5.3975">
+<attribute name="NAME" x="24.9891125" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="24.7351125" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED184" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="36.84866875" y="5.3975">
+<attribute name="NAME" x="35.57866875" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="35.32466875" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED185" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="47.438225" y="5.3975">
+<attribute name="NAME" x="46.168225" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="45.914225" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED186" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="58.02778125" y="5.3975">
+<attribute name="NAME" x="56.75778125" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="56.50378125" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED187" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="68.6173375" y="5.3975">
+<attribute name="NAME" x="67.3473375" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="67.0933375" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED188" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="79.20689375" y="5.3975">
+<attribute name="NAME" x="77.93689375" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="77.68289375" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED189" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="89.79645" y="5.3975">
+<attribute name="NAME" x="88.52645" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="88.27245" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED190" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="100.38600625" y="5.3975">
+<attribute name="NAME" x="99.11600625" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="98.86200625" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED191" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="110.9755625" y="5.3975">
+<attribute name="NAME" x="109.7055625" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="109.4515625" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED192" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="121.56511875" y="5.3975">
+<attribute name="NAME" x="120.29511875" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="120.04111875" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED193" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="132.154675" y="5.3975">
+<attribute name="NAME" x="130.884675" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="130.630675" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED194" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="142.74423125" y="5.3975">
+<attribute name="NAME" x="141.47423125" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="141.22023125" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED195" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="153.3337875" y="5.3975">
+<attribute name="NAME" x="152.0637875" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="151.8097875" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED196" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="163.92334375" y="5.3975">
+<attribute name="NAME" x="162.65334375" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="162.39934375" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED197" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="174.5129" y="5.3975">
+<attribute name="NAME" x="173.2429" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="172.9889" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="LED198" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED3528" package3d_urn="urn:adsk.eagle:package:4739428/2" value="LED_3525" x="185.10245625" y="5.3975">
+<attribute name="NAME" x="183.83245625" y="6.9215" size="0.6096" layer="25" ratio="11"/>
+<attribute name="VALUE" x="183.57845625" y="3.2385" size="0.6096" layer="27" ratio="11"/>
+</element>
+<element name="D11" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="" x="190.1825" y="5.3975">
+<attribute name="NAME" x="189.0825" y="6.3975" size="1.27" layer="25"/>
+<attribute name="VALUE" x="189.0825" y="3.0975" size="1.27" layer="27"/>
+</element>
+<element name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="3,81/1,4" package3d_urn="urn:adsk.eagle:package:30835/1" value="" x="188.595" y="12.065">
+<attribute name="NAME" x="186.69" y="14.351" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="188.595" y="13.265" size="0.0254" layer="27"/>
+</element>
+<element name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="3,81/1,4" package3d_urn="urn:adsk.eagle:package:30835/1" value="" x="188.595" y="23.8125">
+<attribute name="NAME" x="186.69" y="26.0985" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="188.595" y="25.0125" size="0.0254" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
