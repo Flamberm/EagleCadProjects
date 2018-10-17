@@ -160,7 +160,7 @@
 <layer number="255" name="bExtra" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOGRlMGUz" projecturn="a.cGVyc29uYWw6dWUyOGRlMGUzIzIwMTcwNDA2NzA3MTU3MDY" f3durn="urn:adsk.wipprod:dm.lineage:QekaN5piTGa0XzvnEwgRJQ" pcbguid="1a72550f-8fd7-4589-941a-25cb26cbefde" lastpulledtime="" lastsyncedchangeguid="12843190-3911-7158-d577-be957c6f74ca"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOGRlMGUz" projecturn="a.cGVyc29uYWw6dWUyOGRlMGUzIzIwMTcwNDA2NzA3MTU3MDY" f3durn="urn:adsk.wipprod:dm.lineage:QekaN5piTGa0XzvnEwgRJQ" pcbguid="1a72550f-8fd7-4589-941a-25cb26cbefde" lastpulledtime="" lastsyncedchangeguid="c16878c4-3ff7-1be2-e236-130849f14752"/>
 <plain>
 <wire x1="-12.065" y1="23.495" x2="-12.065" y2="-0.635" width="0.2032" layer="20"/>
 <wire x1="-12.065" y1="-0.635" x2="39.6875" y2="-0.635" width="0.2032" layer="20"/>
