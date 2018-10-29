@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -159,6 +159,7 @@
 <layer number="255" name="bExtra" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOGRlMGUz" projecturn="a.cGVyc29uYWw6dWUyOGRlMGUzIzIwMTgxMDI2MTU2NzQxMjU2" f3durn="urn:adsk.wipprod:dm.lineage:wLex18YnT9CpjN6B0MCMoQ" pcbguid="2f9436b5-923f-4f21-a508-7c1a09081982" lastpulledtime="" lastsyncedchangeguid="734b709b-6697-8516-7636-080fe7362f3d"/>
 <plain>
 <wire x1="1.98019375" y1="0.127" x2="77.017690625" y2="0.127" width="0" layer="20"/>
 <wire x1="77.017690625" y1="0.127" x2="79.017690625" y2="2.1258875" width="0" layer="20" curve="89.968129"/>
@@ -241,7 +242,7 @@
 <hole x="-27.6" y="0" drill="3.2"/>
 <hole x="27.6" y="0" drill="3.2"/>
 </package>
-<package name="RESC2012X50" urn="urn:adsk.eagle:footprint:4015757/1" library_version="35">
+<package name="RESC2012X50" urn="urn:adsk.eagle:footprint:4015757/1" library_version="40">
 <description>CHIP, 2 X 1.2 X 0.5 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.2 X 0.5 mm&lt;/p&gt;</description>
 <wire x1="1" y1="0.9699" x2="-1" y2="0.9699" width="0.12" layer="21"/>
@@ -413,7 +414,7 @@
 <text x="-2.54" y="10.16" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-11.43" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SOT95P280X145-5" urn="urn:adsk.eagle:footprint:4135334/1" library_version="35">
+<package name="SOT95P280X145-5" urn="urn:adsk.eagle:footprint:4135334/1" library_version="40">
 <description>5-SOT23, 0.95 mm pitch, 2.8 mm span, 2.95 X 1.6 X 1.45 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.8 mm span with body size 2.95 X 1.6 X 1.45 mm&lt;/p&gt;</description>
 <circle x="-1.303" y="1.7486" radius="0.25" width="0" layer="21"/>
@@ -431,7 +432,7 @@
 <text x="0" y="2.6336" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.1936" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="USB-B-MICRO-SMD" urn="urn:adsk.eagle:footprint:2654428/1" library_version="35">
+<package name="USB-B-MICRO-SMD" urn="urn:adsk.eagle:footprint:2654428/1" library_version="40">
 <description>&lt;h3&gt;USB - microB SMD&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
@@ -470,20 +471,23 @@
 <wire x1="-1" y1="4" x2="-2" y2="4" width="0.3048" layer="21"/>
 <wire x1="-1" y1="-4" x2="-2" y2="-4" width="0.3048" layer="21"/>
 </package>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:2654343/1" library_version="35">
-<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+<package name="SOT95P240X115-3" urn="urn:adsk.eagle:footprint:4135511/1" library_version="40">
+<description>3-SOT23, 0.95 mm pitch, 2.4 mm span, 2.9 X 1.3 X 1.15 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.4 mm span with body size 2.9 X 1.3 X 1.15 mm&lt;/p&gt;</description>
+<circle x="-1.1573" y="1.7586" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.7" y1="1.5686" x2="0.7" y2="1.5686" width="0.12" layer="21"/>
+<wire x1="0.7" y1="1.5686" x2="0.7" y2="0.5586" width="0.12" layer="21"/>
+<wire x1="-0.7" y1="-1.5686" x2="0.7" y2="-1.5686" width="0.12" layer="21"/>
+<wire x1="0.7" y1="-1.5686" x2="0.7" y2="-0.5586" width="0.12" layer="21"/>
+<wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="-1.5" x2="-0.7" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.12" layer="51"/>
+<wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.12" layer="51"/>
+<smd name="1" x="-1.0245" y="0.95" dx="1.1801" dy="0.6092" layer="1"/>
+<smd name="2" x="-1.0245" y="-0.95" dx="1.1801" dy="0.6092" layer="1"/>
+<smd name="3" x="1.0245" y="0" dx="1.1801" dy="0.6092" layer="1"/>
+<text x="0" y="2.6436" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.2036" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="CAP1206" urn="urn:adsk.eagle:footprint:4015430/2" library_version="35">
 <description>CHIP, 3.2 X 1.6 X 0.75 mm body
@@ -499,7 +503,7 @@
 <text x="0" y="1.8049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.8049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESC3216X60" urn="urn:adsk.eagle:footprint:4015760/1" library_version="35">
+<package name="RESC3216X60" urn="urn:adsk.eagle:footprint:4015760/1" library_version="40">
 <description>CHIP, 3.2 X 1.6 X 0.6 mm body
 &lt;p&gt;CHIP package with body size 3.2 X 1.6 X 0.6 mm&lt;/p&gt;</description>
 <wire x1="1.6" y1="1.1699" x2="-1.6" y2="1.1699" width="0.12" layer="21"/>
@@ -513,13 +517,13 @@
 <text x="0" y="1.8049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.8049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SWIM-PADS-1.27" library_version="35" library_locally_modified="yes">
+<package name="SWIM-PADS-1.27" urn="urn:adsk.eagle:footprint:5809869/1" library_version="40">
 <smd name="P$1" x="-1.27" y="0" dx="0.8" dy="0.8" layer="1"/>
 <smd name="P$2" x="0" y="0" dx="0.8" dy="0.8" layer="1" roundness="100"/>
 <smd name="P$3" x="1.27" y="0" dx="0.8" dy="0.8" layer="1" roundness="100"/>
 <smd name="P$4" x="2.54" y="0" dx="0.8" dy="0.8" layer="1" roundness="100"/>
 </package>
-<package name="SODFL1608X65" urn="urn:adsk.eagle:footprint:4109697/1" library_version="35" library_locally_modified="yes">
+<package name="SODFL1608X65" urn="urn:adsk.eagle:footprint:4109697/1" library_version="40">
 <description>SODFL, 1.6 mm span, 1.2 X 0.8 X 0.65 mm body
 &lt;p&gt;SODFL package with 1.6 mm span with body size 1.2 X 0.8 X 0.65 mm&lt;/p&gt;</description>
 <wire x1="0.625" y1="0.5127" x2="-1.364" y2="0.5127" width="0.12" layer="21"/>
@@ -533,6 +537,24 @@
 <smd name="2" x="0.7201" y="0" dx="0.6598" dy="0.3975" layer="1"/>
 <text x="0" y="1.1477" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.1477" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SW-200D" urn="urn:adsk.eagle:footprint:6283677/1" library_version="40">
+<wire x1="-6.096" y1="1.778" x2="6.096" y2="1.778" width="0.127" layer="21"/>
+<wire x1="6.096" y1="1.778" x2="6.096" y2="0" width="0.127" layer="21"/>
+<wire x1="6.096" y1="0" x2="6.096" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="6.096" y1="-1.778" x2="-6.223" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="-6.223" y1="-1.778" x2="-6.223" y2="1.651" width="0.127" layer="21"/>
+<wire x1="-6.223" y1="1.651" x2="-6.223" y2="1.778" width="0.127" layer="21"/>
+<wire x1="-6.223" y1="1.778" x2="-6.096" y2="1.778" width="0.127" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="0" width="0.127" layer="21"/>
+<wire x1="4.445" y1="0" x2="3.175" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="4.445" y1="0" x2="6.096" y2="0" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="0" x2="-6.985" y2="0" width="0.4064" layer="21"/>
+<wire x1="6.223" y1="0" x2="6.985" y2="0" width="0.4064" layer="21"/>
+<circle x="-3.81" y="0" radius="1.419903125" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.419903125" width="0.127" layer="21"/>
+<pad name="G" x="6.985" y="0" drill="0.9" shape="square"/>
+<pad name="S" x="-6.985" y="0" drill="0.9" shape="octagon"/>
 </package>
 </packages>
 <packages3d>
@@ -551,7 +573,7 @@
 <packageinstance name="18650X1_HOLDER"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC2012X50" urn="urn:adsk.eagle:package:4015756/1" type="model" library_version="35">
+<package3d name="RESC2012X50" urn="urn:adsk.eagle:package:4015756/1" type="model" library_version="40">
 <description>CHIP, 2 X 1.2 X 0.5 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.2 X 0.5 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -569,14 +591,14 @@
 <packageinstance name="LED-7SEG1"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT95P280X145-5" urn="urn:adsk.eagle:package:4135333/1" type="model" library_version="35">
+<package3d name="SOT95P280X145-5" urn="urn:adsk.eagle:package:4135333/1" type="model" library_version="40">
 <description>5-SOT23, 0.95 mm pitch, 2.8 mm span, 2.95 X 1.6 X 1.45 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.8 mm span with body size 2.95 X 1.6 X 1.45 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT95P280X145-5"/>
 </packageinstances>
 </package3d>
-<package3d name="USB-B-MICRO-SMD" urn="urn:adsk.eagle:package:2654598/2" type="model" library_version="35">
+<package3d name="USB-B-MICRO-SMD" urn="urn:adsk.eagle:package:2654598/2" type="model" library_version="40">
 <description>&lt;h3&gt;USB - microB SMD&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
@@ -589,10 +611,11 @@
 <packageinstance name="USB-B-MICRO-SMD"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT23" urn="urn:adsk.eagle:package:2654513/1" type="box" library_version="35">
-<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
+<package3d name="SOT95P240X115-3" urn="urn:adsk.eagle:package:4135509/1" type="model" library_version="40">
+<description>3-SOT23, 0.95 mm pitch, 2.4 mm span, 2.9 X 1.3 X 1.15 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.4 mm span with body size 2.9 X 1.3 X 1.15 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="SOT23"/>
+<packageinstance name="SOT95P240X115-3"/>
 </packageinstances>
 </package3d>
 <package3d name="CAPC3216X75" urn="urn:adsk.eagle:package:4015425/2" type="model" library_version="35">
@@ -602,18 +625,28 @@
 <packageinstance name="CAP1206"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC3216X60" urn="urn:adsk.eagle:package:4015759/1" type="model" library_version="35">
+<package3d name="RESC3216X60" urn="urn:adsk.eagle:package:4015759/1" type="model" library_version="40">
 <description>CHIP, 3.2 X 1.6 X 0.6 mm body
 &lt;p&gt;CHIP package with body size 3.2 X 1.6 X 0.6 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESC3216X60"/>
 </packageinstances>
 </package3d>
-<package3d name="SODFL1608X65" urn="urn:adsk.eagle:package:4109696/1" type="model" library_version="35" library_locally_modified="yes">
+<package3d name="SODFL1608X65" urn="urn:adsk.eagle:package:4109696/1" type="model" library_version="40">
 <description>SODFL, 1.6 mm span, 1.2 X 0.8 X 0.65 mm body
 &lt;p&gt;SODFL package with 1.6 mm span with body size 1.2 X 0.8 X 0.65 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SODFL1608X65"/>
+</packageinstances>
+</package3d>
+<package3d name="SW-200D" urn="urn:adsk.eagle:package:6283678/1" type="box" library_version="40">
+<packageinstances>
+<packageinstance name="SW-200D"/>
+</packageinstances>
+</package3d>
+<package3d name="SWIM-PADS-1.27" urn="urn:adsk.eagle:package:5809870/1" type="box" library_version="40">
+<packageinstances>
+<packageinstance name="SWIM-PADS-1.27"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -842,44 +875,141 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="QFN28" package3d_urn="urn:adsk.eagle:package:2654556/1" value="STM8L151X4/6G6U6" x="49.8475" y="8.89" rot="MR180"/>
-<element name="LED1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED1206" package3d_urn="urn:adsk.eagle:package:2654460/2" value="RED" x="3.81" y="20.6375" rot="MR270"/>
-<element name="P1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="18650X1_HOLDER" package3d_urn="urn:adsk.eagle:package:5418020/3" value="BATTERY18650X1" x="39.37" y="11.43" rot="MR180"/>
-<element name="R2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="2K" x="5.715" y="18.0975" rot="MR270"/>
-<element name="R3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="2K7" x="8.5725" y="14.605" rot="MR180"/>
-<element name="SW1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="B3F-40XX" package3d_urn="urn:adsk.eagle:package:4015403/2" value="BUTTON1212" x="22.225" y="11.43" rot="R90"/>
-<element name="U$1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED-7SEG1" package3d_urn="urn:adsk.eagle:package:5207502/2" value="LED-7SEG1" x="71.12" y="11.43"/>
-<element name="U$2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED-7SEG1" package3d_urn="urn:adsk.eagle:package:5207502/2" value="LED-7SEG1" x="58.42" y="11.43"/>
-<element name="U1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SOT95P280X145-5" package3d_urn="urn:adsk.eagle:package:4135333/1" value="POWER-STC4054" x="7.62" y="11.43" rot="MR90"/>
-<element name="U2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SOT95P280X145-5" package3d_urn="urn:adsk.eagle:package:4135333/1" value="TPS73130DBVT" x="7.62" y="5.08" rot="MR270"/>
-<element name="X1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="USB-B-MICRO-SMD" package3d_urn="urn:adsk.eagle:package:2654598/2" value="USB-MINIMICROMICRO" x="11.43" y="19.685" rot="MR270"/>
-<element name="R1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="53.34" y="16.51" rot="MR90"/>
-<element name="R4" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="55.88" y="16.51" rot="MR90"/>
-<element name="R5" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="60.96" y="16.51" rot="MR90"/>
-<element name="R6" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="63.5" y="16.51" rot="MR90"/>
-<element name="R7" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="63.5" y="6.35" rot="MR270"/>
-<element name="R8" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="60.96" y="6.35" rot="MR270"/>
-<element name="R9" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="55.88" y="6.35" rot="MR270"/>
-<element name="R10" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="53.6575" y="6.35" rot="MR270"/>
-<element name="VT1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SOT23" package3d_urn="urn:adsk.eagle:package:2654513/1" value="" x="63.5" y="9.8425" rot="MR90"/>
-<element name="VT2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SOT23" package3d_urn="urn:adsk.eagle:package:2654513/1" value="" x="58.42" y="6.6675" rot="MR180"/>
-<element name="R11" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="0" x="59.3725" y="10.16" rot="MR90"/>
-<element name="R12" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="0" x="7.62" y="7.9375" rot="MR180"/>
-<element name="C1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="CAP1206" package3d_urn="urn:adsk.eagle:package:4015425/2" value="470n" x="11.43" y="3.4925" rot="MR180"/>
-<element name="SG1" library="buzzer" library_urn="urn:adsk.eagle:library:113" package="F/CM12P" package3d_urn="urn:adsk.eagle:package:5265/1" value="F/CM12P" x="39.37" y="11.43" rot="R90">
+<element name="IC1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="QFN28" package3d_urn="urn:adsk.eagle:package:2654556/1" value="STM8L151X4/6G6U6" x="49.8475" y="8.89" smashed="yes" rot="MR180"/>
+<element name="LED1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED1206" package3d_urn="urn:adsk.eagle:package:2654460/2" value="RED" x="3.81" y="20.6375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="5.08" y="21.9075" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="5.08" y="18.0975" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="P1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="18650X1_HOLDER" package3d_urn="urn:adsk.eagle:package:5418020/3" value="BATTERY18650X1" x="39.37" y="11.43" smashed="yes" rot="MR180">
+<attribute name="NAME" x="2.54" y="3.81" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="2.54" y="20.32" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="R2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="2K" x="5.715" y="18.0975" smashed="yes" rot="MR270">
+<attribute name="NAME" x="4.1101" y="18.0975" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="7.3199" y="18.0975" size="1.27" layer="28" rot="MR270" align="top-center"/>
+</element>
+<element name="R3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="2K7" x="8.5725" y="14.605" smashed="yes" rot="MR180">
+<attribute name="NAME" x="8.5725" y="13.0001" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<attribute name="VALUE" x="8.5725" y="16.2099" size="1.27" layer="28" rot="MR180" align="top-center"/>
+</element>
+<element name="SW1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="B3F-40XX" package3d_urn="urn:adsk.eagle:package:4015403/2" value="BUTTON1212" x="22.225" y="11.43" smashed="yes" rot="R90">
+<attribute name="NAME" x="15.24" y="6.35" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="27.305" y="8.255" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="U$1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED-7SEG1" package3d_urn="urn:adsk.eagle:package:5207502/2" value="LED-7SEG1" x="71.12" y="11.43" smashed="yes">
+<attribute name="NAME" x="68.58" y="21.59" size="1.27" layer="25"/>
+<attribute name="VALUE" x="68.58" y="0" size="1.27" layer="27"/>
+</element>
+<element name="U$2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="LED-7SEG1" package3d_urn="urn:adsk.eagle:package:5207502/2" value="LED-7SEG1" x="58.42" y="11.43" smashed="yes">
+<attribute name="NAME" x="55.88" y="21.59" size="1.27" layer="25"/>
+<attribute name="VALUE" x="55.88" y="0" size="1.27" layer="27"/>
+</element>
+<element name="U1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SOT95P280X145-5" package3d_urn="urn:adsk.eagle:package:4135333/1" value="POWER-STC4054" x="7.62" y="11.43" smashed="yes" rot="MR90">
+<attribute name="NAME" x="10.2536" y="11.43" size="1.27" layer="26" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="5.4264" y="11.43" size="1.27" layer="28" rot="MR90" align="top-center"/>
+</element>
+<element name="U2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SOT95P280X145-5" package3d_urn="urn:adsk.eagle:package:4135333/1" value="TPS73130DBVT" x="7.62" y="5.08" smashed="yes" rot="MR270">
+<attribute name="NAME" x="4.9864" y="5.08" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="9.8136" y="5.08" size="1.27" layer="28" rot="MR270" align="top-center"/>
+</element>
+<element name="X1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="USB-B-MICRO-SMD" package3d_urn="urn:adsk.eagle:package:2654598/2" value="USB-MINIMICROMICRO" x="11.43" y="19.685" smashed="yes" rot="MR270">
+<attribute name="NAME" x="6.731" y="20.955" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270"/>
+<attribute name="VALUE" x="16.129" y="20.955" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-left"/>
+</element>
+<element name="R1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="53.34" y="16.51" smashed="yes" rot="MR90">
+<attribute name="NAME" x="54.9449" y="16.51" size="1.27" layer="26" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="51.7351" y="16.51" size="1.27" layer="28" rot="MR90" align="top-center"/>
+</element>
+<element name="R4" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="55.88" y="16.51" smashed="yes" rot="MR90">
+<attribute name="NAME" x="57.4849" y="16.51" size="1.27" layer="26" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="54.2751" y="16.51" size="1.27" layer="28" rot="MR90" align="top-center"/>
+</element>
+<element name="R5" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="60.96" y="16.51" smashed="yes" rot="MR90">
+<attribute name="NAME" x="62.5649" y="16.51" size="1.27" layer="26" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="59.3551" y="16.51" size="1.27" layer="28" rot="MR90" align="top-center"/>
+</element>
+<element name="R6" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="63.5" y="16.51" smashed="yes" rot="MR90">
+<attribute name="NAME" x="65.1049" y="16.51" size="1.27" layer="26" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="61.8951" y="16.51" size="1.27" layer="28" rot="MR90" align="top-center"/>
+</element>
+<element name="R7" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="63.5" y="6.35" smashed="yes" rot="MR270">
+<attribute name="NAME" x="61.8951" y="6.35" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="65.1049" y="6.35" size="1.27" layer="28" rot="MR270" align="top-center"/>
+</element>
+<element name="R8" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="60.96" y="6.35" smashed="yes" rot="MR270">
+<attribute name="NAME" x="59.3551" y="6.35" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="62.5649" y="6.35" size="1.27" layer="28" rot="MR270" align="top-center"/>
+</element>
+<element name="R9" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="55.88" y="6.35" smashed="yes" rot="MR270">
+<attribute name="NAME" x="54.2751" y="6.35" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="57.4849" y="6.35" size="1.27" layer="28" rot="MR270" align="top-center"/>
+</element>
+<element name="R10" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="200R" x="53.6575" y="6.35" smashed="yes" rot="MR270">
+<attribute name="NAME" x="52.0526" y="6.35" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="55.2624" y="6.35" size="1.27" layer="28" rot="MR270" align="top-center"/>
+</element>
+<element name="VT1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SOT95P240X115-3" package3d_urn="urn:adsk.eagle:package:4135509/1" value="" x="63.5" y="9.8425" smashed="yes" rot="MR180">
+<attribute name="NAME" x="61.595" y="7.9375" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="61.595" y="13.0175" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="VT2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SOT95P240X115-3" package3d_urn="urn:adsk.eagle:package:4135509/1" value="" x="58.42" y="6.6675" smashed="yes" rot="MR270">
+<attribute name="NAME" x="56.515" y="8.5725" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="61.595" y="8.5725" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="R11" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="0" x="59.3725" y="10.16" smashed="yes" rot="MR90">
+<attribute name="NAME" x="60.9774" y="10.16" size="1.27" layer="26" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="57.7676" y="10.16" size="1.27" layer="28" rot="MR90" align="top-center"/>
+</element>
+<element name="R12" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC2012X50" package3d_urn="urn:adsk.eagle:package:4015756/1" value="0" x="7.62" y="7.9375" smashed="yes" rot="MR180">
+<attribute name="NAME" x="7.62" y="6.3326" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<attribute name="VALUE" x="7.62" y="9.5424" size="1.27" layer="28" rot="MR180" align="top-center"/>
+</element>
+<element name="C1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="CAP1206" package3d_urn="urn:adsk.eagle:package:4015425/2" value="330n" x="11.43" y="3.4925" smashed="yes" rot="MR180">
+<attribute name="NAME" x="11.43" y="1.6876" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<attribute name="VALUE" x="11.43" y="5.2974" size="1.27" layer="28" rot="MR180" align="top-center"/>
+</element>
+<element name="SG1" library="buzzer" library_urn="urn:adsk.eagle:library:113" package="F/CM12P" package3d_urn="urn:adsk.eagle:package:5265/1" value="F/CM12P" x="39.37" y="11.43" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="39.37" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="39.37" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="32.385" y="13.97" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="39.37" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="39.37" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="43.18" y="6.985" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="VT3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SOT23" package3d_urn="urn:adsk.eagle:package:2654513/1" value="" x="42.164" y="10.287" rot="MR270"/>
-<element name="C2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="CAP1206" package3d_urn="urn:adsk.eagle:package:4015425/2" value="470n" x="45.4025" y="8.5725" rot="MR270"/>
-<element name="R13" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC3216X60" package3d_urn="urn:adsk.eagle:package:4015759/1" value="" x="38.1" y="11.43" rot="MR90"/>
-<element name="R14" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC3216X60" package3d_urn="urn:adsk.eagle:package:4015759/1" value="" x="30.48" y="19.3675" rot="MR270"/>
-<element name="C3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="CAP1206" package3d_urn="urn:adsk.eagle:package:4015425/2" value="470n" x="33.02" y="19.3675" rot="MR90"/>
-<element name="R15" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC3216X60" package3d_urn="urn:adsk.eagle:package:4015759/1" value="" x="39.37" y="18.0975" rot="MR180"/>
-<element name="X2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SWIM-PADS-1.27" value="STM-SWIMPOGOPADS" x="48.26" y="4.1275" rot="MR0"/>
-<element name="D1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SODFL1608X65" package3d_urn="urn:adsk.eagle:package:4109696/1" value="" x="40.3225" y="2.2225" rot="MR270"/>
+<element name="VT3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SOT95P240X115-3" package3d_urn="urn:adsk.eagle:package:4135509/1" value="" x="42.164" y="10.287" smashed="yes" rot="MR0">
+<attribute name="NAME" x="44.069" y="12.192" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="44.069" y="7.112" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="C2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="CAP1206" package3d_urn="urn:adsk.eagle:package:4015425/2" value="330n" x="45.4025" y="8.5725" smashed="yes" rot="MR270">
+<attribute name="NAME" x="43.5976" y="8.5725" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="47.2074" y="8.5725" size="1.27" layer="28" rot="MR270" align="top-center"/>
+</element>
+<element name="R13" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC3216X60" package3d_urn="urn:adsk.eagle:package:4015759/1" value="3K3" x="38.1" y="11.43" smashed="yes" rot="MR90">
+<attribute name="NAME" x="39.9049" y="11.43" size="1.27" layer="26" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="36.2951" y="11.43" size="1.27" layer="28" rot="MR90" align="top-center"/>
+</element>
+<element name="R14" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC3216X60" package3d_urn="urn:adsk.eagle:package:4015759/1" value="20K" x="30.48" y="19.3675" smashed="yes" rot="MR270">
+<attribute name="NAME" x="28.6751" y="19.3675" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="32.2849" y="19.3675" size="1.27" layer="28" rot="MR270" align="top-center"/>
+</element>
+<element name="C3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="CAP1206" package3d_urn="urn:adsk.eagle:package:4015425/2" value="330n" x="33.02" y="19.3675" smashed="yes" rot="MR90">
+<attribute name="NAME" x="34.8249" y="19.3675" size="1.27" layer="26" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="31.2151" y="19.3675" size="1.27" layer="28" rot="MR90" align="top-center"/>
+</element>
+<element name="R15" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC3216X60" package3d_urn="urn:adsk.eagle:package:4015759/1" value="27R" x="39.37" y="18.0975" smashed="yes" rot="MR180">
+<attribute name="NAME" x="39.37" y="16.2926" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<attribute name="VALUE" x="39.37" y="19.9024" size="1.27" layer="28" rot="MR180" align="top-center"/>
+</element>
+<element name="X2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SWIM-PADS-1.27" package3d_urn="urn:adsk.eagle:package:5809870/1" value="STM-SWIMPOGOPADS" x="48.26" y="4.1275" smashed="yes" rot="MR0"/>
+<element name="D1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SODFL1608X65" package3d_urn="urn:adsk.eagle:package:4109696/1" value="" x="40.3225" y="2.2225" smashed="yes" rot="MR270">
+<attribute name="NAME" x="39.1748" y="2.2225" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="41.4702" y="2.2225" size="1.27" layer="28" rot="MR270" align="top-center"/>
+</element>
+<element name="R16" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="RESC3216X60" package3d_urn="urn:adsk.eagle:package:4015759/1" value="20K" x="38.1" y="2.8575" smashed="yes" rot="MR90">
+<attribute name="NAME" x="39.9049" y="2.8575" size="1.27" layer="26" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="36.2951" y="2.8575" size="1.27" layer="28" rot="MR90" align="top-center"/>
+</element>
+<element name="SW2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="SW-200D" package3d_urn="urn:adsk.eagle:package:6283678/1" value="SW-200D" x="49.8475" y="8.89" smashed="yes" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -920,8 +1050,6 @@ design rules under a new name.</description>
 <wire x1="72.93" y1="13.97" x2="75.47" y2="11.43" width="0.25" layer="16"/>
 <contactref element="VT1" pad="2"/>
 <contactref element="R11" pad="2"/>
-<wire x1="62.4" y1="10.7925" x2="61.9825" y2="11.21" width="0.25" layer="16"/>
-<wire x1="61.9825" y1="11.21" x2="61.0575" y2="11.21" width="0.25" layer="16"/>
 <wire x1="61.0575" y1="11.21" x2="59.3725" y2="11.21" width="0.25" layer="16"/>
 <wire x1="63.8175" y1="13.97" x2="61.0575" y2="11.21" width="0.25" layer="16"/>
 <wire x1="6.0325" y1="2.2225" x2="5.3975" y2="2.8575" width="0.25" layer="16"/>
@@ -944,7 +1072,6 @@ design rules under a new name.</description>
 <wire x1="47.9725" y1="9.89" x2="47.0375" y2="9.89" width="0.25" layer="16"/>
 <wire x1="45.4025" y1="8.255" x2="45.4025" y2="6.9225" width="0.25" layer="16"/>
 <wire x1="47.0375" y1="9.89" x2="45.4025" y2="8.255" width="0.25" layer="16"/>
-<wire x1="43.264" y1="9.337" x2="43.264" y2="3.726" width="0.25" layer="16"/>
 <wire x1="43.264" y1="3.726" x2="43.33875" y2="3.65125" width="0.25" layer="16"/>
 <contactref element="R14" pad="1"/>
 <contactref element="C3" pad="2"/>
@@ -963,6 +1090,9 @@ design rules under a new name.</description>
 <vertex x="79.0375" y="22.53"/>
 <vertex x="79.01575" y="0.127"/>
 </polygon>
+<contactref element="SW2" pad="S"/>
+<wire x1="62.058" y1="11.21" x2="62.4755" y2="10.7925" width="0.25" layer="16"/>
+<wire x1="61.0575" y1="11.21" x2="62.058" y2="11.21" width="0.25" layer="16"/>
 </signal>
 <signal name="+5V">
 <contactref element="X1" pad="VBUS"/>
@@ -1015,7 +1145,9 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="7"/>
 <wire x1="6.67" y1="3.8379" x2="7.9121" y2="5.08" width="0.25" layer="16"/>
 <wire x1="40.869" y1="2.8575" x2="40.3225" y2="2.8575" width="0.25" layer="16"/>
-<wire x1="40.3225" y1="2.8575" x2="15.875" y2="2.8575" width="0.25" layer="16"/>
+<wire x1="40.3225" y1="2.8575" x2="38.1" y2="2.8575" width="0.25" layer="16"/>
+<wire x1="38.1" y1="2.8575" x2="35.2425" y2="2.8575" width="0.25" layer="16"/>
+<wire x1="35.2425" y1="2.8575" x2="15.875" y2="2.8575" width="0.25" layer="16"/>
 <wire x1="7.9121" y1="5.08" x2="13.6525" y2="5.08" width="0.25" layer="16"/>
 <wire x1="13.6525" y1="5.08" x2="14.44625" y2="4.28625" width="0.25" layer="16"/>
 <contactref element="SG1" pad="+"/>
@@ -1038,6 +1170,8 @@ design rules under a new name.</description>
 <wire x1="14.44625" y1="12.38885" x2="14.44625" y2="4.28625" width="0.25" layer="16"/>
 <contactref element="D1" pad="1"/>
 <wire x1="40.3225" y1="2.9426" x2="40.3225" y2="2.8575" width="0.25" layer="16"/>
+<contactref element="R16" pad="2"/>
+<wire x1="38.1" y1="4.4825" x2="38.1" y2="2.8575" width="0.25" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="IC1" pad="12"/>
@@ -1224,19 +1358,18 @@ design rules under a new name.</description>
 <wire x1="67.5005" y1="8.6995" x2="71.12" y2="5.08" width="0.254" layer="16"/>
 <wire x1="71.12" y1="5.08" x2="71.12" y2="3.81" width="0.254" layer="16"/>
 <contactref element="VT1" pad="3"/>
-<wire x1="64.6" y1="9.8425" x2="65.743" y2="8.6995" width="0.25" layer="16"/>
 <wire x1="65.743" y1="8.6995" x2="67.5005" y2="8.6995" width="0.25" layer="16"/>
+<wire x1="64.5245" y1="9.8425" x2="64.6" y2="9.8425" width="0.25" layer="16"/>
+<wire x1="64.6" y1="9.8425" x2="65.743" y2="8.6995" width="0.25" layer="16"/>
 </signal>
 <signal name="C2">
 <contactref element="U$2" pad="3" route="any" routetag="G$1.CC"/>
 <contactref element="U$2" pad="8" route="any" routetag="G$1.CC"/>
 <contactref element="VT2" pad="3"/>
-<wire x1="58.42" y1="5.5675" x2="58.42" y2="3.81" width="0.25" layer="16"/>
+<wire x1="58.42" y1="5.643" x2="58.42" y2="3.81" width="0.25" layer="16"/>
 </signal>
 <signal name="N$13">
 <contactref element="VT1" pad="1"/>
-<wire x1="62.4" y1="8.8925" x2="62.4" y2="7.29786875" width="0.25" layer="16"/>
-<wire x1="61.77123125" y1="6.6691" x2="62.4" y2="7.29786875" width="0.25" layer="16"/>
 <contactref element="IC1" pad="22"/>
 <wire x1="57.0396125" y1="6.1675" x2="57.5412125" y2="6.6691" width="0.25" layer="16"/>
 <wire x1="57.0396125" y1="6.1675" x2="56.6253875" y2="6.1675" width="0.25" layer="16"/>
@@ -1244,12 +1377,16 @@ design rules under a new name.</description>
 <wire x1="51.3475" y1="6.915" x2="51.3475" y2="6.4375" width="0.25" layer="16"/>
 <wire x1="51.3475" y1="6.4375" x2="51.6159" y2="6.1691" width="0.25" layer="16"/>
 <wire x1="51.6159" y1="6.1691" x2="56.6237875" y2="6.1691" width="0.25" layer="16"/>
-<wire x1="57.5412125" y1="6.6691" x2="61.77123125" y2="6.6691" width="0.25" layer="16"/>
+<wire x1="61.77123125" y1="6.6691" x2="57.5412125" y2="6.6691" width="0.25" layer="16"/>
+<wire x1="62.4755" y1="8.8925" x2="62.4755" y2="7.91763125" width="0.25" layer="16"/>
+<wire x1="62.4755" y1="7.91763125" x2="62.4691" y2="7.91123125" width="0.25" layer="16"/>
+<wire x1="62.4691" y1="7.91123125" x2="62.4691" y2="7.36696875" width="0.25" layer="16"/>
+<wire x1="62.4691" y1="7.36696875" x2="61.77123125" y2="6.6691" width="0.25" layer="16"/>
 </signal>
 <signal name="N$14">
 <contactref element="VT2" pad="1"/>
 <contactref element="IC1" pad="21"/>
-<wire x1="57.47" y1="7.7675" x2="57.47" y2="7.305" width="0.25" layer="16"/>
+<wire x1="57.47" y1="7.692" x2="57.47" y2="7.305" width="0.25" layer="16"/>
 <wire x1="57.47" y1="7.305" x2="56.8325" y2="6.6675" width="0.25" layer="16"/>
 <wire x1="52.84626875" y1="6.6691" x2="52.6266" y2="6.88876875" width="0.25" layer="16"/>
 <wire x1="56.8325" y1="6.6675" x2="56.8309" y2="6.6691" width="0.25" layer="16"/>
@@ -1261,7 +1398,7 @@ design rules under a new name.</description>
 <signal name="N$15">
 <contactref element="R11" pad="1"/>
 <contactref element="VT2" pad="2"/>
-<wire x1="59.37" y1="7.7675" x2="59.37" y2="9.1075" width="0.25" layer="16"/>
+<wire x1="59.37" y1="7.692" x2="59.37" y2="9.1075" width="0.25" layer="16"/>
 <wire x1="59.37" y1="9.1075" x2="59.3725" y2="9.11" width="0.25" layer="16"/>
 </signal>
 <signal name="N$16">
@@ -1281,7 +1418,7 @@ design rules under a new name.</description>
 <contactref element="SG1" pad="-"/>
 <wire x1="40.429" y1="10.287" x2="39.37" y2="9.228" width="0.25" layer="16"/>
 <wire x1="39.37" y1="9.228" x2="39.37" y2="7.62" width="0.25" layer="16"/>
-<wire x1="41.064" y1="10.287" x2="40.429" y2="10.287" width="0.25" layer="16"/>
+<wire x1="41.1395" y1="10.287" x2="40.429" y2="10.287" width="0.25" layer="16"/>
 <contactref element="R13" pad="1"/>
 <wire x1="38.1" y1="9.805" x2="39.37" y2="8.535" width="0.25" layer="16"/>
 <wire x1="39.37" y1="8.535" x2="39.37" y2="7.62" width="0.25" layer="16"/>
@@ -1291,8 +1428,8 @@ design rules under a new name.</description>
 <contactref element="VT3" pad="1"/>
 <wire x1="49.3475" y1="10.765" x2="49.3475" y2="11.295" width="0.25" layer="16"/>
 <wire x1="49.3475" y1="11.295" x2="48.895" y2="11.7475" width="0.25" layer="16"/>
-<wire x1="48.895" y1="11.7475" x2="43.7745" y2="11.7475" width="0.25" layer="16"/>
-<wire x1="43.7745" y1="11.7475" x2="43.264" y2="11.237" width="0.25" layer="16"/>
+<wire x1="43.699" y1="11.7475" x2="43.1885" y2="11.237" width="0.25" layer="16"/>
+<wire x1="48.895" y1="11.7475" x2="43.699" y2="11.7475" width="0.25" layer="16"/>
 </signal>
 <signal name="N$20">
 <contactref element="SW1" pad="4" route="any" routetag="1.2"/>
@@ -1310,9 +1447,9 @@ design rules under a new name.</description>
 <signal name="N$21">
 <contactref element="R15" pad="2"/>
 <contactref element="IC1" pad="11"/>
-<wire x1="49.8475" y1="10.765" x2="49.8475" y2="16.1925" width="0.25" layer="16"/>
-<wire x1="49.8475" y1="16.1925" x2="47.9425" y2="18.0975" width="0.25" layer="16"/>
-<wire x1="47.9425" y1="18.0975" x2="40.995" y2="18.0975" width="0.25" layer="16"/>
+<wire x1="49.8475" y1="10.765" x2="49.8475" y2="13.0175" width="0.25" layer="16"/>
+<wire x1="49.8475" y1="13.0175" x2="44.7675" y2="18.0975" width="0.25" layer="16"/>
+<wire x1="44.7675" y1="18.0975" x2="40.995" y2="18.0975" width="0.25" layer="16"/>
 </signal>
 <signal name="N$22">
 <contactref element="IC1" pad="28"/>
@@ -1335,6 +1472,18 @@ design rules under a new name.</description>
 <wire x1="40.3225" y1="1.5024" x2="46.9049" y2="1.5024" width="0.25" layer="16"/>
 <wire x1="46.9049" y1="1.5024" x2="49.53" y2="4.1275" width="0.25" layer="16"/>
 </signal>
+<signal name="VIBRO">
+<contactref element="IC1" pad="25"/>
+<contactref element="R16" pad="1"/>
+<contactref element="SW2" pad="G"/>
+<wire x1="49.8475" y1="1.905" x2="48.6945" y2="0.752" width="0.25" layer="16"/>
+<wire x1="38.5805" y1="0.752" x2="38.1" y2="1.2325" width="0.25" layer="16"/>
+<wire x1="48.6945" y1="0.752" x2="38.5805" y2="0.752" width="0.25" layer="16"/>
+<wire x1="49.8475" y1="7.015" x2="49.8475" y2="6.35" width="0.25" layer="16"/>
+<wire x1="49.8475" y1="6.35" x2="51.1175" y2="5.08" width="0.25" layer="16"/>
+<wire x1="51.1175" y1="5.08" x2="51.1175" y2="3.175" width="0.25" layer="16"/>
+<wire x1="51.1175" y1="3.175" x2="49.8475" y2="1.905" width="0.25" layer="16"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -1350,6 +1499,11 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
