@@ -387,7 +387,7 @@
 <vertex x="-2.64" y="-0.21"/>
 </polygon>
 </package>
-<package name="SOT95P240X115-3" urn="urn:adsk.eagle:footprint:4135511/1" library_version="44">
+<package name="SOT95P240X115-3" urn="urn:adsk.eagle:footprint:4135511/1" library_version="46">
 <description>3-SOT23, 0.95 mm pitch, 2.4 mm span, 2.9 X 1.3 X 1.15 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.4 mm span with body size 2.9 X 1.3 X 1.15 mm&lt;/p&gt;</description>
 <circle x="-1.1573" y="1.7586" radius="0.25" width="0" layer="21"/>
@@ -707,27 +707,6 @@ grid 2.54 mm, diameter 7 mm</description>
 <text x="-3.81" y="2.54" size="1.27" layer="21">&gt;NAME</text>
 <text x="-3.81" y="-3.81" size="1.27" layer="21">&gt;VALUE</text>
 </package>
-<package name="SOIC-8" urn="urn:adsk.eagle:footprint:4108640/2" library_version="36" library_locally_modified="yes">
-<description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 1.7 mm body
-&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6 mm span with body size 4.9 X 3.9 X 1.7 mm&lt;/p&gt;</description>
-<circle x="-2.7288" y="2.7099" radius="0.25" width="0" layer="21"/>
-<wire x1="-2" y1="2.5199" x2="2" y2="2.5199" width="0.12" layer="21"/>
-<wire x1="-2" y1="-2.5199" x2="2" y2="-2.5199" width="0.12" layer="21"/>
-<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.12" layer="51"/>
-<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.12" layer="51"/>
-<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.12" layer="51"/>
-<wire x1="2" y1="2.5" x2="2" y2="-2.5" width="0.12" layer="51"/>
-<smd name="1" x="-2.4734" y="1.905" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="2" x="-2.4734" y="0.635" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="3" x="-2.4734" y="-0.635" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="4" x="-2.4734" y="-1.905" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="5" x="2.4734" y="-1.905" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="6" x="2.4734" y="-0.635" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="7" x="2.4734" y="0.635" dx="1.9685" dy="0.6019" layer="1"/>
-<smd name="8" x="2.4734" y="1.905" dx="1.9685" dy="0.6019" layer="1"/>
-<text x="0" y="3.5949" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.1549" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
 <package name="MKDSN1,5/3-5,08" urn="urn:adsk.eagle:footprint:2654337/1" library_version="44">
 <description>&lt;b&gt;MKDSN 1,5/ 3-5,08&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 13,5 A&lt;br&gt;
@@ -803,24 +782,6 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <text x="-2.159" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.159" y1="-0.381" x2="2.54" y2="0.381" layer="51"/>
 <rectangle x1="-2.54" y1="-0.381" x2="-2.159" y2="0.381" layer="51"/>
-</package>
-<package name="SOT95P280X145-5" urn="urn:adsk.eagle:footprint:4135334/1" library_version="44">
-<description>5-SOT23, 0.95 mm pitch, 2.8 mm span, 2.95 X 1.6 X 1.45 mm body
-&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.8 mm span with body size 2.95 X 1.6 X 1.45 mm&lt;/p&gt;</description>
-<circle x="-1.303" y="1.7486" radius="0.25" width="0" layer="21"/>
-<wire x1="-0.8" y1="1.5586" x2="0.8" y2="1.5586" width="0.12" layer="21"/>
-<wire x1="-0.8" y1="-1.5586" x2="0.8" y2="-1.5586" width="0.12" layer="21"/>
-<wire x1="0.8" y1="-1.475" x2="-0.8" y2="-1.475" width="0.12" layer="51"/>
-<wire x1="-0.8" y1="-1.475" x2="-0.8" y2="1.475" width="0.12" layer="51"/>
-<wire x1="-0.8" y1="1.475" x2="0.8" y2="1.475" width="0.12" layer="51"/>
-<wire x1="0.8" y1="1.475" x2="0.8" y2="-1.475" width="0.12" layer="51"/>
-<smd name="1" x="-1.2421" y="0.95" dx="1.1275" dy="0.5891" layer="1"/>
-<smd name="2" x="-1.2421" y="0" dx="1.1275" dy="0.5891" layer="1"/>
-<smd name="3" x="-1.2421" y="-0.95" dx="1.1275" dy="0.5891" layer="1"/>
-<smd name="4" x="1.2421" y="-0.95" dx="1.1275" dy="0.5891" layer="1"/>
-<smd name="5" x="1.2421" y="0.95" dx="1.1275" dy="0.5891" layer="1"/>
-<text x="0" y="2.6336" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.1936" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="RB1A" urn="urn:adsk.eagle:footprint:2654429/1" library_version="44">
 <description>&lt;b&gt;RECTIFIER&lt;/b&gt;&lt;p&gt;
@@ -1246,7 +1207,7 @@ type MF-0125, grid 5 mm</description>
 <packageinstance name="POWERFLAT-5X6"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT95P240X115-3" urn="urn:adsk.eagle:package:4135509/1" type="model" library_version="44">
+<package3d name="SOT95P240X115-3" urn="urn:adsk.eagle:package:4135509/1" type="model" library_version="46">
 <description>3-SOT23, 0.95 mm pitch, 2.4 mm span, 2.9 X 1.3 X 1.15 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.4 mm span with body size 2.9 X 1.3 X 1.15 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -1343,13 +1304,6 @@ grid 2.54 mm, diameter 7 mm</description>
 <packageinstance name="SQP-10"/>
 </packageinstances>
 </package3d>
-<package3d name="SOIC127P600X170-8" urn="urn:adsk.eagle:package:4108622/2" type="model" library_version="36" library_locally_modified="yes">
-<description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 1.7 mm body
-&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6 mm span with body size 4.9 X 3.9 X 1.7 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOIC-8"/>
-</packageinstances>
-</package3d>
 <package3d name="MKDSN1,5/3-5,08" urn="urn:adsk.eagle:package:2654507/2" type="model" library_version="44">
 <description>&lt;b&gt;MKDSN 1,5/ 3-5,08&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 13,5 A&lt;br&gt;
@@ -1377,13 +1331,6 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 grid 5 mm, outline 2.4 x 4.4 mm</description>
 <packageinstances>
 <packageinstance name="C050-024X044"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT95P280X145-5" urn="urn:adsk.eagle:package:4135333/1" type="model" library_version="44">
-<description>5-SOT23, 0.95 mm pitch, 2.8 mm span, 2.95 X 1.6 X 1.45 mm body
-&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.8 mm span with body size 2.95 X 1.6 X 1.45 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOT95P280X145-5"/>
 </packageinstances>
 </package3d>
 <package3d name="RB1A" urn="urn:adsk.eagle:package:2654599/2" type="model" library_version="44">
@@ -1746,7 +1693,7 @@ type MF-0125, grid 5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FET-N" urn="urn:adsk.eagle:component:2654641/3" prefix="VT" uservalue="yes" library_version="44">
+<deviceset name="FET-N" urn="urn:adsk.eagle:component:2654641/3" prefix="VT" uservalue="yes" library_version="46">
 <gates>
 <gate name="G$1" symbol="FET-N" x="0" y="0"/>
 </gates>
@@ -2300,42 +2247,16 @@ type MF-0125, grid 5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-TL431" urn="urn:adsk.eagle:component:2654631/4" prefix="TL" library_version="44">
+<deviceset name="IC-TLV431" urn="urn:adsk.eagle:component:6513936/1" prefix="U" library_version="46">
 <gates>
 <gate name="G$1" symbol="TL431" x="0" y="0"/>
 </gates>
 <devices>
-<device name="CDT" package="SOIC-8">
-<connects>
-<connect gate="G$1" pin="A" pad="2 3 6 7"/>
-<connect gate="G$1" pin="C" pad="1"/>
-<connect gate="G$1" pin="R" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4108622/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="DBV" package="SOT95P280X145-5">
-<connects>
-<connect gate="G$1" pin="A" pad="5"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="R" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4135333/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CDBZR" package="SOT95P240X115-3">
+<device name="" package="SOT95P240X115-3">
 <connects>
 <connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="C" pad="1"/>
-<connect gate="G$1" pin="R" pad="2"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="R" pad="1"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:4135509/1"/>
@@ -2752,12 +2673,12 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <part name="R3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="1M"/>
 <part name="U$6" library="microbuilder" deviceset="GND" device=""/>
 <part name="R4" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="1K"/>
-<part name="TL1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="IC-TL431" device="CDBZR" package3d_urn="urn:adsk.eagle:package:4135509/1" value="TLV431ACDBZR"/>
+<part name="TL1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="IC-TLV431" device="" package3d_urn="urn:adsk.eagle:package:4135509/1" value="TLV431ACDBZR"/>
 <part name="X1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CON-5.08-03P" device="" package3d_urn="urn:adsk.eagle:package:2654507/2"/>
 <part name="IC1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="OP-AMP-1" device="TSV521ICT" package3d_urn="urn:adsk.eagle:package:2654518/2"/>
 <part name="U$7" library="microbuilder" deviceset="GND" device=""/>
 <part name="R5" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="1K"/>
-<part name="TL2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="IC-TL431" device="CDBZR" package3d_urn="urn:adsk.eagle:package:4135509/1" value="TLV431ACDBZR"/>
+<part name="TL2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="IC-TLV431" device="" package3d_urn="urn:adsk.eagle:package:4135509/1" value="TLV431ACDBZR"/>
 <part name="R6" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="750"/>
 <part name="R7" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="82K"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
