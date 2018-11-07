@@ -13,6 +13,13 @@ UsedLibraryUrn="urn:adsk.eagle:library:2654185"
 UsedLibraryUrn="urn:adsk.eagle:library:113"
 
 [Win_1]
+Type="Text Editor"
+Number=1
+File="C:/Users/Flamb/AppData/Roaming/Eagle/lbr/adsk.eagle_library_2654185/Flamberm.lbr.rpt"
+CursorPos="0 0"
+Font="Artifakt Element Book,-1,12,5,50,0,0,0,0,0"
+
+[Win_2]
 Type="Library Editor"
 Number=2
 File="C:/Users/Flamb/AppData/Roaming/Eagle/lbr/adsk.eagle_library_2654185/Flamberm.lbr"
@@ -56,7 +63,7 @@ AddLevel=2
 PadsSameType=0
 Layer=16
 
-[Win_2]
+[Win_3]
 Type="Control Panel"
 Number=0
 
@@ -64,3 +71,4 @@ Number=0
 Screen="1920 1080"
 Window="Win_1"
 Window="Win_2"
+Window="Win_3"
