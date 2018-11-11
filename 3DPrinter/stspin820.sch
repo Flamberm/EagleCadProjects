@@ -2904,7 +2904,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R24" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="15K"/>
 <part name="R25" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="15K"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R26" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="39K"/>
+<part name="R26" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="22K"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C5" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="0805" package3d_urn="urn:adsk.eagle:package:4015421/2" value="1u"/>
 <part name="C6" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="0805" package3d_urn="urn:adsk.eagle:package:4015421/2" value="1u"/>
@@ -2934,7 +2934,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R35" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="15K"/>
 <part name="R36" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="15K"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R37" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="39K"/>
+<part name="R37" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="22K"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C7" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="0805" package3d_urn="urn:adsk.eagle:package:4015421/2" value="1u"/>
 <part name="C8" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="0805" package3d_urn="urn:adsk.eagle:package:4015421/2" value="1u"/>
@@ -2964,7 +2964,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R46" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="15K"/>
 <part name="R47" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="15K"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R48" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="39K"/>
+<part name="R48" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="22K"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C9" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="0805" package3d_urn="urn:adsk.eagle:package:4015421/2" value="1u"/>
 <part name="C10" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="0805" package3d_urn="urn:adsk.eagle:package:4015421/2" value="1u"/>
@@ -2994,7 +2994,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R57" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="15K"/>
 <part name="R58" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="15K"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R59" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="39K"/>
+<part name="R59" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="22K"/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C11" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="0805" package3d_urn="urn:adsk.eagle:package:4015421/2" value="1u"/>
 <part name="C12" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="0805" package3d_urn="urn:adsk.eagle:package:4015421/2" value="1u"/>
@@ -3024,7 +3024,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R68" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="15K"/>
 <part name="R69" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="15K"/>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R70" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="39K"/>
+<part name="R70" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="22K"/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C13" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="0805" package3d_urn="urn:adsk.eagle:package:4015421/2" value="1u"/>
 <part name="C17" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="0805" package3d_urn="urn:adsk.eagle:package:4015421/2" value="1u"/>
