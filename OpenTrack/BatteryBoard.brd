@@ -159,7 +159,7 @@
 <layer number="255" name="bExtra" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOGRlMGUz" projecturn="a.cGVyc29uYWw6dWUyOGRlMGUzIzIwMTgxMTA4MTU5MTc4NzU2" f3durn="urn:adsk.wipprod:dm.lineage:mWWL-8_CSnWxur5vsbP8WA" pcbguid="8f381b19-84fa-42e4-aee1-6ba9f02968c3" lastpulledtime="" lastsyncedchangeguid="7b4bee96-ab9f-e6bc-ab13-658b5724376b"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOGRlMGUz" projecturn="a.cGVyc29uYWw6dWUyOGRlMGUzIzIwMTgxMTA4MTU5MTc4NzU2" f3durn="urn:adsk.wipprod:dm.lineage:mjSqYJTWTtWOvmlqXC4V1w" pcbguid="842639fc-4e14-41fd-beb4-bc93daa5d515" lastpulledtime="" lastsyncedchangeguid="e6d52412-cbb5-17c2-a05f-5da3203b9b28"/>
 <plain>
 <wire x1="0" y1="0" x2="32.0275" y2="0" width="0" layer="20"/>
 <wire x1="32.0275" y1="0" x2="33.2975" y2="1.27" width="0" layer="20"/>
@@ -174,7 +174,7 @@
 <libraries>
 <library name="Flamberm" urn="urn:adsk.eagle:library:2654185">
 <packages>
-<package name="USB-B-MICRO-SMD" urn="urn:adsk.eagle:footprint:2654428/1" library_version="34">
+<package name="USB-B-MICRO-SMD" urn="urn:adsk.eagle:footprint:2654428/1" library_version="49">
 <description>&lt;h3&gt;USB - microB SMD&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
@@ -213,7 +213,7 @@
 <wire x1="-1" y1="4" x2="-2" y2="4" width="0.3048" layer="21"/>
 <wire x1="-1" y1="-4" x2="-2" y2="-4" width="0.3048" layer="21"/>
 </package>
-<package name="SOT95P280X145-5" urn="urn:adsk.eagle:footprint:4135334/1" library_version="35">
+<package name="SOT95P280X145-5" urn="urn:adsk.eagle:footprint:4135334/1" library_version="49">
 <description>5-SOT23, 0.95 mm pitch, 2.8 mm span, 2.95 X 1.6 X 1.45 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.8 mm span with body size 2.95 X 1.6 X 1.45 mm&lt;/p&gt;</description>
 <circle x="-1.303" y="1.7486" radius="0.25" width="0" layer="21"/>
@@ -252,7 +252,7 @@
 <rectangle x1="0.525" y1="0.35" x2="0.85" y2="0.775" layer="21"/>
 <rectangle x1="-0.175" y1="0" x2="0.175" y2="0.35" layer="21"/>
 </package>
-<package name="RESC2012X50" urn="urn:adsk.eagle:footprint:4015757/1" library_version="47">
+<package name="RESC2012X50" urn="urn:adsk.eagle:footprint:4015757/1" library_version="49">
 <description>CHIP, 2 X 1.2 X 0.5 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.2 X 0.5 mm&lt;/p&gt;</description>
 <wire x1="1" y1="0.9699" x2="-1" y2="0.9699" width="0.12" layer="21"/>
@@ -266,16 +266,16 @@
 <text x="0" y="1.6049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.6049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="QFPN8" urn="urn:adsk.eagle:footprint:6688302/1" library_version="47">
+<package name="QFPN8" urn="urn:adsk.eagle:footprint:6688302/3" library_version="49">
 <smd name="EXP" x="0" y="0" dx="1.4" dy="2.2" layer="1"/>
-<smd name="1" x="-1.3" y="0.975" dx="0.8" dy="0.35" layer="1"/>
-<smd name="2" x="-1.3" y="0.325" dx="0.8" dy="0.35" layer="1"/>
-<smd name="3" x="-1.3" y="-0.325" dx="0.8" dy="0.35" layer="1"/>
-<smd name="4" x="-1.3" y="-0.975" dx="0.8" dy="0.35" layer="1"/>
-<smd name="5" x="1.3" y="-0.975" dx="0.8" dy="0.35" layer="1"/>
-<smd name="6" x="1.3" y="-0.325" dx="0.8" dy="0.35" layer="1"/>
-<smd name="7" x="1.3" y="0.325" dx="0.8" dy="0.35" layer="1"/>
-<smd name="8" x="1.3" y="0.975" dx="0.8" dy="0.35" layer="1"/>
+<smd name="1" x="-1.5" y="0.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="2" x="-1.5" y="0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="3" x="-1.5" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="4" x="-1.5" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="5" x="1.5" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="6" x="1.5" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="7" x="1.5" y="0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="8" x="1.5" y="0.75" dx="0.8" dy="0.3" layer="1"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
@@ -283,7 +283,7 @@
 <circle x="-1.246" y="1.246" radius="0.15289375" width="0.127" layer="21"/>
 <text x="-1.5" y="1.5" size="0.8128" layer="25" ratio="16">&gt;NAME</text>
 </package>
-<package name="INDM4232X320" urn="urn:adsk.eagle:footprint:6688104/1" library_version="47">
+<package name="INDM4232X320" urn="urn:adsk.eagle:footprint:6688104/1" library_version="49">
 <description>Molded Body, 4.20 X 3.20 X 3.20 mm body
 &lt;p&gt;Molded Body package with body size 4.20 X 3.20 X 3.20 mm&lt;/p&gt;</description>
 <wire x1="-2.1" y1="1.6" x2="2.1" y2="1.6" width="0.12" layer="21"/>
@@ -328,7 +328,7 @@
 <text x="0" y="1.6049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.6049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPMP3317X180" urn="urn:adsk.eagle:footprint:4106584/1" library_version="47">
+<package name="CAPMP3317X180" urn="urn:adsk.eagle:footprint:4106584/1" library_version="49">
 <description>MOLDED BODY, 3.3 X 1.7 X 1.8 mm body
 &lt;p&gt;MOLDED BODY package with body size 3.3 X 1.7 X 1.8 mm&lt;/p&gt;</description>
 <wire x1="1.7" y1="0.939" x2="-2.5286" y2="0.939" width="0.12" layer="21"/>
@@ -348,7 +348,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="USB-B-MICRO-SMD" urn="urn:adsk.eagle:package:2654598/2" type="model" library_version="34">
+<package3d name="USB-B-MICRO-SMD" urn="urn:adsk.eagle:package:2654598/2" type="model" library_version="49">
 <description>&lt;h3&gt;USB - microB SMD&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
@@ -361,7 +361,7 @@
 <packageinstance name="USB-B-MICRO-SMD"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT95P280X145-5" urn="urn:adsk.eagle:package:4135333/1" type="model" library_version="35">
+<package3d name="SOT95P280X145-5" urn="urn:adsk.eagle:package:4135333/1" type="model" library_version="49">
 <description>5-SOT23, 0.95 mm pitch, 2.8 mm span, 2.95 X 1.6 X 1.45 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.8 mm span with body size 2.95 X 1.6 X 1.45 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -373,19 +373,19 @@
 <packageinstance name="LED1206"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC2012X50" urn="urn:adsk.eagle:package:4015756/1" type="model" library_version="47">
+<package3d name="RESC2012X50" urn="urn:adsk.eagle:package:4015756/1" type="model" library_version="49">
 <description>CHIP, 2 X 1.2 X 0.5 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.2 X 0.5 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESC2012X50"/>
 </packageinstances>
 </package3d>
-<package3d name="QFPN8" urn="urn:adsk.eagle:package:6688303/1" type="box" library_version="47">
+<package3d name="QFPN8" urn="urn:adsk.eagle:package:6688303/3" type="box" library_version="49">
 <packageinstances>
 <packageinstance name="QFPN8"/>
 </packageinstances>
 </package3d>
-<package3d name="INDM4232X320" urn="urn:adsk.eagle:package:6688102/1" type="model" library_version="47">
+<package3d name="INDM4232X320" urn="urn:adsk.eagle:package:6688102/1" type="model" library_version="49">
 <description>Molded Body, 4.20 X 3.20 X 3.20 mm body
 &lt;p&gt;Molded Body package with body size 4.20 X 3.20 X 3.20 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -405,7 +405,7 @@
 <packageinstance name="CAP0805"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPMP3317X180" urn="urn:adsk.eagle:package:4106565/1" type="model" library_version="47">
+<package3d name="CAPMP3317X180" urn="urn:adsk.eagle:package:4106565/1" type="model" library_version="49">
 <description>MOLDED BODY, 3.3 X 1.7 X 1.8 mm body
 &lt;p&gt;MOLDED BODY package with body size 3.3 X 1.7 X 1.8 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -415,26 +415,6 @@
 <package3d name="PAD-1.27X2.54" urn="urn:adsk.eagle:package:4120489/2" type="model" library_version="47">
 <packageinstances>
 <packageinstance name="PAD-1.27X2.54"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="wirepad" urn="urn:adsk.eagle:library:412">
-<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SMD1,27-2,54" urn="urn:adsk.eagle:footprint:30822/1" library_version="1">
-<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
-<smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
-<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
-<text x="-0.8" y="-2.4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="SMD1,27-2,54" urn="urn:adsk.eagle:package:30839/1" type="box" library_version="1">
-<description>SMD PAD</description>
-<packageinstances>
-<packageinstance name="SMD1,27-2,54"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -498,7 +478,7 @@ Datasheet (TS53YL502MR10)</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="EagleDesignRules">
+<designrules name="EagleDesignRules *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -515,7 +495,7 @@ necessary adjustments and save your customized
 design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mtIsolate" value="1mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="0.25mm"/>
 <param name="mdWirePad" value="0.25mm"/>
 <param name="mdWireVia" value="0.25mm"/>
@@ -702,15 +682,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.6501" y="9.525" size="1.27" layer="25" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="9.8599" y="9.525" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
-<element name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="" x="3.175" y="12.065" smashed="yes" rot="R180">
-<attribute name="NAME" x="3.975" y="14.465" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="3.175" y="12.065" size="0.0254" layer="27" rot="R180"/>
+<element name="PAD1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="PAD-1.27X2.54" package3d_urn="urn:adsk.eagle:package:4120489/2" value="" x="3.175" y="12.065" smashed="yes" rot="R270">
+<attribute name="NAME" x="0.775" y="12.865" size="1.27" layer="25"/>
+<attribute name="VALUE" x="3.175" y="12.065" size="0.0254" layer="27" rot="R270"/>
 </element>
-<element name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="" x="10.16" y="12.065" smashed="yes" rot="R180">
-<attribute name="NAME" x="10.96" y="14.465" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="10.16" y="12.065" size="0.0254" layer="27" rot="R180"/>
+<element name="PAD2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="PAD-1.27X2.54" package3d_urn="urn:adsk.eagle:package:4120489/2" value="" x="10.16" y="12.065" smashed="yes" rot="R270">
+<attribute name="NAME" x="7.76" y="12.865" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.16" y="12.065" size="0.0254" layer="27" rot="R270"/>
 </element>
-<element name="U2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="QFPN8" package3d_urn="urn:adsk.eagle:package:6688303/1" value="POWER-L5980TR" x="18.7325" y="7.3025" smashed="yes" rot="R90">
+<element name="U2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="QFPN8" package3d_urn="urn:adsk.eagle:package:6688303/3" value="POWER-L5980TR" x="18.7325" y="7.3025" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.2325" y="5.8025" size="0.8128" layer="25" ratio="16" rot="R90"/>
 </element>
 <element name="L1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="INDM4232X320" package3d_urn="urn:adsk.eagle:package:6688102/1" value="" x="18.0975" y="2.2225" smashed="yes">
@@ -757,7 +737,7 @@ design rules under a new name.</description>
 <contactref element="X1" pad="SHIELD1"/>
 <contactref element="X1" pad="SHIELD3"/>
 <contactref element="R3" pad="2"/>
-<contactref element="PAD2" pad="1"/>
+<contactref element="PAD2" pad="P$1"/>
 <wire x1="7.015" y1="3.6775" x2="7.015" y2="1.6175" width="0.4064" layer="1"/>
 <wire x1="7.015" y1="1.6175" x2="6.35" y2="0.9525" width="0.4064" layer="1"/>
 <wire x1="6.35" y1="0.9525" x2="5.715" y2="0.9525" width="0.4064" layer="1"/>
@@ -784,13 +764,12 @@ design rules under a new name.</description>
 <contactref element="D1" pad="A"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C4" pad="2"/>
-<wire x1="18.4075" y1="8.6025" x2="18.4075" y2="7.6125" width="0.3048" layer="1"/>
 <wire x1="18.4075" y1="7.6125" x2="18.0975" y2="7.3025" width="0.3048" layer="1"/>
-<wire x1="18.0975" y1="7.3025" x2="18.7325" y2="7.3025" width="0.3048" layer="1"/>
-<wire x1="19.0575" y1="6.0025" x2="19.0575" y2="6.0325" width="0.3048" layer="1"/>
-<wire x1="19.0575" y1="6.0325" x2="19.0575" y2="6.9775" width="0.3048" layer="1"/>
-<wire x1="19.0575" y1="6.9775" x2="18.7325" y2="7.3025" width="0.3048" layer="1"/>
-<wire x1="18.7325" y1="7.3025" x2="15.5575" y2="7.3025" width="0.3048" layer="1"/>
+<wire x1="18.0975" y1="7.3025" x2="18.415" y2="7.3025" width="0.3048" layer="1"/>
+<wire x1="19.0575" y1="6.9775" x2="18.9825" y2="7.0525" width="0.3048" layer="1"/>
+<wire x1="18.89125" y1="7.14375" x2="18.7325" y2="7.3025" width="0.3048" layer="1"/>
+<wire x1="18.7325" y1="7.3025" x2="18.415" y2="7.3025" width="0.3048" layer="1"/>
+<wire x1="18.0975" y1="7.3025" x2="15.5575" y2="7.3025" width="0.3048" layer="1"/>
 <wire x1="15.5575" y1="7.3025" x2="15.24" y2="7.62" width="0.3048" layer="1"/>
 <wire x1="15.24" y1="7.62" x2="15.24" y2="9.525" width="0.3048" layer="1"/>
 <wire x1="15.24" y1="9.525" x2="15.24" y2="9.5525" width="0.3048" layer="1"/>
@@ -798,7 +777,6 @@ design rules under a new name.</description>
 <wire x1="29.845" y1="4.9175" x2="27.6225" y2="4.9175" width="0.3048" layer="1"/>
 <wire x1="19.05" y1="4.7625" x2="19.2405" y2="4.572" width="0.3048" layer="1"/>
 <wire x1="19.05" y1="4.7625" x2="19.0575" y2="4.77" width="0.3048" layer="1"/>
-<wire x1="19.0575" y1="4.77" x2="19.0575" y2="6.0325" width="0.3048" layer="1"/>
 <wire x1="15.5575" y1="7.3025" x2="12.3825" y2="7.3025" width="0.3048" layer="1"/>
 <wire x1="10.16" y1="9.525" x2="10.16" y2="12.065" width="0.3048" layer="1"/>
 <wire x1="12.3825" y1="7.3025" x2="10.16" y2="9.525" width="0.3048" layer="1"/>
@@ -820,6 +798,12 @@ design rules under a new name.</description>
 <wire x1="27.277" y1="4.572" x2="27.6225" y2="4.9175" width="0.3048" layer="1"/>
 <wire x1="21.86" y1="3.255" x2="21.86" y2="4.302" width="0.3048" layer="1"/>
 <wire x1="21.86" y1="4.302" x2="21.59" y2="4.572" width="0.3048" layer="1"/>
+<wire x1="18.9825" y1="5.8025" x2="18.9825" y2="4.83" width="0.3048" layer="1"/>
+<wire x1="18.9825" y1="4.83" x2="19.05" y2="4.7625" width="0.3048" layer="1"/>
+<wire x1="18.4825" y1="8.8025" x2="18.4825" y2="7.37" width="0.3048" layer="1"/>
+<wire x1="18.4825" y1="7.37" x2="18.415" y2="7.3025" width="0.3048" layer="1"/>
+<wire x1="18.9825" y1="5.8025" x2="18.9825" y2="7.0525" width="0.3048" layer="1"/>
+<wire x1="18.9825" y1="7.0525" x2="18.89125" y2="7.14375" width="0.3048" layer="1"/>
 </signal>
 <signal name="+5V">
 <contactref element="X1" pad="VBUS"/>
@@ -854,19 +838,19 @@ design rules under a new name.</description>
 </signal>
 <signal name="V+">
 <contactref element="U1" pad="3"/>
-<contactref element="PAD1" pad="1"/>
+<contactref element="PAD1" pad="P$1"/>
 <wire x1="3.175" y1="12.065" x2="3.8125" y2="12.065" width="0.4064" layer="1"/>
 <wire x1="3.8125" y1="12.065" x2="3.8125" y2="12.0371" width="0.4064" layer="1"/>
 <wire x1="3.8125" y1="12.0371" x2="4.765" y2="11.0846" width="0.4064" layer="1"/>
 <contactref element="U2" pad="8"/>
-<wire x1="17.7575" y1="9.525" x2="17.7575" y2="8.6025" width="0.3048" layer="1"/>
 <wire x1="3.175" y1="12.065" x2="3.175" y2="13.0175" width="0.508" layer="1"/>
 <wire x1="3.175" y1="13.0175" x2="4.445" y2="14.2875" width="0.508" layer="1"/>
 <wire x1="16.51" y1="14.2875" x2="17.78" y2="13.0175" width="0.508" layer="1"/>
 <wire x1="17.78" y1="13.0175" x2="17.7575" y2="12.995" width="0.508" layer="1"/>
-<wire x1="17.7575" y1="12.995" x2="17.7575" y2="11.4525" width="0.508" layer="1"/>
 <wire x1="4.445" y1="14.2875" x2="16.51" y2="14.2875" width="0.508" layer="1"/>
-<wire x1="17.7575" y1="11.4525" x2="17.7575" y2="9.525" width="0.508" layer="1"/>
+<wire x1="17.7575" y1="9.8425" x2="17.7575" y2="12.995" width="0.508" layer="1"/>
+<wire x1="17.9825" y1="8.8025" x2="17.9825" y2="9.6175" width="0.3048" layer="1"/>
+<wire x1="17.9825" y1="9.6175" x2="17.7575" y2="9.8425" width="0.3048" layer="1"/>
 </signal>
 <signal name="1V2">
 <contactref element="L1" pad="2"/>
@@ -891,8 +875,8 @@ design rules under a new name.</description>
 <contactref element="D1" pad="C"/>
 <wire x1="16.4262" y1="2.2225" x2="15.24" y2="3.4087" width="0.3048" layer="1"/>
 <wire x1="15.24" y1="5.0175" x2="15.24" y2="3.4087" width="0.3048" layer="1"/>
-<wire x1="17.7575" y1="6.0025" x2="17.7575" y2="3.5538" width="0.3048" layer="1"/>
-<wire x1="16.4262" y1="2.2225" x2="17.7575" y2="3.5538" width="0.3048" layer="1"/>
+<wire x1="17.9825" y1="5.8025" x2="17.9825" y2="3.7788" width="0.3048" layer="1"/>
+<wire x1="17.9825" y1="3.7788" x2="16.4262" y2="2.2225" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R5" pad="2"/>
@@ -905,14 +889,12 @@ design rules under a new name.</description>
 <contactref element="R5" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="U2" pad="4"/>
-<wire x1="19.7075" y1="6.0025" x2="19.7075" y2="5.375" width="0.3048" layer="1"/>
-<wire x1="19.7075" y1="5.375" x2="19.8755" y2="5.207" width="0.3048" layer="1"/>
-<wire x1="19.8755" y1="5.207" x2="22.352" y2="5.207" width="0.3048" layer="1"/>
+<wire x1="19.8755" y1="5.207" x2="24.5745" y2="5.207" width="0.3048" layer="1"/>
 <wire x1="25.0825" y1="8.1575" x2="23.1775" y2="8.1575" width="0.3048" layer="1"/>
 <wire x1="25.0825" y1="8.1575" x2="25.0825" y2="5.715" width="0.3048" layer="1"/>
 <wire x1="25.0825" y1="5.715" x2="24.5745" y2="5.207" width="0.3048" layer="1"/>
-<wire x1="24.5745" y1="5.207" x2="22.386" y2="5.207" width="0.3048" layer="1"/>
-<wire x1="22.386" y1="5.207" x2="22.352" y2="5.207" width="0.3048" layer="1"/>
+<wire x1="19.4825" y1="5.8025" x2="19.4825" y2="5.6" width="0.3048" layer="1"/>
+<wire x1="19.4825" y1="5.6" x2="19.8755" y2="5.207" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="C1" pad="2"/>
@@ -924,11 +906,11 @@ design rules under a new name.</description>
 <wire x1="23.1775" y1="10.0625" x2="21.2725" y2="8.1575" width="0.3048" layer="1"/>
 <wire x1="22.86" y1="6.58" x2="22.85" y2="6.58" width="0.3048" layer="1"/>
 <wire x1="22.85" y1="6.58" x2="21.2725" y2="8.1575" width="0.3048" layer="1"/>
-<wire x1="19.7075" y1="8.6025" x2="19.7075" y2="9.23" width="0.3048" layer="1"/>
-<wire x1="19.7075" y1="9.23" x2="19.9767" y2="9.4992" width="0.3048" layer="1"/>
-<wire x1="19.9767" y1="9.4992" x2="20.9808" y2="9.4992" width="0.3048" layer="1"/>
 <wire x1="20.9808" y1="9.4992" x2="21.2725" y2="9.2075" width="0.3048" layer="1"/>
 <wire x1="21.2725" y1="9.2075" x2="21.2725" y2="8.1575" width="0.3048" layer="1"/>
+<wire x1="19.4825" y1="8.8025" x2="19.4825" y2="9.1955" width="0.3048" layer="1"/>
+<wire x1="19.4825" y1="9.1955" x2="19.7862" y2="9.4992" width="0.3048" layer="1"/>
+<wire x1="19.7862" y1="9.4992" x2="20.9808" y2="9.4992" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
