@@ -519,6 +519,18 @@ design rules under a new name.</description>
 <contactref element="X1" pad="4"/>
 <wire x1="148" y1="136.5" x2="42.5" y2="8" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="BL-PWM">
+<contactref element="X2" pad="1"/>
+</signal>
+<signal name="15V">
+<contactref element="X2" pad="2"/>
+</signal>
+<signal name="BL-ANALOG">
+<contactref element="X2" pad="8"/>
+</signal>
+<signal name="ON-OFF">
+<contactref element="X2" pad="9"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>

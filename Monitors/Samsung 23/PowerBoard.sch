@@ -1084,6 +1084,34 @@
 <wire x1="20.32" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="BL-PWM" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
+<label x="22.86" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="15V" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
+<label x="22.86" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BL-ANALOG" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="8"/>
+<wire x1="5.08" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
+<label x="22.86" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ON-OFF" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="9"/>
+<wire x1="5.08" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
+<label x="22.86" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
