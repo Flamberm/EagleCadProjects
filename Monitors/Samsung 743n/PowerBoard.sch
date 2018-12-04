@@ -788,7 +788,7 @@
 <text x="0" y="1.8049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.8049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="MF-05" urn="urn:adsk.eagle:footprint:2654361/1" library_version="55">
+<package name="MF-05" urn="urn:adsk.eagle:footprint:2654361/1" library_version="56">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type MF-05, grid 12.5 mm</description>
 <wire x1="6.35" y1="0" x2="5.08" y2="0" width="0.6096" layer="51"/>
@@ -816,7 +816,7 @@ type MF-05, grid 12.5 mm</description>
 <rectangle x1="4.518" y1="-0.3048" x2="5.3816" y2="0.3048" layer="21"/>
 <rectangle x1="-5.3816" y1="-0.3048" x2="-4.518" y2="0.3048" layer="21"/>
 </package>
-<package name="MF-0125" urn="urn:adsk.eagle:footprint:2654363/1" library_version="55">
+<package name="MF-0125" urn="urn:adsk.eagle:footprint:2654363/1" library_version="56">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type MF-0125, grid 5 mm</description>
 <wire x1="2.54" y1="0" x2="2.032" y2="0" width="0.508" layer="51"/>
@@ -844,7 +844,7 @@ type MF-0125, grid 5 mm</description>
 <rectangle x1="-2.032" y1="-0.254" x2="-1.778" y2="0.254" layer="51"/>
 <rectangle x1="1.778" y1="-0.254" x2="2.032" y2="0.254" layer="51"/>
 </package>
-<package name="RESC2012X50" urn="urn:adsk.eagle:footprint:4015757/1" library_version="55">
+<package name="RESC2012X50" urn="urn:adsk.eagle:footprint:4015757/1" library_version="56">
 <description>CHIP, 2 X 1.2 X 0.5 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.2 X 0.5 mm&lt;/p&gt;</description>
 <wire x1="1" y1="0.9699" x2="-1" y2="0.9699" width="0.12" layer="21"/>
@@ -898,7 +898,7 @@ type MF-0125, grid 5 mm</description>
 <text x="-2.54" y="-1.778" size="0.8128" layer="25" ratio="12" rot="R90">&gt;NAME</text>
 <text x="-1.524" y="-2.286" size="0.8128" layer="27" ratio="12" rot="R90">&gt;VALUE</text>
 </package>
-<package name="DBS" urn="urn:adsk.eagle:footprint:2654436/1" library_version="55">
+<package name="DBS" urn="urn:adsk.eagle:footprint:2654436/1" library_version="56">
 <description>&lt;b&gt;Single Phase 1.0 AMP Glass Passivated Bridge Rectifier&lt;/b&gt;&lt;p&gt;
 Taiwan Semiconductor Co.,Ltd. - TSC&lt;br&gt;
 Source: http://www.taiwansemi.com/TSCbig5/ezcatfiles/cust/img/img/db101g.pdf</description>
@@ -943,7 +943,7 @@ Source: http://www.taiwansemi.com/TSCbig5/ezcatfiles/cust/img/img/db101g.pdf</de
 <rectangle x1="2.15" y1="-0.7" x2="2.4" y2="0.65" layer="51"/>
 <rectangle x1="-1" y1="-1.05" x2="-0.7" y2="1.05" layer="21"/>
 </package>
-<package name="SOIC-16NG" urn="urn:adsk.eagle:footprint:2654431/1" library_version="55">
+<package name="SOIC-16NG" urn="urn:adsk.eagle:footprint:2654431/1" library_version="56">
 <description>&lt;b&gt;16-Lead SOIC (Narrow Body) Package Outline (NG)&lt;/b&gt;&lt;p&gt;
 9.90x3.90mm body, 1.75mm height (max), 1.27mm pitch&lt;br&gt;
 Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
@@ -988,7 +988,7 @@ Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
 <rectangle x1="-3.425" y1="1.95" x2="-2.925" y2="3.1" layer="51" rot="R180"/>
 <rectangle x1="-4.695" y1="1.95" x2="-4.195" y2="3.1" layer="51" rot="R180"/>
 </package>
-<package name="MF-025" urn="urn:adsk.eagle:footprint:2654362/1" library_version="55">
+<package name="MF-025" urn="urn:adsk.eagle:footprint:2654362/1" library_version="56">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type MF-025, grid 7.5 mm</description>
 <wire x1="-3.81" y1="0" x2="-3.429" y2="0" width="0.6096" layer="51"/>
@@ -1266,7 +1266,7 @@ type MF-025, grid 7.5 mm</description>
 <wire x1="-7.62" y1="11.43" x2="7.62" y2="11.43" width="1.27" layer="21"/>
 <wire x1="7.62" y1="11.43" x2="7.62" y2="12.7" width="1.27" layer="21"/>
 </package>
-<package name="SQP-5" urn="urn:adsk.eagle:footprint:2654324/1" library_version="55">
+<package name="SQP-5" urn="urn:adsk.eagle:footprint:2654324/1" library_version="56">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type SQP-5,</description>
 <wire x1="13.97" y1="0" x2="12.7" y2="0" width="0.8128" layer="51"/>
@@ -1282,7 +1282,7 @@ type SQP-5,</description>
 <rectangle x1="-12.6238" y1="-0.4064" x2="-11.1" y2="0.4064" layer="51"/>
 <rectangle x1="11.1" y1="-0.4064" x2="12.6238" y2="0.4064" layer="51"/>
 </package>
-<package name="RESC3216X60" urn="urn:adsk.eagle:footprint:4015760/1" library_version="55">
+<package name="RESC3216X60" urn="urn:adsk.eagle:footprint:4015760/1" library_version="56">
 <description>CHIP, 3.2 X 1.6 X 0.6 mm body
 &lt;p&gt;CHIP package with body size 3.2 X 1.6 X 0.6 mm&lt;/p&gt;</description>
 <wire x1="1.6" y1="1.1699" x2="-1.6" y2="1.1699" width="0.12" layer="21"/>
@@ -1296,7 +1296,7 @@ type SQP-5,</description>
 <text x="0" y="1.8049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.8049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="TO220ACS" urn="urn:adsk.eagle:footprint:2654346/1" library_version="55">
+<package name="TO220ACS" urn="urn:adsk.eagle:footprint:2654346/1" library_version="56">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 2-lead molded, vertical</description>
 <wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
@@ -1316,7 +1316,7 @@ type SQP-5,</description>
 <rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
 <rectangle x1="-1.651" y1="-1.27" x2="1.651" y2="-0.762" layer="21"/>
 </package>
-<package name="SOT95P280X145-5" urn="urn:adsk.eagle:footprint:4135334/1" library_version="55">
+<package name="SOT95P280X145-5" urn="urn:adsk.eagle:footprint:4135334/1" library_version="56">
 <description>5-SOT23, 0.95 mm pitch, 2.8 mm span, 2.95 X 1.6 X 1.45 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.8 mm span with body size 2.95 X 1.6 X 1.45 mm&lt;/p&gt;</description>
 <circle x="-1.303" y="1.7486" radius="0.25" width="0" layer="21"/>
@@ -1397,7 +1397,7 @@ type SQP-5,</description>
 <text x="0" y="2.2549" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.2549" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="DO15-12" urn="urn:adsk.eagle:footprint:2654372/1" library_version="55">
+<package name="DO15-12" urn="urn:adsk.eagle:footprint:2654372/1" library_version="56">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 diameter 3.5 mm, horizontal, grid 12.7 mm</description>
 <wire x1="-3.81" y1="-1.778" x2="2.54" y2="-1.778" width="0.1524" layer="21"/>
@@ -1517,7 +1517,7 @@ diameter 3.5 mm, horizontal, grid 12.7 mm</description>
 <text x="-1.524" y="-9.398" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="1.778" y="-9.906" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
-<package name="E3,5-8" urn="urn:adsk.eagle:footprint:2654379/1" library_version="55">
+<package name="E3,5-8" urn="urn:adsk.eagle:footprint:2654379/1" library_version="56">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 3.5 mm, diameter 8 mm</description>
 <wire x1="-3.429" y1="1.143" x2="-2.667" y2="1.143" width="0.1524" layer="21"/>
@@ -1536,7 +1536,22 @@ grid 3.5 mm, diameter 8 mm</description>
 <text x="-2.286" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="C050-024X044" urn="urn:adsk.eagle:footprint:2654380/1" library_version="55">
+<package name="CON-12-2MM" urn="urn:adsk.eagle:footprint:7231222/1" library_version="55">
+<pad name="1" x="-10.968" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="2" x="-8.968" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="3" x="-6.968" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="4" x="-4.968" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="5" x="-2.968" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="6" x="-0.968" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="7" x="1.032" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="8" x="3.032" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="9" x="5.032" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="10" x="7.032" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="11" x="9.032" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="12" x="11.032" y="0" drill="0.9" shape="long" rot="R90"/>
+<circle x="-12.319" y="1.27" radius="0.254" width="0.127" layer="21"/>
+</package>
+<package name="C050-024X044" urn="urn:adsk.eagle:footprint:2654380/1" library_version="56">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5 mm, outline 2.4 x 4.4 mm</description>
 <wire x1="-2.159" y1="-0.635" x2="-2.159" y2="0.635" width="0.1524" layer="51"/>
@@ -1560,7 +1575,7 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <rectangle x1="2.159" y1="-0.381" x2="2.54" y2="0.381" layer="51"/>
 <rectangle x1="-2.54" y1="-0.381" x2="-2.159" y2="0.381" layer="51"/>
 </package>
-<package name="MF-2" urn="urn:adsk.eagle:footprint:2654359/1" library_version="55">
+<package name="MF-2" urn="urn:adsk.eagle:footprint:2654359/1" library_version="56">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type MF-2, grid 20 mm</description>
 <wire x1="-10.16" y1="0" x2="-8.636" y2="0" width="0.8128" layer="51"/>
@@ -1592,7 +1607,7 @@ type MF-2, grid 20 mm</description>
 <rectangle x1="-8.5344" y1="-0.4064" x2="-8.2296" y2="0.4064" layer="51"/>
 <rectangle x1="8.2296" y1="-0.4064" x2="8.5344" y2="0.4064" layer="51"/>
 </package>
-<package name="MF-1" urn="urn:adsk.eagle:footprint:2654360/1" library_version="55">
+<package name="MF-1" urn="urn:adsk.eagle:footprint:2654360/1" library_version="56">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type MF-1, grid 15 mm</description>
 <wire x1="7.62" y1="0" x2="6.604" y2="0" width="0.8128" layer="51"/>
@@ -1620,7 +1635,7 @@ type MF-1, grid 15 mm</description>
 <rectangle x1="6.096" y1="-0.4064" x2="6.5024" y2="0.4064" layer="21"/>
 <rectangle x1="-6.5024" y1="-0.4064" x2="-6.096" y2="0.4064" layer="21"/>
 </package>
-<package name="RESC1508X50" urn="urn:adsk.eagle:footprint:4015754/1" library_version="55">
+<package name="RESC1508X50" urn="urn:adsk.eagle:footprint:4015754/1" library_version="56">
 <description>CHIP, 1.55 X 0.85 X 0.5 mm body
 &lt;p&gt;CHIP package with body size 1.55 X 0.85 X 0.5 mm&lt;/p&gt;</description>
 <wire x1="0.775" y1="0.7949" x2="-0.775" y2="0.7949" width="0.12" layer="21"/>
@@ -1634,7 +1649,7 @@ type MF-1, grid 15 mm</description>
 <text x="0" y="1.4299" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.4299" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESC6332X70" urn="urn:adsk.eagle:footprint:4015763/1" library_version="55">
+<package name="RESC6332X70" urn="urn:adsk.eagle:footprint:4015763/1" library_version="56">
 <description>CHIP, 6.3 X 3.2 X 0.7 mm body
 &lt;p&gt;CHIP package with body size 6.3 X 3.2 X 0.7 mm&lt;/p&gt;</description>
 <wire x1="3.15" y1="1.9699" x2="-3.15" y2="1.9699" width="0.12" layer="21"/>
@@ -1648,7 +1663,7 @@ type MF-1, grid 15 mm</description>
 <text x="0" y="2.6049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.6049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="EVUE" urn="urn:adsk.eagle:footprint:2654397/1" library_version="55">
+<package name="EVUE" urn="urn:adsk.eagle:footprint:2654397/1" library_version="56">
 <description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Horizontal, Snap-in&lt;p&gt;
 Source: Panasonic</description>
 <wire x1="-4.35" y1="4.9" x2="-2.25" y2="4.9" width="0" layer="46"/>
@@ -1691,7 +1706,7 @@ Source: Panasonic</description>
 <text x="-5.8112" y="5.759" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.8112" y="-7.537" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="RB1A" urn="urn:adsk.eagle:footprint:2654429/1" library_version="55">
+<package name="RB1A" urn="urn:adsk.eagle:footprint:2654429/1" library_version="56">
 <description>&lt;b&gt;RECTIFIER&lt;/b&gt;&lt;p&gt;
 1 A</description>
 <wire x1="-4.064" y1="2.54" x2="-4.064" y2="-2.54" width="0.1524" layer="21" curve="-297.029507"/>
@@ -1711,7 +1726,7 @@ Source: Panasonic</description>
 <text x="-3.3782" y="-0.6604" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-4.445" y1="-4.445" x2="4.445" y2="4.445" layer="43"/>
 </package>
-<package name="MBS" urn="urn:adsk.eagle:footprint:2654438/1" library_version="55">
+<package name="MBS" urn="urn:adsk.eagle:footprint:2654438/1" library_version="56">
 <description>&lt;b&gt;Surface Mount Glass Passivated Bridge Rectifiers&lt;/b&gt;&lt;p&gt;
 Source: Comchip Bridge Rectifiers B05S-G_B10S-G.pdf</description>
 <wire x1="-2.325" y1="1.975" x2="2.325" y2="1.975" width="0.254" layer="21"/>
@@ -1736,7 +1751,7 @@ Source: Comchip Bridge Rectifiers B05S-G_B10S-G.pdf</description>
 <rectangle x1="0.875" y1="-3.505" x2="1.65" y2="-2.075" layer="51"/>
 <rectangle x1="-1.665" y1="-3.505" x2="-0.89" y2="-2.075" layer="51"/>
 </package>
-<package name="DO201-15" urn="urn:adsk.eagle:footprint:2654371/1" library_version="55">
+<package name="DO201-15" urn="urn:adsk.eagle:footprint:2654371/1" library_version="56">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 diameter 5.6 mm, horizontal, grid 15.24 mm</description>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
@@ -1760,7 +1775,7 @@ diameter 5.6 mm, horizontal, grid 15.24 mm</description>
 <rectangle x1="-5.969" y1="-0.635" x2="-5.08" y2="0.635" layer="21"/>
 <rectangle x1="5.08" y1="-0.635" x2="5.969" y2="0.635" layer="21"/>
 </package>
-<package name="SOIC-08LG" urn="urn:adsk.eagle:footprint:2654430/1" library_version="55">
+<package name="SOIC-08LG" urn="urn:adsk.eagle:footprint:2654430/1" library_version="56">
 <description>&lt;b&gt;8-Lead SOIC (Narrow Body) Package Outline (LG)&lt;/b&gt;&lt;p&gt;
 4.9x3.9mm body, 1.75mm height (max), 1.27mm pitch&lt;br&gt;
 Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
@@ -1789,7 +1804,7 @@ Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
 <rectangle x1="-0.885" y1="1.95" x2="-0.385" y2="3.1" layer="51" rot="R180"/>
 <rectangle x1="-2.155" y1="1.95" x2="-1.655" y2="3.1" layer="51" rot="R180"/>
 </package>
-<package name="SOT95P240X115-3" urn="urn:adsk.eagle:footprint:4135511/1" library_version="55">
+<package name="SOT95P240X115-3" urn="urn:adsk.eagle:footprint:4135511/1" library_version="56">
 <description>3-SOT23, 0.95 mm pitch, 2.4 mm span, 2.9 X 1.3 X 1.15 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.4 mm span with body size 2.9 X 1.3 X 1.15 mm&lt;/p&gt;</description>
 <circle x="-1.1573" y="1.7586" radius="0.25" width="0" layer="21"/>
@@ -1807,7 +1822,7 @@ Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
 <text x="0" y="2.6436" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.2036" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="E5-5" urn="urn:adsk.eagle:footprint:2654373/1" library_version="55">
+<package name="E5-5" urn="urn:adsk.eagle:footprint:2654373/1" library_version="56">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 5 mm</description>
 <wire x1="-2.1557" y1="1.3432" x2="2.1557" y2="1.3432" width="0.1524" layer="21" curve="-116.146571"/>
@@ -1829,7 +1844,7 @@ grid 5.08 mm, diameter 5 mm</description>
 <text x="2.54" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
 </package>
-<package name="C_D25-G10-CLAMP" urn="urn:adsk.eagle:footprint:2654370/1" library_version="55">
+<package name="C_D25-G10-CLAMP" urn="urn:adsk.eagle:footprint:2654370/1" library_version="56">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 10.16 mm, diameter 25 mm&lt;p&gt;
 Защёлки</description>
@@ -1850,7 +1865,7 @@ grid 10.16 mm, diameter 25 mm&lt;p&gt;
 <text x="-5.0546" y="-5.715" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.3302" y1="-2.54" x2="1.6002" y2="2.54" layer="21"/>
 </package>
-<package name="E5-10,5" urn="urn:adsk.eagle:footprint:2654375/1" library_version="55">
+<package name="E5-10,5" urn="urn:adsk.eagle:footprint:2654375/1" library_version="56">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 10.5 mm</description>
 <wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
@@ -1871,7 +1886,7 @@ grid 5.08 mm, diameter 10.5 mm</description>
 <text x="-3.1242" y="-3.2258" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.143" x2="0.889" y2="1.143" layer="21"/>
 </package>
-<package name="E2,5-7" urn="urn:adsk.eagle:footprint:2654392/1" library_version="55">
+<package name="E2,5-7" urn="urn:adsk.eagle:footprint:2654392/1" library_version="56">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm, diameter 7 mm</description>
 <wire x1="-3.048" y1="0" x2="-2.286" y2="0" width="0.1524" layer="21"/>
@@ -1890,7 +1905,7 @@ grid 2.54 mm, diameter 7 mm</description>
 <text x="3.048" y="-3.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="CAPAE680X550" urn="urn:adsk.eagle:footprint:4106275/1" library_version="55">
+<package name="CAPAE680X550" urn="urn:adsk.eagle:footprint:4106275/1" library_version="56">
 <description>ECAP (ALUMINUM ELECTROLYTIC CAPACITOR), 6.8 X 5.5 mm body
 &lt;p&gt;ECAP (ALUMINUM ELECTROLYTIC CAPACITOR) package with body size 6.8 X 5.5 mm&lt;/p&gt;</description>
 <wire x1="-3.4" y1="1.1099" x2="-3.4" y2="2.128" width="0.12" layer="21"/>
@@ -1910,7 +1925,7 @@ grid 2.54 mm, diameter 7 mm</description>
 <text x="0" y="4.035" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.035" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPMP3528X200" urn="urn:adsk.eagle:footprint:4106555/1" library_version="55">
+<package name="CAPMP3528X200" urn="urn:adsk.eagle:footprint:4106555/1" library_version="56">
 <description>MOLDED BODY, 3.55 X 2.85 X 2 mm body
 &lt;p&gt;MOLDED BODY package with body size 3.55 X 2.85 X 2 mm&lt;/p&gt;</description>
 <wire x1="1.8" y1="1.45" x2="-2.639" y2="1.45" width="0.12" layer="21"/>
@@ -1925,7 +1940,7 @@ grid 2.54 mm, diameter 7 mm</description>
 <text x="0" y="2.085" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.085" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPMP3317X180" urn="urn:adsk.eagle:footprint:4106584/1" library_version="55">
+<package name="CAPMP3317X180" urn="urn:adsk.eagle:footprint:4106584/1" library_version="56">
 <description>MOLDED BODY, 3.3 X 1.7 X 1.8 mm body
 &lt;p&gt;MOLDED BODY package with body size 3.3 X 1.7 X 1.8 mm&lt;/p&gt;</description>
 <wire x1="1.7" y1="0.939" x2="-2.5286" y2="0.939" width="0.12" layer="21"/>
@@ -1940,7 +1955,7 @@ grid 2.54 mm, diameter 7 mm</description>
 <text x="0" y="1.574" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.574" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPAE860X1050" urn="urn:adsk.eagle:footprint:4106588/1" library_version="55">
+<package name="CAPAE860X1050" urn="urn:adsk.eagle:footprint:4106588/1" library_version="56">
 <description>ECAP (ALUMINUM ELECTROLYTIC CAPACITOR), 8.6 X 10.5 mm body
 &lt;p&gt;ECAP (ALUMINUM ELECTROLYTIC CAPACITOR) package with body size 8.6 X 10.5 mm&lt;/p&gt;</description>
 <wire x1="-4.3" y1="1.3599" x2="-4.3" y2="2.703" width="0.12" layer="21"/>
@@ -1960,20 +1975,23 @@ grid 2.54 mm, diameter 7 mm</description>
 <text x="0" y="4.935" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.935" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CON-12-2MM" urn="urn:adsk.eagle:footprint:7231222/1" library_version="55">
-<pad name="1" x="-10.968" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="2" x="-8.968" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="3" x="-6.968" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="4" x="-4.968" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="5" x="-2.968" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="6" x="-0.968" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="7" x="1.032" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="8" x="3.032" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="9" x="5.032" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="10" x="7.032" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="11" x="9.032" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="12" x="11.032" y="0" drill="0.9" shape="long" rot="R90"/>
-<circle x="-12.319" y="1.27" radius="0.254" width="0.127" layer="21"/>
+<package name="DIP-8" urn="urn:adsk.eagle:footprint:7282521/1" library_version="56">
+<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21" curve="180"/>
+<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="-2.794" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.794" x2="5.08" y2="-2.794" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-2.794" x2="5.08" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.794" x2="-5.08" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.794" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="6" x="1.27" y="3.81" drill="0.9" shape="long" rot="R90"/>
+<text x="-3.81" y="0.2794" size="0.8128" layer="25" ratio="12">&gt;NAME</text>
+<text x="-3.81" y="-0.9906" size="0.8128" layer="27" ratio="12">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -1987,21 +2005,21 @@ grid 2.54 mm, diameter 7 mm</description>
 <packageinstance name="SQP-10"/>
 </packageinstances>
 </package3d>
-<package3d name="MF-05" urn="urn:adsk.eagle:package:2654531/2" type="model" library_version="55">
+<package3d name="MF-05" urn="urn:adsk.eagle:package:2654531/2" type="model" library_version="56">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type MF-05, grid 12.5 mm</description>
 <packageinstances>
 <packageinstance name="MF-05"/>
 </packageinstances>
 </package3d>
-<package3d name="MF-0125" urn="urn:adsk.eagle:package:2654533/2" type="model" library_version="55">
+<package3d name="MF-0125" urn="urn:adsk.eagle:package:2654533/2" type="model" library_version="56">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type MF-0125, grid 5 mm</description>
 <packageinstances>
 <packageinstance name="MF-0125"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC2012X50" urn="urn:adsk.eagle:package:4015756/1" type="model" library_version="55">
+<package3d name="RESC2012X50" urn="urn:adsk.eagle:package:4015756/1" type="model" library_version="56">
 <description>CHIP, 2 X 1.2 X 0.5 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.2 X 0.5 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -2018,7 +2036,7 @@ type MF-0125, grid 5 mm</description>
 <packageinstance name="POT-3296X"/>
 </packageinstances>
 </package3d>
-<package3d name="DBS" urn="urn:adsk.eagle:package:2654606/2" type="model" library_version="55">
+<package3d name="DBS" urn="urn:adsk.eagle:package:2654606/2" type="model" library_version="56">
 <description>&lt;b&gt;Single Phase 1.0 AMP Glass Passivated Bridge Rectifier&lt;/b&gt;&lt;p&gt;
 Taiwan Semiconductor Co.,Ltd. - TSC&lt;br&gt;
 Source: http://www.taiwansemi.com/TSCbig5/ezcatfiles/cust/img/img/db101g.pdf</description>
@@ -2032,7 +2050,7 @@ Source: http://www.taiwansemi.com/TSCbig5/ezcatfiles/cust/img/img/db101g.pdf</de
 <packageinstance name="DO214AC"/>
 </packageinstances>
 </package3d>
-<package3d name="SOIC-16NG" urn="urn:adsk.eagle:package:2654601/1" type="box" library_version="55">
+<package3d name="SOIC-16NG" urn="urn:adsk.eagle:package:2654601/1" type="box" library_version="56">
 <description>&lt;b&gt;16-Lead SOIC (Narrow Body) Package Outline (NG)&lt;/b&gt;&lt;p&gt;
 9.90x3.90mm body, 1.75mm height (max), 1.27mm pitch&lt;br&gt;
 Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
@@ -2040,7 +2058,7 @@ Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
 <packageinstance name="SOIC-16NG"/>
 </packageinstances>
 </package3d>
-<package3d name="MF-025" urn="urn:adsk.eagle:package:2654532/2" type="model" library_version="55">
+<package3d name="MF-025" urn="urn:adsk.eagle:package:2654532/2" type="model" library_version="56">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type MF-025, grid 7.5 mm</description>
 <packageinstances>
@@ -2067,7 +2085,7 @@ type MF-025, grid 7.5 mm</description>
 <packageinstance name="ETD39"/>
 </packageinstances>
 </package3d>
-<package3d name="SQP-5" urn="urn:adsk.eagle:package:2654494/2" type="model" library_version="55">
+<package3d name="SQP-5" urn="urn:adsk.eagle:package:2654494/2" type="model" library_version="56">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type SQP-5,</description>
 <packageinstances>
@@ -2081,21 +2099,21 @@ type SQP-5,</description>
 <packageinstance name="CAP1206"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC3216X60" urn="urn:adsk.eagle:package:4015759/1" type="model" library_version="55">
+<package3d name="RESC3216X60" urn="urn:adsk.eagle:package:4015759/1" type="model" library_version="56">
 <description>CHIP, 3.2 X 1.6 X 0.6 mm body
 &lt;p&gt;CHIP package with body size 3.2 X 1.6 X 0.6 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESC3216X60"/>
 </packageinstances>
 </package3d>
-<package3d name="TO220ACS" urn="urn:adsk.eagle:package:2654516/1" type="box" library_version="55">
+<package3d name="TO220ACS" urn="urn:adsk.eagle:package:2654516/1" type="box" library_version="56">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 2-lead molded, vertical</description>
 <packageinstances>
 <packageinstance name="TO220ACS"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT95P280X145-5" urn="urn:adsk.eagle:package:4135333/1" type="model" library_version="55">
+<package3d name="SOT95P280X145-5" urn="urn:adsk.eagle:package:4135333/1" type="model" library_version="56">
 <description>5-SOT23, 0.95 mm pitch, 2.8 mm span, 2.95 X 1.6 X 1.45 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.8 mm span with body size 2.95 X 1.6 X 1.45 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -2130,7 +2148,7 @@ type SQP-5,</description>
 <packageinstance name="CAP1210"/>
 </packageinstances>
 </package3d>
-<package3d name="DO15-12" urn="urn:adsk.eagle:package:2654542/1" type="box" library_version="55">
+<package3d name="DO15-12" urn="urn:adsk.eagle:package:2654542/1" type="box" library_version="56">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 diameter 3.5 mm, horizontal, grid 12.7 mm</description>
 <packageinstances>
@@ -2157,77 +2175,82 @@ diameter 3.5 mm, horizontal, grid 12.7 mm</description>
 <packageinstance name="E3.5-8-11H"/>
 </packageinstances>
 </package3d>
-<package3d name="E3,5-8" urn="urn:adsk.eagle:package:2654549/1" type="box" library_version="55">
+<package3d name="E3,5-8" urn="urn:adsk.eagle:package:2654549/1" type="box" library_version="56">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 3.5 mm, diameter 8 mm</description>
 <packageinstances>
 <packageinstance name="E3,5-8"/>
 </packageinstances>
 </package3d>
-<package3d name="C050-024X044" urn="urn:adsk.eagle:package:2654550/1" type="box" library_version="55">
+<package3d name="CON-12-2MM" urn="urn:adsk.eagle:package:7231223/1" type="box" library_version="55">
+<packageinstances>
+<packageinstance name="CON-12-2MM"/>
+</packageinstances>
+</package3d>
+<package3d name="C050-024X044" urn="urn:adsk.eagle:package:2654550/1" type="box" library_version="56">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5 mm, outline 2.4 x 4.4 mm</description>
 <packageinstances>
 <packageinstance name="C050-024X044"/>
 </packageinstances>
 </package3d>
-<package3d name="MF-2" urn="urn:adsk.eagle:package:2654529/2" type="model" library_version="55">
+<package3d name="MF-2" urn="urn:adsk.eagle:package:2654529/2" type="model" library_version="56">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type MF-2, grid 20 mm</description>
 <packageinstances>
 <packageinstance name="MF-2"/>
 </packageinstances>
 </package3d>
-<package3d name="MF-1" urn="urn:adsk.eagle:package:2654530/2" type="model" library_version="55">
+<package3d name="MF-1" urn="urn:adsk.eagle:package:2654530/2" type="model" library_version="56">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type MF-1, grid 15 mm</description>
 <packageinstances>
 <packageinstance name="MF-1"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC1508X50" urn="urn:adsk.eagle:package:4015753/1" type="model" library_version="55">
+<package3d name="RESC1508X50" urn="urn:adsk.eagle:package:4015753/1" type="model" library_version="56">
 <description>CHIP, 1.55 X 0.85 X 0.5 mm body
 &lt;p&gt;CHIP package with body size 1.55 X 0.85 X 0.5 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESC1508X50"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC6332X70" urn="urn:adsk.eagle:package:4015762/1" type="model" library_version="55">
+<package3d name="RESC6332X70" urn="urn:adsk.eagle:package:4015762/1" type="model" library_version="56">
 <description>CHIP, 6.3 X 3.2 X 0.7 mm body
 &lt;p&gt;CHIP package with body size 6.3 X 3.2 X 0.7 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESC6332X70"/>
 </packageinstances>
 </package3d>
-<package3d name="EVUE" urn="urn:adsk.eagle:package:2654567/1" type="box" library_version="55">
+<package3d name="EVUE" urn="urn:adsk.eagle:package:2654567/1" type="box" library_version="56">
 <description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Horizontal, Snap-in&lt;p&gt;
 Source: Panasonic</description>
 <packageinstances>
 <packageinstance name="EVUE"/>
 </packageinstances>
 </package3d>
-<package3d name="RB1A" urn="urn:adsk.eagle:package:2654599/2" type="model" library_version="55">
+<package3d name="RB1A" urn="urn:adsk.eagle:package:2654599/2" type="model" library_version="56">
 <description>&lt;b&gt;RECTIFIER&lt;/b&gt;&lt;p&gt;
 1 A</description>
 <packageinstances>
 <packageinstance name="RB1A"/>
 </packageinstances>
 </package3d>
-<package3d name="MBS" urn="urn:adsk.eagle:package:2654608/2" type="model" library_version="55">
+<package3d name="MBS" urn="urn:adsk.eagle:package:2654608/2" type="model" library_version="56">
 <description>&lt;b&gt;Surface Mount Glass Passivated Bridge Rectifiers&lt;/b&gt;&lt;p&gt;
 Source: Comchip Bridge Rectifiers B05S-G_B10S-G.pdf</description>
 <packageinstances>
 <packageinstance name="MBS"/>
 </packageinstances>
 </package3d>
-<package3d name="DO201-15" urn="urn:adsk.eagle:package:2654541/1" type="box" library_version="55">
+<package3d name="DO201-15" urn="urn:adsk.eagle:package:2654541/1" type="box" library_version="56">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 diameter 5.6 mm, horizontal, grid 15.24 mm</description>
 <packageinstances>
 <packageinstance name="DO201-15"/>
 </packageinstances>
 </package3d>
-<package3d name="SOIC-08LG" urn="urn:adsk.eagle:package:2654600/1" type="box" library_version="55">
+<package3d name="SOIC-08LG" urn="urn:adsk.eagle:package:2654600/1" type="box" library_version="56">
 <description>&lt;b&gt;8-Lead SOIC (Narrow Body) Package Outline (LG)&lt;/b&gt;&lt;p&gt;
 4.9x3.9mm body, 1.75mm height (max), 1.27mm pitch&lt;br&gt;
 Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
@@ -2235,21 +2258,21 @@ Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
 <packageinstance name="SOIC-08LG"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT95P240X115-3" urn="urn:adsk.eagle:package:4135509/1" type="model" library_version="55">
+<package3d name="SOT95P240X115-3" urn="urn:adsk.eagle:package:4135509/1" type="model" library_version="56">
 <description>3-SOT23, 0.95 mm pitch, 2.4 mm span, 2.9 X 1.3 X 1.15 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.4 mm span with body size 2.9 X 1.3 X 1.15 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT95P240X115-3"/>
 </packageinstances>
 </package3d>
-<package3d name="E5-5" urn="urn:adsk.eagle:package:2654543/1" type="box" library_version="55">
+<package3d name="E5-5" urn="urn:adsk.eagle:package:2654543/1" type="box" library_version="56">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 5 mm</description>
 <packageinstances>
 <packageinstance name="E5-5"/>
 </packageinstances>
 </package3d>
-<package3d name="C_D25-G10-CLAMP" urn="urn:adsk.eagle:package:2654540/1" type="box" library_version="55">
+<package3d name="C_D25-G10-CLAMP" urn="urn:adsk.eagle:package:2654540/1" type="box" library_version="56">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 10.16 mm, diameter 25 mm&lt;p&gt;
 Защёлки</description>
@@ -2257,51 +2280,51 @@ grid 10.16 mm, diameter 25 mm&lt;p&gt;
 <packageinstance name="C_D25-G10-CLAMP"/>
 </packageinstances>
 </package3d>
-<package3d name="E5-10,5" urn="urn:adsk.eagle:package:2654545/1" type="box" library_version="55">
+<package3d name="E5-10,5" urn="urn:adsk.eagle:package:2654545/1" type="box" library_version="56">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 10.5 mm</description>
 <packageinstances>
 <packageinstance name="E5-10,5"/>
 </packageinstances>
 </package3d>
-<package3d name="E2,5-7" urn="urn:adsk.eagle:package:2654562/1" type="box" library_version="55">
+<package3d name="E2,5-7" urn="urn:adsk.eagle:package:2654562/1" type="box" library_version="56">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm, diameter 7 mm</description>
 <packageinstances>
 <packageinstance name="E2,5-7"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPAE680X550" urn="urn:adsk.eagle:package:4106269/1" type="model" library_version="55">
+<package3d name="CAPAE680X550" urn="urn:adsk.eagle:package:4106269/1" type="model" library_version="56">
 <description>ECAP (ALUMINUM ELECTROLYTIC CAPACITOR), 6.8 X 5.5 mm body
 &lt;p&gt;ECAP (ALUMINUM ELECTROLYTIC CAPACITOR) package with body size 6.8 X 5.5 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPAE680X550"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPMP3528X200" urn="urn:adsk.eagle:package:4106282/1" type="model" library_version="55">
+<package3d name="CAPMP3528X200" urn="urn:adsk.eagle:package:4106282/1" type="model" library_version="56">
 <description>MOLDED BODY, 3.55 X 2.85 X 2 mm body
 &lt;p&gt;MOLDED BODY package with body size 3.55 X 2.85 X 2 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPMP3528X200"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPMP3317X180" urn="urn:adsk.eagle:package:4106565/1" type="model" library_version="55">
+<package3d name="CAPMP3317X180" urn="urn:adsk.eagle:package:4106565/1" type="model" library_version="56">
 <description>MOLDED BODY, 3.3 X 1.7 X 1.8 mm body
 &lt;p&gt;MOLDED BODY package with body size 3.3 X 1.7 X 1.8 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPMP3317X180"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPAE860X1050" urn="urn:adsk.eagle:package:4106587/1" type="model" library_version="55">
+<package3d name="CAPAE860X1050" urn="urn:adsk.eagle:package:4106587/1" type="model" library_version="56">
 <description>ECAP (ALUMINUM ELECTROLYTIC CAPACITOR), 8.6 X 10.5 mm body
 &lt;p&gt;ECAP (ALUMINUM ELECTROLYTIC CAPACITOR) package with body size 8.6 X 10.5 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPAE860X1050"/>
 </packageinstances>
 </package3d>
-<package3d name="CON-12-2MM" urn="urn:adsk.eagle:package:7231223/1" type="box" library_version="55">
+<package3d name="DIP-8" urn="urn:adsk.eagle:package:7282522/1" type="box" library_version="56">
 <packageinstances>
-<packageinstance name="CON-12-2MM"/>
+<packageinstance name="DIP-8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2487,6 +2510,21 @@ grid 2.54 mm, diameter 7 mm</description>
 <pin name="11" x="-2.54" y="-12.7" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="12" x="-2.54" y="-15.24" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
+<symbol name="NCP1200" urn="urn:adsk.eagle:symbol:2654245/1" library_version="56">
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.4064" layer="94"/>
+<text x="-10.16" y="11.43" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="ADJ" x="-12.7" y="7.62" length="short" direction="pas"/>
+<pin name="FB" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="CS" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="GND" x="-12.7" y="-7.62" length="short" direction="pas"/>
+<pin name="DRV" x="12.7" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="VCC" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="HV" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CON-MONPANEL" urn="urn:adsk.eagle:component:6917212/1" prefix="X" library_version="51">
@@ -2511,7 +2549,7 @@ grid 2.54 mm, diameter 7 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP_" urn="urn:adsk.eagle:component:2654667/5" prefix="C" uservalue="yes" library_version="55">
+<deviceset name="CAP_" urn="urn:adsk.eagle:component:2654667/5" prefix="C" uservalue="yes" library_version="56">
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="1.27"/>
 </gates>
@@ -2578,7 +2616,7 @@ grid 2.54 mm, diameter 7 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R_" urn="urn:adsk.eagle:component:2654655/2" prefix="R" uservalue="yes" library_version="55">
+<deviceset name="R_" urn="urn:adsk.eagle:component:2654655/2" prefix="R" uservalue="yes" library_version="56">
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
 </gates>
@@ -2717,7 +2755,7 @@ grid 2.54 mm, diameter 7 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R_POT" urn="urn:adsk.eagle:component:2654646/2" prefix="R" uservalue="yes" library_version="55">
+<deviceset name="R_POT" urn="urn:adsk.eagle:component:2654646/2" prefix="R" uservalue="yes" library_version="56">
 <gates>
 <gate name="G$1" symbol="POT" x="0" y="0"/>
 </gates>
@@ -2763,7 +2801,7 @@ grid 2.54 mm, diameter 7 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BRIDGE" urn="urn:adsk.eagle:component:2654660/2" prefix="B" uservalue="yes" library_version="55">
+<deviceset name="BRIDGE" urn="urn:adsk.eagle:component:2654660/2" prefix="B" uservalue="yes" library_version="56">
 <description>&lt;b&gt;GENERAL INSTRUMENT RECTIFIER&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GB" x="0" y="0"/>
@@ -2813,7 +2851,7 @@ grid 2.54 mm, diameter 7 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIODE_" urn="urn:adsk.eagle:component:2654668/2" prefix="D" uservalue="yes" library_version="55">
+<deviceset name="DIODE_" urn="urn:adsk.eagle:component:2654668/2" prefix="D" uservalue="yes" library_version="56">
 <gates>
 <gate name="G$1" symbol="D" x="0" y="0"/>
 </gates>
@@ -2856,7 +2894,7 @@ grid 2.54 mm, diameter 7 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="HV9910B" urn="urn:adsk.eagle:component:2654706/1" prefix="IC" library_version="55">
+<deviceset name="HV9910B" urn="urn:adsk.eagle:component:2654706/1" prefix="IC" library_version="56">
 <description>&lt;b&gt;Universal High Brightness LED Driver&lt;/b&gt;&lt;p&gt;
 Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
 <gates>
@@ -2974,7 +3012,7 @@ Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-TL431" urn="urn:adsk.eagle:component:2654631/4" prefix="TL" library_version="55">
+<deviceset name="IC-TL431" urn="urn:adsk.eagle:component:2654631/4" prefix="TL" library_version="56">
 <gates>
 <gate name="G$1" symbol="TL431" x="0" y="0"/>
 </gates>
@@ -3020,7 +3058,7 @@ Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SUPRESSOR" urn="urn:adsk.eagle:component:2654672/1" prefix="D" uservalue="yes" library_version="55">
+<deviceset name="SUPRESSOR" urn="urn:adsk.eagle:component:2654672/1" prefix="D" uservalue="yes" library_version="56">
 <gates>
 <gate name="G$1" symbol="SUPPRESSOR" x="0" y="0"/>
 </gates>
@@ -3039,7 +3077,7 @@ Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP-POL_" urn="urn:adsk.eagle:component:2654657/2" prefix="C" uservalue="yes" library_version="55">
+<deviceset name="CAP-POL_" urn="urn:adsk.eagle:component:2654657/2" prefix="C" uservalue="yes" library_version="56">
 <gates>
 <gate name="C$1" symbol="CPOL" x="0" y="0"/>
 </gates>
@@ -3224,6 +3262,47 @@ Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:7231223/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POWER-NCP12*" urn="urn:adsk.eagle:component:2654674/4" prefix="IC" library_version="56">
+<gates>
+<gate name="G$1" symbol="NCP1200" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SO8" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="CS" pad="3"/>
+<connect gate="G$1" pin="DRV" pad="5"/>
+<connect gate="G$1" pin="FB" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="HV" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4108622/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DIP" package="DIP-8">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="CS" pad="3"/>
+<connect gate="G$1" pin="DRV" pad="5"/>
+<connect gate="G$1" pin="FB" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="HV" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7282522/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -4314,34 +4393,6 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <rectangle x1="2.159" y1="-0.381" x2="2.54" y2="0.381" layer="51"/>
 <rectangle x1="-2.54" y1="-0.381" x2="-2.159" y2="0.381" layer="51"/>
 </package>
-<package name="SO8">
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-3.175" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
-<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
-<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
-<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
-<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
-<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
-<circle x="-1.9" y="-0.9" radius="0.14141875" width="0.127" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="CPOL">
@@ -4489,21 +4540,6 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="NCP1200">
-<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.4064" layer="94"/>
-<text x="-10.16" y="11.43" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="ADJ" x="-12.7" y="7.62" length="short" direction="pas"/>
-<pin name="FB" x="-12.7" y="2.54" length="short" direction="in"/>
-<pin name="CS" x="-12.7" y="-2.54" length="short" direction="in"/>
-<pin name="GND" x="-12.7" y="-7.62" length="short" direction="pas"/>
-<pin name="DRV" x="12.7" y="-7.62" length="short" direction="pwr" rot="R180"/>
-<pin name="VCC" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
-<pin name="HV" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4949,27 +4985,6 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PW-NCP12*" prefix="IC">
-<gates>
-<gate name="G$1" symbol="NCP1200" x="0" y="0"/>
-</gates>
-<devices>
-<device name="NCP1200D" package="SO8">
-<connects>
-<connect gate="G$1" pin="ADJ" pad="1"/>
-<connect gate="G$1" pin="CS" pad="3"/>
-<connect gate="G$1" pin="DRV" pad="5"/>
-<connect gate="G$1" pin="FB" pad="2"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="HV" pad="8"/>
-<connect gate="G$1" pin="VCC" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8749,11 +8764,11 @@ Wickmann</description>
 <part name="C4" library="Namenlos" deviceset="CAP-POL_" device="E3.5-8" value="400v 22u"/>
 <part name="R4" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="MF-0125" package3d_urn="urn:adsk.eagle:package:2654533/2" value="160K"/>
 <part name="IC2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="HV9910B" device="NG" package3d_urn="urn:adsk.eagle:package:2654601/1" value="HV9961NG-G"/>
-<part name="R6" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="68K"/>
+<part name="R6" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="75K"/>
 <part name="VT2" library="Namenlos" deviceset="FET-N" device="DPAK" value="STD1NK60T4"/>
-<part name="L2" library="Namenlos" deviceset="INDUCTOR" device="SL1016" value="SL1016T"/>
+<part name="L2" library="Namenlos" deviceset="INDUCTOR" device="SL1016" value="SL1016T-123K"/>
 <part name="D1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="DIODE_" device="ES1J" package3d_urn="urn:adsk.eagle:package:2654514/2" value="ES1J"/>
-<part name="R8" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="MF-05" package3d_urn="urn:adsk.eagle:package:2654531/2" value="1R1"/>
+<part name="R8" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="MF-05" package3d_urn="urn:adsk.eagle:package:2654531/2" value="2R2"/>
 <part name="R9" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="39K"/>
 <part name="C6" library="Namenlos" deviceset="CAP-POL_" device="3528" value="22u 16V"/>
 <part name="R10" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_POT" device="3296X" package3d_urn="urn:adsk.eagle:package:6504606/1"/>
@@ -8767,7 +8782,7 @@ Wickmann</description>
 <part name="NTC" library="Namenlos" deviceset="NTC-D12" device=""/>
 <part name="B1" library="rectifier" library_urn="urn:adsk.eagle:library:336" deviceset="KBL" device="" package3d_urn="urn:adsk.eagle:package:23884/1"/>
 <part name="C1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP-POL_" device="E5-13-35-H" package3d_urn="urn:adsk.eagle:package:2654539/3" value="100u"/>
-<part name="U$1" library="Namenlos" deviceset="PW-NCP12*" device="NCP1200D"/>
+<part name="U$1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="POWER-NCP12*" device="DIP" package3d_urn="urn:adsk.eagle:package:7282522/1"/>
 <part name="P6KE200" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="SUPRESSOR" device="DO-204AC" package3d_urn="urn:adsk.eagle:package:2654542/1"/>
 <part name="D2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="DIODE_" device="ES1J" package3d_urn="urn:adsk.eagle:package:2654514/2"/>
 <part name="R5" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="SQP-5" package3d_urn="urn:adsk.eagle:package:2654494/2" value="51k"/>
@@ -9395,9 +9410,11 @@ JP2 - Close-ON, Open-OFF</text>
 </sheet>
 <sheet>
 <plain>
-<text x="99.06" y="149.86" size="1.778" layer="97">Pri: 65 turns, 1x0.355mm
-Sec: 3 turns, 8x0.355mm
-Prim. Ind.= 1,3 mH</text>
+<text x="99.06" y="149.86" size="1.778" layer="97">Pri: 109 turns, 1x0.2mm
+Sec: 5 turns, 2x0.56mm
+Prim. Ind.= 3,557 mH
+Gap = 0.24</text>
+<text x="83.82" y="33.02" size="1.778" layer="97">Rcs = 1.875 Ohm</text>
 </plain>
 <instances>
 <instance part="B1" gate="1" x="45.72" y="132.08" smashed="yes" rot="MR90">
