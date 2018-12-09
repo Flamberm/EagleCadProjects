@@ -8095,7 +8095,7 @@ Wickmann</description>
 <part name="C5" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="1206" package3d_urn="urn:adsk.eagle:package:4015425/2" value="100n"/>
 <part name="OK1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="OPTOTRANS" device="PC817" package3d_urn="urn:adsk.eagle:package:2654547/2"/>
 <part name="C7" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP-POL_" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:2654549/1" value="1000u 6.3V"/>
-<part name="U$3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="IC-TL431" device="DBV" package3d_urn="urn:adsk.eagle:package:4135333/1"/>
+<part name="U$3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="IC-TL431" device="CDBZR" package3d_urn="urn:adsk.eagle:package:4135509/1" value="IC-TL431CDBZR"/>
 <part name="R7" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R1206" package3d_urn="urn:adsk.eagle:package:4015759/1" value="220R"/>
 <part name="R11" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R1206" package3d_urn="urn:adsk.eagle:package:4015759/1" value="3k3"/>
 <part name="C8" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="1206" package3d_urn="urn:adsk.eagle:package:4015425/2" value="100n"/>
