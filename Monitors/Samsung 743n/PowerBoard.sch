@@ -8077,8 +8077,8 @@ Wickmann</description>
 <part name="R10" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_POT" device="3296X" package3d_urn="urn:adsk.eagle:package:6504606/1"/>
 <part name="B2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="BRIDGE" device="DBS" package3d_urn="urn:adsk.eagle:package:2654606/2"/>
 <part name="R1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="39K"/>
-<part name="R2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="MF-025" package3d_urn="urn:adsk.eagle:package:2654532/2" value="1K5"/>
-<part name="R3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="MF-025" package3d_urn="urn:adsk.eagle:package:2654532/2" value="1K5"/>
+<part name="R2" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="1K5"/>
+<part name="R3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="1K5"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="OK3" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="ILD621" device="" package3d_urn="urn:adsk.eagle:package:21941/1"/>
@@ -8104,8 +8104,7 @@ Wickmann</description>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C10" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="0805" package3d_urn="urn:adsk.eagle:package:4015421/2"/>
 <part name="T1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="TRANS-1/1" device="EFD25-10" package3d_urn="urn:adsk.eagle:package:2654554/3"/>
-<part name="R13" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="MF-025" package3d_urn="urn:adsk.eagle:package:2654532/2" value="2R2"/>
-<part name="R14" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="MF-025" package3d_urn="urn:adsk.eagle:package:2654532/2" value="2R2"/>
+<part name="R14" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="MF-025" package3d_urn="urn:adsk.eagle:package:2654532/2" value="1R8"/>
 <part name="D3" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="DIODE_" device="TO-220-2" package3d_urn="urn:adsk.eagle:package:2654516/1"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C9" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP-POL_" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:2654549/1" value="1000u 6.3V"/>
@@ -8858,10 +8857,6 @@ Gap = 0.24</text>
 <attribute name="NAME" x="100.584" y="127.254" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="100.584" y="145.415" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R13" gate="G$1" x="88.9" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.4014" y="44.45" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="92.202" y="44.45" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R14" gate="G$1" x="96.52" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.0214" y="44.45" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="99.822" y="44.45" size="1.778" layer="96" rot="R90"/>
@@ -9017,8 +9012,7 @@ Gap = 0.24</text>
 <junction x="114.3" y="35.56"/>
 <wire x1="114.3" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C3" gate="C$1" pin="-"/>
-<wire x1="96.52" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="50.8" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="35.56" y1="35.56" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
@@ -9046,9 +9040,6 @@ Gap = 0.24</text>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="127" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
 <junction x="58.42" y="124.46"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="43.18" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
-<junction x="88.9" y="35.56"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="43.18" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 <junction x="96.52" y="35.56"/>
@@ -9058,14 +9049,10 @@ Gap = 0.24</text>
 <segment>
 <pinref part="U$1" gate="G$1" pin="CS"/>
 <wire x1="43.18" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="88.9" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="68.58" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="76.2" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="53.34" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
-<junction x="88.9" y="60.96"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="53.34" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
 <junction x="96.52" y="60.96"/>
