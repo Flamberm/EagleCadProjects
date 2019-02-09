@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -169,6 +169,8 @@
 <wire x1="1.998059375" y1="22.53" x2="-0.001940625" y2="20.5311125" width="0" layer="20" curve="89.968129"/>
 <wire x1="-0.001940625" y1="20.5311125" x2="-0.01980625" y2="2.12910625" width="0" layer="20"/>
 <wire x1="-0.01980625" y1="2.12910625" x2="1.98019375" y2="0.127" width="0" layer="20" curve="90.055595"/>
+<dimension x1="-0.02175" y1="0.127" x2="0" y2="40.3225" x3="-11.758540625" y3="20.23110625" textsize="1.778" layer="47"/>
+<dimension x1="-0.02175" y1="0.127" x2="59.8805" y2="0.0635" x3="29.919284375" y3="-9.42365" textsize="1.778" layer="47"/>
 </plain>
 <libraries>
 <library name="Flamberm" urn="urn:adsk.eagle:library:2654185">
