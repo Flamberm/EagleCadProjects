@@ -60,3 +60,5 @@ Power/CoolerPSU/drills.xln
 Power/CoolerPSU/drills.xln
 *.job
 *.pro
+*.s#1
+*.b#1

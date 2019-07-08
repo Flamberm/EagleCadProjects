@@ -3,7 +3,7 @@
 <eagle version="9.4.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -5769,7 +5769,7 @@ for power line</description>
 <part name="C7" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP-POL_" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:2654545/1" value="1000u 10V"/>
 <part name="C8" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP-POL_" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:2654545/1" value="1000u 10V"/>
 <part name="C9" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="1206" package3d_urn="urn:adsk.eagle:package:4015425/2" value="220p"/>
-<part name="C10" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP-POL_" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:2654545/1" value="1000u 25V"/>
+<part name="C10" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP-POL_" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:2654545/1" value="2200u 25V"/>
 <part name="C11" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="CAP_" device="1206" package3d_urn="urn:adsk.eagle:package:4015425/2" value="220p"/>
 <part name="TL1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="IC-TL431" device="CDBZR" package3d_urn="urn:adsk.eagle:package:4135509/1"/>
 <part name="R11" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="510R"/>

@@ -2144,7 +2144,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="32.766" y="31.8849" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="32.766" y="29.0751" size="1.27" layer="28" rot="MR0" align="top-center"/>
 </element>
-<element name="C10" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="E5-10,5" package3d_urn="urn:adsk.eagle:package:2654545/1" value="1000u 25V" x="83.82" y="6.35" smashed="yes" rot="R270">
+<element name="C10" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" package="E5-10,5" package3d_urn="urn:adsk.eagle:package:2654545/1" value="2200u 25V" x="83.82" y="6.35" smashed="yes" rot="R270">
 <attribute name="NAME" x="86.5632" y="1.651" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="80.5942" y="9.4742" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
