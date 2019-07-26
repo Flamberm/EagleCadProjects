@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2685,7 +2685,6 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <part name="R8" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="10K"/>
 <part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G5LE" device="" package3d_urn="urn:adsk.eagle:package:24308/1"/>
 <part name="VT1" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="FET-N" device="SOT-23" package3d_urn="urn:adsk.eagle:package:4135509/1"/>
-<part name="R9" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="1K"/>
 <part name="R10" library="Flamberm" library_urn="urn:adsk.eagle:library:2654185" deviceset="R_" device="R0805" package3d_urn="urn:adsk.eagle:package:4015756/1" value="100"/>
 <part name="U$8" library="microbuilder" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -2812,10 +2811,6 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <attribute name="VALUE" x="271.78" y="143.51" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="255.27" y="152.4" size="1.778" layer="95"/>
 </instance>
-<instance part="R9" gate="G$1" x="238.76" y="157.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="240.2586" y="161.29" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="235.458" y="161.29" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="R10" gate="G$1" x="251.46" y="147.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="255.27" y="145.8214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="255.27" y="150.622" size="1.778" layer="96" rot="R180"/>
@@ -2838,8 +2833,8 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <instance part="P+2" gate="1" x="182.88" y="119.38" smashed="yes" rot="R90">
 <attribute name="VALUE" x="187.96" y="116.84" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+3" gate="1" x="238.76" y="167.64" smashed="yes">
-<attribute name="VALUE" x="236.22" y="162.56" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="1" x="228.6" y="167.64" smashed="yes">
+<attribute name="VALUE" x="226.06" y="162.56" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="X1" gate="-3" x="71.12" y="144.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="68.072" y="145.669" size="1.778" layer="95" rot="R180"/>
@@ -3024,14 +3019,11 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="236.22" y1="147.32" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="238.76" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="147.32" x2="246.38" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="137.16" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
 <junction x="238.76" y="147.32"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="238.76" y1="147.32" x2="238.76" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="243.84" y1="147.32" x2="246.38" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -3099,13 +3091,9 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <pinref part="P+2" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="162.56" x2="238.76" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <pinref part="IC1" gate="G$2" pin="V+"/>
-<wire x1="228.6" y1="154.94" x2="228.6" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="162.56" x2="238.76" y2="162.56" width="0.1524" layer="91"/>
-<junction x="238.76" y="162.56"/>
+<wire x1="228.6" y1="154.94" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="+5V"/>
