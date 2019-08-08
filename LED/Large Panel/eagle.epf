@@ -21,14 +21,10 @@ UsedLibraryUrn="urn:adsk.eagle:library:154"
 UsedLibraryUrn="urn:adsk.eagle:library:189"
 
 [Win_1]
-Type="Control Panel"
-Number=0
-
-[Win_2]
 Type="Board Editor"
 Number=2
 File="C:/Users/Анатолий/Documents/EAGLE/projects/MasterCard/CardEncoderAdapter/TestAdapter.brd"
-View="-24.7616 14.1663 7.26225 28.8429"
+View="-29.5736 7.77194 25.7636 33.1331"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.6096 0.8128 1.016 2.54 0.1524 1.27 0.508"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -68,11 +64,11 @@ AddLevel=2
 PadsSameType=0
 Layer=1
 
-[Win_3]
+[Win_2]
 Type="Schematic Editor"
 Number=1
 File="C:/Users/Анатолий/Documents/EAGLE/projects/MasterCard/CardEncoderAdapter/TestAdapter.sch"
-View="-50.1738 21.8822 47.0759 51.3092"
+View="-52.27 31.6494 28.7714 56.1719"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -111,8 +107,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -50.1738 21.8822 47.0759 51.3092"
+Views=" 1: -52.27 31.6494 28.7714 56.1719"
 Sheet="1"
+
+[Win_3]
+Type="Control Panel"
+Number=0
 
 [Desktop]
 Screen="1920 1080"
