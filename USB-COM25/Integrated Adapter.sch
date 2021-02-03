@@ -3081,7 +3081,11 @@ Source: www.cypressindustries.com</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.3048" drill="0.3">
+<clearance class="0" value="0.254"/>
+</class>
+<class number="1" name="USB-data" width="0.3048" drill="0.3">
+<clearance class="1" value="0.254"/>
 </class>
 </classes>
 <parts>
@@ -3208,7 +3212,7 @@ Source: www.cypressindustries.com</description>
 <junction x="185.42" y="71.12"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="USB_P" class="1">
 <segment>
 <pinref part="IC1" gate="1" pin="USBDP"/>
 <wire x1="76.2" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
@@ -3217,7 +3221,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="58.42" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="USB_N" class="1">
 <segment>
 <pinref part="IC1" gate="1" pin="USBDM"/>
 <wire x1="76.2" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
